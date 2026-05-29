@@ -4,196 +4,138 @@
 
 ---
 
-## Opening: the three-week gap
-
 Two students score 85% on a quiz the day after the unit ends.
 
 Three weeks later — no announcement, no review session, no extra study — the instructor gives a short five-item quiz on the same material. Student A scores 78%. Student B scores 42%.
 
-Same content. Same teacher. Same starting score. Identical immediate performance.
+Same content. Same teacher. Same starting score. What the first quiz could not show is the shape of what each student walked away with. Student A walked away with storage. Student B walked away with a fluent moment. The artifact on day one lied by omission — not because it was wrong, but because it measured the wrong thing. A single quiz measures how accessible something is *right now*. The decay curve over three weeks measures how thoroughly it was encoded. Those are different quantities, and only one of them is learning.
 
-The quiz score on day one was not sufficient evidence. The artifact lied. Both students looked equally prepared. What the artifact could not show is the *shape of what each student walked away with*. Student A walked away with storage. Student B walked away with a fluent moment.
-
-The chapter is about the difference between those two students. The difference is invisible on a single test. It is visible — cleanly, robustly, in data that already exists — in the decay curve.
-
-This is also the chapter where Chapter 2's storage/retrieval distinction earns its keep. We introduced it abstractly there. Y6 is the chapter where it becomes operational.
+This is also the chapter where the storage-retrieval distinction from earlier in the book stops being abstract and becomes operational.
 
 ---
 
-## What Retrieval Strength Decay Signature measures
+## Two strengths, not one
 
-**Y6 — Retrieval Strength Decay Signature (RSDS)** [Humanitarians AI internal framework] is the sixth friction-trace component. It measures three things about a student's performance on the same material at three different time points: immediate, short delay, and long delay. The diagnostic is the **shape of the decay curve** — and, when the curriculum permits, the **spacing benefit**, which is the improvement that comes from distributing practice across time rather than massing it.
+The vocabulary matters here, so let me be precise about it. Robert and Elizabeth Bjork gave us, in 1992, what they called the New Theory of Disuse — a two-component model of memory that resolves a paradox that had been bothering researchers for decades.
 
-Some vocabulary, brought up from Chapter 2. **Retrieval strength** = how accessible something is *right now*. Fluctuates with recency, context, cues. **Storage strength** = how thoroughly something is encoded. Slow-changing, effectively monotonic. The key counter-intuitive result, from **Bjork and Bjork (1992)** — the New Theory of Disuse — is that *conditions which produce high retrieval strength can produce lower gains in storage strength*. Cramming, restudy, fluent AI explanation: high retrieval strength on the day of the test, low storage strength a month later. Spaced retrieval practice: lower retrieval strength on the day of the test, much higher storage strength a month later.
+The paradox: why does cramming work so well on Tuesday and fail so badly by Friday? Why does re-reading feel like studying but produce almost no durable retention? Why does a student who scores 90% on a unit exam score 40% on a cumulative final covering the same material six weeks later?
 
-The artifact-based assessment regime is structurally insensitive to this distinction. A quiz given on Tuesday measures retrieval strength on Tuesday. The decay curve over three weeks measures storage strength. You cannot get the second signal from a single quiz, no matter how well-designed.
+The answer requires two separate quantities. **Retrieval strength** is how accessible something is right now — how easily it comes to mind given the current context and cues. Retrieval strength is sensitive to recency. It spikes after review. It decays fast. **Storage strength** is how thoroughly something is encoded — how robust the underlying trace is. Storage strength is slow to build and slow to decay. Once something has genuinely high storage strength, it stays accessible over long delays even when retrieval strength has temporarily dropped.
 
-Two more pieces of vocabulary. The **forgetting curve** (Ebbinghaus 1885) is the empirical shape of retention loss over time — roughly exponential, with a fast initial drop and a slower later decline. Every textbook reproduces it. The **spacing effect** (Cepeda et al. 2006, meta-analyzing 317 experiments) is the finding that distributing practice across time produces dramatically better long-term retention than massing the same total practice time into one session. It is one of the most replicated findings in cognitive psychology and not seriously contested.
+The counter-intuitive prediction of the Bjork-Bjork model — and this is the result that explains almost everything in this chapter — is that high retrieval strength and high storage strength are not the same thing, and the conditions that maximize one can actively suppress the other. Cramming maximizes retrieval strength on the day of the exam and builds almost no storage strength. Spaced retrieval practice produces retrieval strength that *feels* lower during studying — the material is harder to access because it has been away for a while — and builds dramatically more storage strength in the long run.
 
-**Practitioner implication:** if you only measure performance once, you are measuring retrieval strength and reporting it as if it were learning. The decay curve is the more honest measure of what the student walked away with.
-
----
-
-## Where the decay-shape difference comes from
-
-Why do two students with the same immediate quiz score decay at different rates?
-
-The single cleanest empirical demonstration is **Roediger and Karpicke (2006)**. Two groups of students studied a brief science passage. Group 1 restudied the passage four times. Group 2 studied it once, then attempted to retrieve it three times — recall what they had read, write it down, no looking back at the passage. On an immediate test (five minutes later), the restudy group scored slightly higher. On a one-week test, the retrieval group held substantially more. The crossover happens inside a single two-condition study. Same material. Different decay curves.
-
-The follow-up by **Karpicke and Roediger (2008)** sharpened the point. Repeated retrieval produced 80% retention at one week; repeated restudy produced 33%. Same time-on-task. Same starting material. Two-and-a-half-fold difference in storage at one week.
-
-The mechanism is exactly the one Chapter 6 hinted at. Retrieval practice produces failures. The student tries to remember, almost remembers, sometimes fails, sometimes succeeds. Each failure is a cue: *not yet stored*. The student now restudies the specific items they failed to retrieve. The cycle drives storage. Restudy does not produce failures. The student reads, the words feel familiar, the cue says *stored*, and the cycle skips. High retrieval strength on the day. Low storage strength later.
-
-This is also where AI-assisted study has its mechanistic problem. The student asks the AI for an explanation. The AI provides a clean, fluent, complete explanation. The student reads it. The reading feels successful. No retrieval is attempted. No failure occurs. No storage is built. The student emerges with retrieval strength (the material was just in front of them, fluently presented) and almost no storage strength.
-
-A second mechanism is **the spacing effect itself**. Cepeda and colleagues (2008) showed a *temporal ridgeline*: the optimal gap between practice sessions scales with the desired retention interval, at roughly 10–20%. If you want students to remember in six months, space practice three to six weeks apart. If you want them to remember in two weeks, space practice one to three days apart. The precise function is contested in detail, but the qualitative finding is settled: any non-zero spacing beats massing. Massed practice produces immediate performance. Distributed practice produces durable storage.
-
-A third piece. **Bahrick (1984)** ran a cross-sectional study of Spanish retention 0–50 years after the original course. He found a stable "permastore" plateau after about three to six years — material that survived that long was likely to survive indefinitely. The shape of the long-term decay curve is a real property of how something was learned. Surface familiarity does not produce permastore. Schema-based learning, with retrieval practice, does. Whether all genuinely-learned material has a permastore plateau is less settled — Bahrick's work covers Spanish vocabulary and mathematical principles primarily — but the existence of long-tail retention for *some* material is established.
-
-A meta-analytic anchor: **Adesope, Trevisan, and Sundararajan (2017)** synthesized 118 practice-testing studies (15,427 participants). The testing effect produces an effect size of approximately *g* = 0.6, large by educational research standards, and it holds across age groups, materials, and delay intervals.
-
-**Practitioner implication:** the decay curve shape is the mechanistic residue of how the student studied. Retrieval practice produces a flatter decay. AI-assisted "study" produces a steep one.
+The AI-assisted student lives entirely in the retrieval-strength world. Every time she asks the AI, the material is fluently in front of her. Her retrieval strength is high. Her storage strength is near zero, because she has never attempted to retrieve anything herself. The first quiz, taken the day after the AI delivered a clean explanation, reflects her high retrieval strength. The three-week-later quiz reflects her storage strength. That is why the second number is the honest one.
 
 ---
 
-## The genuine Y6 signature
+## What the experiments show
 
-When a student's learning is genuine — when retrieval practice has happened, when spacing has had time to do its work — the decay-curve pattern is identifiable.
+Hermann Ebbinghaus measured his own forgetting curve in 1885 by memorizing 2,300 nonsense syllables — strings like ZOL, DAX, BEK, deliberately stripped of prior associations — and re-testing his retention at varying delays. He worked alone, self-experimenting for years, against the prevailing view that memory was a private mental event not amenable to scientific measurement. He showed that memory could be treated as the residue of measurable behavior, and the curve he traced — fast initial drop, slow later decline, roughly exponential — has been reproduced across a century of subsequent work. Every textbook figure of the forgetting curve is his data, retraced. The spaced-repetition software that millions of students use today sits on top of his nonsense syllables.
 
-**Slower decay.** Performance at long delay is substantially better than what a forgetting-curve prediction from immediate performance would suggest. The drop from immediate to two-week to six-week tests is modest. The curve flattens.
+The forgetting curve is the baseline. What matters for Y6 is the deviation from it.
 
-**Spacing benefit present.** When the practitioner has the data — and many do, structurally, because most curricula contain some natural spacing — students who experienced distributed practice outperform students who experienced massed practice on long-delay items, even when immediate-performance scores were similar.
+Roediger and Karpicke's 2006 experiment is the cleanest single demonstration. Two groups of students studied a brief science passage. Group one restudied it four times. Group two studied it once, then attempted to retrieve it three times — recall what they had read, write it down, no looking back. On an immediate test, the restudy group scored slightly higher. On a one-week test, the retrieval group held substantially more. The crossover is the point: both groups started in the same place, and the decay curves diverged inside a week.
 
-**Performance on legacy items holds up.** This is the practitioner-side translation. Items from material covered three to six weeks ago, embedded into a current quiz unannounced, are answered at rates close to the rates achieved when the material was current. The student has not forgotten the way the simple forgetting curve would predict.
+Karpicke and Roediger sharpened this in 2008: repeated retrieval produced 80% retention at one week; repeated restudy produced 33%. Same total study time. Same starting material. Two-and-a-half-fold difference in storage a week later. Adesope, Trevisan, and Sundararajan's 2017 meta-analysis of 118 practice-testing studies, covering more than 15,000 participants, found an effect size of approximately *g* = 0.6 — large by educational research standards, consistent across age groups, materials, and delay intervals.
 
-**Long-tail retention shows up.** On end-of-term cumulative assessments, performance on early-unit material is not catastrophically worse than performance on late-unit material. Some loss, yes. Cliffhanger drop-off, no.
+The mechanism runs through the same failure dynamic that Chapter 6 described for calibration. Retrieval practice produces failures. The student tries to remember, almost remembers, sometimes fails entirely, sometimes recovers the answer through effort. Each failure is a cue that something is not yet stored, and that cue drives subsequent encoding. Restudy does not produce failures. The student reads, the words feel familiar, the cue says *stored*, and the encoding cycle is skipped. High retrieval strength on the day, almost nothing a month later.
 
-**Practitioner implication:** the genuine signature is a curve that bends gently. Look for the bend.
+AI-assisted study amplifies the restudy problem. The explanation is not just fluent — it is maximally fluent, organized, complete, free of the awkward half-formed language that characterizes a student's own struggling summary. The student processes it without effort. The fluency cue fires. The encoding cycle is skipped entirely. She emerges with retrieval strength and almost no storage.
 
----
+The spacing effect compounds this. Cepeda and colleagues, in a 2008 study that I want to describe carefully because it makes a precise quantitative claim, showed that the optimal gap between practice sessions scales with the desired retention interval at roughly 10–20%. If you want students to remember something in six months, space practice three to six weeks apart. If you want them to remember in two weeks, space practice one to three days apart. Any non-zero spacing beats massing the same total practice time into one session. The spacing effect is one of the most replicated findings in cognitive psychology and it is not seriously contested.
 
-## The borrowed-certainty Y6 signature
-
-The pattern is structurally clean and emerges fastest in classrooms where AI-assisted study is widespread.
-
-**Monotonic, steep decay.** Performance collapses between immediate and short-delay assessments and is near floor by long-delay. The curve is closer to a cliff than a slope.
-
-**No spacing benefit.** Even when the curriculum provides some natural spacing, students do not show the predicted retention boost. The reason is that what they did during the spacing intervals was not retrieval. They re-asked the AI. The AI re-delivered fluent explanation. No storage was built between sessions.
-
-**Decay-probe performance collapses by mid-term even when current-unit performance stays high.** This is the most diagnostic single observation. A student looks fine on the new material. The new material is in front of them, the AI is helping, the immediate quiz performance is fine. But ask a question from four weeks ago — same student — and they cannot recover the answer. The storage was never there.
-
-**Performance collapses entirely without continued AI access.** A student who has been borrowing certainty all term, given a closed-book final, scores far below their term-average artifact performance would predict. This is the Bastani 2025 pattern at the individual level [verify] — the engagement metrics were strong, the immediate performance was strong, and the unassisted exam collapsed.
-
-The Bastani 2025 study itself is the strongest available evidence for the Y6 borrowed-certainty pattern at the population level, though it is one RCT in one country in one subject and the chapter is honest about that. Bastani measured exam performance after AI exposure; the exam-performance drop is consistent with the steep-decay prediction but the study did not measure a full decay curve.
-
-**Practitioner implication:** borrowed certainty's Y6 signature is most visible in items that were never expected to be on the test. The legacy items reveal what fluent current-unit performance hides.
+What the AI-assisted student lacks is not just retrieval practice — she also lacks spacing. She asks the AI when the assignment is due. The information comes in a mass. If she asks again later, it comes in another mass. The gaps between sessions are not retrieval events. They are re-explanation events. The spacing benefit requires the student to attempt retrieval during the gap; re-reading an AI explanation during the gap provides none of it.
 
 ---
 
-## How to observe Y6 without a platform
+## What the two signatures look like
 
-This is the cheapest of the seven implementations because the instrument is also the intervention. Embedding legacy items in current quizzes both *measures* decay and *produces* spacing. You do not need to choose between assessment and instruction. The same questions do both.
+The genuine Y6 signature is a decay curve that bends gently. Performance at long delay is substantially better than a naive forgetting-curve prediction from immediate performance would suggest. The drop from day one to week three is modest. The drop from week three to week six is smaller still. Students tested on material from four weeks ago, with no warning, score within ten or fifteen points of what they scored when the material was current. On a cumulative final, performance on early-unit material is not catastrophically worse than performance on late-unit material. The curve flattens because storage was built, and storage is slow to decay.
 
-**Method 1 — embedded legacy items.** Each weekly quiz includes two to four items drawn from material covered three or more weeks earlier. Do not announce in advance which items are legacy and which are current. Track performance on legacy items separately from current-unit items. The gap between the two — student by student, week by week — is the Y6 signal.
+When the curriculum provides distributed practice — and many do, structurally, because spiraled curricula revisit earlier concepts in later units — the spacing benefit shows up as a signature in its own right. Students who encountered the earlier material again, even briefly, in a later context retain it better at end-of-term than students who did not. The benefit is visible in aggregate across the class. It is also visible per student: the students who show the spacing benefit are the students who engaged with the re-encounter as a retrieval event, not as a re-reading event.
 
-A pragmatic rule for which items to embed: prefer items from the same item bank as the original assessment, with similar past-class success rates. This controls for difficulty. If the legacy items are systematically harder than the current items, you cannot distinguish decay from difficulty.
+The borrowed-certainty signature is a cliff. Performance collapses between the immediate quiz and the first delayed probe, and is near floor by the second. The decay is steep and monotonic. What makes this diagnostic is the contrast with the student's current-unit performance, which stays fine — the AI is still available, the fluency is still high, the retrieval strength is still there. Ask a question from four weeks ago and the bottom falls out. The storage was never built.
 
-**Method 2 — three-time-point testing.** For a high-value concept, test the same item bank at three time points: immediately after teaching, two weeks later, six or more weeks later. The slope from time-1 to time-3 is the decay rate. More work than Method 1 but produces a cleaner curve per item. Useful for the few concepts where you most want to know.
+The most diagnostic single observation in the borrowed-certainty signature is this: current-unit performance and legacy-item performance diverge, and the divergence grows over the term. In week two, the gap might be 15 points. By week ten, it might be 50. The current-unit line holds flat or rises. The legacy line drops through the floor. No single quiz shows this. The two lines together do.
 
-**Method 3 — cumulative final exam, scored by unit.** Many courses already have a cumulative final. The Y6 move is to score the final *by unit of origin* — not as a single percentage but as a per-unit retention number. Some units will hold up. Some will not. The unit-level data reveals which content stuck and which decayed. Often the school has already collected this data and has been aggregating it away. Stop aggregating.
+<!-- → [CHART: two-panel line chart — left panel shows "genuine engagement" student: current-unit performance (solid line) and legacy-item performance (dashed line) tracking within 10–15 points of each other across 10 weeks. Right panel shows "borrowed certainty" student: current-unit performance (solid line) staying high while legacy-item performance (dashed line) drops steeply and diverges by week 10. The growing gap in the right panel is the Y6 signal.] -->
 
-**Method 4 — the spaced-homework restructure.** Restructure homework problem sets to be 70% current unit and 30% drawn from previous units. The 30% legacy items *are* the decay probes. The student is also experiencing forced spaced retrieval as a side effect. This is the cleanest "instrument is the intervention" implementation in the seven-component framework.
+---
 
-**Method 5 — the student-self-test prompt.** At the start of a new unit, ask: "Without consulting your notes, write everything you remember from Unit 3." The depth and accuracy of the recall is a qualitative Y6 read. Best for low-stakes formative use, not summative grading. **Roediger and Karpicke's test-enhanced learning** framework predicts that this exercise also strengthens what gets retrieved — the instrument-is-intervention property holds here too.
+## How to observe this without any new infrastructure
 
-A practitioner cost note. Method 1 is the cheapest to implement and the most diagnostic per minute spent. Method 4 is more invasive but provides the strongest pedagogical benefit alongside the measurement. Most practitioners should start with Method 1.
+The cleanest implementation — and the one I recommend starting with — is the embedded legacy item. On each weekly quiz, include two to four questions drawn from material covered three or more weeks earlier. Do not announce which questions are legacy and which are current. Score them in a separate column. The gap between current-unit and legacy performance, tracked per student across weeks, is the Y6 signal.
 
-A practitioner caution. **Difficulty matching matters.** If legacy items are noticeably harder than current items, a low legacy score may be decay, or may be the items. The chapter's working rule: when in doubt, embed *more* legacy items rather than fewer. The average rate stabilizes faster, the noise from item-level difficulty washes out, and the per-student signal becomes cleaner.
+One design constraint matters: difficulty matching. If the legacy items are systematically harder than the current items, a low legacy score might reflect difficulty rather than decay. Use items from the same item bank as the original assessment, with comparable past-class success rates. When in doubt, embed more legacy items rather than fewer — the average rate stabilizes faster, and item-level difficulty noise washes out.
 
-A second practitioner caution. The legacy-item move only works if students do not know in advance which items are legacy. If you announce a review session before each quiz, the spacing effect kicks in for the announced items but the diagnostic signal is contaminated. The decay-probe items have to be silent.
+A second design constraint: the legacy items have to be silent. If you announce a review session before each quiz, the spacing effect kicks in for the announced items — which is pedagogically useful — but the decay-probe signal is contaminated. You will have measured prepared retention, not natural decay. The diagnostic signal requires the items to be unannounced.
 
-**Practitioner implication:** add two legacy items to your next quiz. Do not announce. Score separately. You are now collecting Y6 data with zero extra grading time.
+The instrument-is-the-intervention property is worth noting explicitly. Embedding legacy items in quizzes both measures decay and produces spacing. The same questions do both jobs. Students who encounter a legacy item and struggle with it are generating a retrieval failure, which drives encoding. The measurement is also remediation. This is the most elegant property of the Y6 observation method.
+
+For a more structured three-point decay measurement, test the same item bank at immediate, two-week, and six-week delays. More work than the embedded approach, but it produces a cleaner curve per concept. Useful for the specific material where you most need to know whether storage is being built.
+
+For courses with cumulative finals that already exist, the Y6 move requires no new assessment design at all. Score the final by unit of origin — not as a single percentage, but as a per-unit retention number. Some units will hold up. Some will collapse. The unit-level data is usually already in the exam; it has just been aggregated away. Stop aggregating.
+
+<!-- → [TABLE: implementation comparison — rows: embedded legacy items, three-time-point testing, cumulative final by unit, spaced homework restructure, student self-test prompt. Columns: setup cost, ongoing cost per quiz, diagnostic precision, also serves as intervention (yes/no), works with existing materials (yes/no). Practitioner should see at a glance that embedded legacy items score high on low cost, moderate precision, yes-intervention, and yes-existing-materials.] -->
+
+---
+
+## A worked example: the history instructor and the unannounced probe
+
+A high school history instructor teaches a year-long survey course. She adds three legacy items to each weekly quiz starting in week four — questions drawn from material covered three to six weeks earlier. She does not announce this. She scores legacy items as a separate gradebook column.
+
+By week eight she has four weeks of data on each student.
+
+Student F's current-unit performance has hovered around 78–82% all term. Legacy-item performance: week 4 = 75%, week 5 = 73%, week 6 = 70%, week 7 = 72%, week 8 = 71%. The curve is almost flat. Current-unit and legacy scores are within five points consistently. Genuine Y6 signature. She will not worry about F.
+
+Student G's current-unit performance has hovered around 80–85% all term — artifacts look fine, participation looks fine. Legacy-item performance: week 4 = 65%, week 5 = 52%, week 6 = 38%, week 7 = 32%, week 8 = 25%. The legacy curve is in free fall while the current-unit performance holds steady. The gap between current and legacy was 20 points in week 4. It is 60 points in week 8. G is performing well on whatever is directly in front of her. She is retaining almost nothing. The existing gradebook has actively concealed this all term. The legacy column reveals it.
+
+Student H's current-unit performance has been variable, 60–72% — mediocre, concerning by the artifact alone. Legacy-item performance: week 4 = 50%, week 5 = 55%, week 6 = 62%, week 7 = 65%, week 8 = 68%. The legacy curve is *rising*. H is doing cumulative review on her own and is retaining the material better than her current-week quiz scores suggest. The legacy data reveals genuine Y6 in a student whose surface artifact has been weak. The conversation here is encouragement, not concern.
+
+The instructor does not change any grades. She has different conversations. She invites G in for office hours and shows her the two-column gap — not the gap in artifact quality, which doesn't exist, but the gap between current-unit and legacy performance. The conversation does not start with "I think you've been using AI." It starts with "I notice that the material from earlier this term doesn't seem to be sticking. Let's talk about how you're studying." The data anchors the conversation. The student can see what the instructor sees.
+
+That conversation is the instrument working as intended.
 
 ---
 
 ## What a platform adds
 
-The platform-side version of Y6 is **FSRS** — the Free Spaced Repetition Scheduler — and the older **SM-2** algorithm from SuperMemo. These compute, per concept node and per student, the optimal interval until the next review. They use a three-component memory model — difficulty, stability, retrievability — fit to large-scale user data. FSRS in particular has emerged as the practical state of the art over the last few years, though the academic literature on it is thinner than the practitioner record. (Most documentation lives on Jarrett Ye's blog and on the open-spaced-repetition GitHub project, not in peer-reviewed journals. The chapter is honest about this.)
+The platform-side version of Y6 is spaced repetition scheduling — most precisely, the FSRS algorithm (Free Spaced Repetition Scheduler), which emerged from the Anki ecosystem over the last several years as a practical improvement on the older SM-2 algorithm. FSRS maintains, per concept and per student, a three-component memory model: difficulty, stability, and retrievability. It uses these to compute the optimal review interval — the delay that keeps retrievability just above a threshold without wasting reviews on material that doesn't need them yet. The mathematics are grounded in Ebbinghaus's decay functions and Cepeda's temporal-ridgeline findings. The calibration is done on large-scale user data rather than laboratory experiments.
 
-A Y6-aware platform identifies high-decay concepts at the class level — material that consistently fails to stick across many students. That is an instructional-design signal, not just a student-level signal. It tells the practitioner where the unit needs redesign, not just which students need help.
+The practitioner payoff of a Y6-aware platform is two things beyond precision scheduling. First, it surfaces high-decay concepts at the *class* level — material that consistently fails to stick across many students. That is an instructional-design signal, not a student-level signal. It tells the instructor where the unit needs redesign. Second, it identifies students whose decay trajectory is *worsening* over the term — an early-warning flag more diagnostic than any single quiz score.
 
-None of this is required to start. The signal exists in pencil-and-paper data. The platform improves scheduling precision and scale.
-
----
-
-## Worked example: the history instructor and the unannounced decay probe
-
-A high school history instructor teaches a year-long survey course. She has read this chapter. She decides to add three legacy items to each weekly quiz starting in week four. The legacy items are drawn from material covered three to six weeks earlier — not unit-final material, just specific facts and analyses she wants to know whether students have retained. She does not announce that this is happening. She scores legacy items as a separate column in her gradebook.
-
-By week eight, she has four weeks of legacy data on each student.
-
-**Student F.** Current-unit performance: hovering around 78–82% all term. Legacy-item performance: week 4 = 75%, week 5 = 73%, week 6 = 70%, week 7 = 72%, week 8 = 71%. The legacy curve is almost flat. F is retaining the material. The current-unit and legacy scores are within five points consistently. Genuine Y6 signature.
-
-**Student G.** Current-unit performance: hovering around 80–85% all term. Legacy-item performance: week 4 = 65%, week 5 = 52%, week 6 = 38%, week 7 = 32%, week 8 = 25%. The legacy curve is in free fall while the current-unit performance looks fine. The gap between current and legacy was 20 points in week 4. It is 55 points in week 8. Borrowed-certainty signature. G is performing well on whatever is in front of her. She is retaining almost nothing.
-
-The instructor's read: G is using an AI assistant to handle current-week assignments and is not building storage. The current-week artifact does not reveal this. The legacy column does. The Y6 data tells the instructor something the existing grade book has actively concealed all term.
-
-**Student H.** Current-unit performance: variable, 60–72%. Legacy-item performance: week 4 = 50%, week 5 = 55%, week 6 = 62%, week 7 = 65%, week 8 = 68%. The legacy curve is *rising* over time. H is doing late-night cumulative review on her own and is in fact retaining better than her current-unit scores suggest. The legacy data reveals genuine Y6 in a student whose current-week artifact has been mediocre. The intervention here is encouragement, not concern.
-
-The instructor uses the data the way the practitioner is supposed to. She does not change anyone's grade. She has different conversations. She invites G in for office hours and shows her the gap — not the gap in artifact quality (there isn't one) but the gap between current-week and legacy performance. The conversation is anchored in data G can see. The conversation does not have to start with "I think you've been using AI." It can start with "I notice that the material from earlier this term doesn't seem to be sticking the way the new material is. Let's talk about how you're studying."
-
-This is the second evidence stream in action. The Y6 column did the work that no single artifact could have done.
-
-**Practitioner implication:** the worked example is the chapter. Add two or three legacy items per quiz. Score separately. Watch the gap.
+Neither of these requires the platform to start. The signal exists in pencil-and-paper legacy items, and the instructional benefit of embedded retrieval practice exists whether or not you have an algorithm scheduling it. The platform is precision-on-top-of-an-instrument-that-already-works.
 
 ---
 
-## Exercises
+## What would change the analysis
 
-**Exercise 1 (Apply).** Add two decay-probe questions, drawn from material covered three or more weeks ago, to each of your next four weekly quizzes. Do not announce. Score legacy items as a separate column. Track per-student decay across the four weeks: for each student, plot or list legacy-item performance over time. Describe, in one paragraph, the patterns you observe. Identify one student whose legacy performance pattern surprised you.
+Evidence that AI-assisted students who use the AI specifically to *generate practice questions* — asking the AI for quiz items and then attempting them without seeing the answer — produce decay curves comparable to genuine unassisted retrieval practice would change part of the chapter's framing. The argument here is that AI-as-explanation defeats retrieval. AI-as-practice-question-generator is a different use case and may not. This is an open empirical question.
 
-**Exercise 2 (Analyze).** For one concept you teach in your domain, identify the highest-value piece of knowledge — the single thing — that a student should still be able to recover six months after the unit ends. Write it in one sentence. Then describe, in three or four sentences, how you would *know* whether a former student still has it. What item would you give them? What would the right answer look like? What does "no longer accessible" look like and how is it distinguishable from "I never knew this"?
+A demonstration that classroom-paced spaced retrieval does not produce the spacing benefit predicted by Cepeda — that the laboratory finding fails to generalize to year-long courses — would substantially weaken the embedded-legacy-item recommendation. The recommendation is based on a defensible but not bulletproof generalization from controlled experiments to messy classrooms.
 
-**Exercise 3 (Create).** Design a four-week spaced retrieval schedule for one unit in your course, using only paper-and-pencil tools (no app, no platform). Specify, week by week, what gets re-tested when. Use the Cepeda 10–20% rule as a starting point: if you want students to retain at six months, space practice three to six weeks apart; if you want them to retain at end-of-term, space practice one to two weeks apart. Justify the spacing intervals you chose. Specify how you will measure whether the schedule produced more retention than your current approach.
-
----
-
-## What would change my mind
-
-Evidence that AI-assisted students who use the AI specifically for *retrieval practice* — using AI-generated practice questions and attempting them without seeing the answer — produce decay curves comparable to genuine unassisted retrieval practice would change part of the chapter's framing. The chapter's argument is that AI-as-explanation defeats retrieval. AI-as-practice-question-generator may not. This is an empirical question the literature has not yet answered.
-
-A finding that classroom-paced spaced retrieval does not in fact produce the spacing benefit predicted by Cepeda et al. — that the laboratory-scale finding does not generalize to year-long courses — would substantially weaken Method 4 in particular. The chapter's recommendation is based on a generalization from the lab; the generalization is empirically defensible but not bulletproof.
-
-A controlled demonstration that the FSRS algorithm produces substantively better retention than simpler embedded-legacy-item approaches in classroom contexts would change the "what a platform adds" framing. Currently, the chapter treats the platform as precision-on-top-of-an-already-working-instrument. If the platform turns out to add far more than that, the recommendation shifts.
+The strongest evidence the chapter rests on for the borrowed-certainty decay prediction is Bastani 2025, which found exam-performance collapse after AI-assisted engagement. Bastani did not measure a full decay curve under controlled conditions. That study is one RCT in one country in one subject. The chapter treats it as consistent with the prediction rather than as proof of it.
 
 ---
 
 ## Still puzzling
 
-The optimal-spacing function for classroom contexts is not settled. Cepeda et al. 2008's temporal ridgeline is a useful approximation; the precise function for school-paced material is contested. The chapter's practitioner-actionable rule is: any non-zero spacing beats massing. Precise optimization is a platform problem.
+The optimal spacing function for classroom contexts is not settled at the level of precision Cepeda's temporal ridgeline implies. The practitioner-actionable rule — any non-zero spacing beats massing — is solid. Precise optimization is a platform problem, not a classroom problem.
 
-FSRS performance in classroom contexts is well-validated on Anki user data but controlled classroom RCTs are thin. The chapter mentions FSRS as the current platform-side state of the art and flags the academic literature as still consolidating.
+Whether the AI-as-explanation effect on decay curves has been measured in a controlled decay study is, to my knowledge, no. The prediction is mechanistically clean. The controlled measurement is the study the field still needs.
 
-AI's specific effect on decay curves is predicted (steeper decay for AI-assisted students) and consistent with Bastani 2025 [verify], but no published study to my knowledge has measured a full decay curve under controlled AI-assisted conditions. This is the cleanest empirical study the field still needs.
+Item-difficulty matching for embedded decay probes is a real measurement-design problem that the chapter's working rules address but do not solve fully. The chapter's recommendation is to embed more items when in doubt. That is workable, not optimal.
 
-Item-difficulty matching for embedded decay probes is a measurement-design problem. The chapter's rule (use items from the same bank, prefer items with similar past-class success rates, when in doubt embed more) is workable but not optimal.
-
-The "AI-as-study-tool" failure mode — students using AI to *answer* practice items rather than to *retrieve* them — defeats the testing effect even when the practice format is right. This is a structural problem with AI access during practice that Chapter 11 will need to address in the implementation discussion.
-
-Whether Bahrick's permastore plateau generalizes beyond his domains (Spanish vocabulary, mathematics) is less clear. The chapter treats long-tail retention as achievable; the specific shape varies by material.
+The permastore question — whether some genuinely-learned material shows long-tail retention indefinitely, as Bahrick's 1984 cross-sectional Spanish-retention data suggests — is not settled for domains beyond vocabulary and mathematics. The chapter treats long-tail retention as achievable without specifying the conditions precisely.
 
 ---
 
-## The wayback callout: Hermann Ebbinghaus
+## LLM Exercises
 
-Hermann Ebbinghaus was a German psychologist who, in 1885, measured his own forgetting curve by memorizing 2,300 nonsense syllables — strings like ZOL, DAX, BEK, chosen specifically to be free of pre-existing associations — and then re-testing his retention at varying delays. He used the **savings method**: he measured not how much he remembered cold, but how much faster he could relearn material that had decayed. This let him quantify partial retention even when explicit recall had failed. He worked alone, self-experimenting for years, against the philosophical-psychology orthodoxy of his time which held that memory could not be studied scientifically because it was a private mental event. Ebbinghaus showed that memory could be studied scientifically by treating it as the residue of measurable behavior. He published one short book in 1885 that became the empirical foundation of an entire subfield. Every textbook reproduction of the forgetting curve is his data, retraced. The spaced-repetition research that emerged a century later — SM-2, FSRS, Anki, the Cepeda meta-analyses — sits on top of his nonsense syllables. He is the original decay-curve researcher.
+**1. Generate and examine.** Take one concept from a recent unit you taught. Ask an LLM to explain it. Then, without looking at the explanation, try to retrieve the explanation from memory one hour later and write down what you can recover. Compare your retrieval to the original. Where did the fluency cue mislead you — what felt stored that turned out not to be? Use this as calibration for the claim that AI explanations build retrieval strength without storage strength.
 
----
+**2. Apply to known context.** Identify a student in your current class whose current-unit performance has been strong all term. Predict, before adding legacy items, what their legacy-item performance will look like four weeks from now if you add the embedded probe. Specify: what decay rate would you expect for a student doing genuine work? What decay rate would you expect for a student borrowing certainty? After four weeks, compare the prediction to the data.
 
-## Bridge to Chapter 9
+**3. Stress-test the claim.** The chapter argues that AI-as-explanation produces steep decay because no retrieval failures occur. Construct the strongest counterargument: design an AI-assisted study workflow that would, in principle, produce a genuine-engagement decay curve. What would the student have to do differently from the typical explain-and-read pattern? Is this workflow something students actually adopt without explicit instruction?
 
-Six signals so far. Time on difficulty. Errors that cohere and update. Transfer that survives clothing change. Confidence that tracks knowledge. Discussion that has texture. And, now, retention that does not collapse.
-
-The seventh signal is the last one and it is, in a way, the most diagnostic of partial understanding. A student stuck on a problem can be helped in two ways. You can give them a partial hint — point to the structure, name what kind of problem this is — or you can give them the full answer. A student with genuine partial understanding responds to the partial hint almost as well as to the full hint. They have something for the hint to activate. A student with borrowed certainty does not respond to the partial hint at all. The full answer is the only thing that produces visible improvement, because there is no developing mental model to activate.
-
-The Zone of Proximal Development is not a metaphor. It is a structural property of a genuinely developing mental model, and it is directly observable in hint-response patterns. Chapter 9 is Y7: Scaffolding Response Curve. The last of the seven signals.
+**4. Draft a professional deliverable.** Write the three-sentence explanation you will give students when you add legacy items to your quizzes — framed as a learning-support practice, not as surveillance. Then write the two-column gradebook label system you will use to track current-unit versus legacy performance, and write the one-sentence opener for the conversation you would have with a student whose legacy column is showing steep decline while their current-unit column looks fine.
