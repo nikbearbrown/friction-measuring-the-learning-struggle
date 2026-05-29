@@ -4,190 +4,138 @@
 
 ---
 
-## Opening: the medical student and the bedside
-
-A third-year medical student can tell you everything about beta blockade. She can define it. She can sketch the mechanism on a napkin: sympathetic outflow, beta-1 receptor antagonism, decreased contractility and heart rate, the cascade through cAMP. She can recite indications — post-MI, heart failure with reduced ejection fraction, certain arrhythmias, migraine prophylaxis. On the board-style multiple-choice questions she scores in the top quartile.
+A third-year medical student can tell you everything about beta blockade. She can define it, sketch the mechanism on a napkin — sympathetic outflow, beta-1 receptor antagonism, decreased contractility and heart rate, the cascade through cAMP. She can recite the indications: post-MI, heart failure with reduced ejection fraction, certain arrhythmias, migraine prophylaxis. On board-style multiple-choice questions she scores in the top quartile.
 
 Then she meets a patient.
 
-The man in bed 14 has chest pain, a recent myocardial infarction, a heart rate of 102, and blood pressure that can tolerate gentle slowing. Her attending asks: "What would you start him on?" The student talks through the case carefully — she mentions aspirin, statins, ACE inhibitor. The attending waits. The student does not mention beta blockade. The word "beta" does not appear in the patient's chart anywhere. The trigger is missing.
+The man in bed 14 has chest pain, a recent myocardial infarction, a heart rate of 102, and blood pressure that can tolerate gentle slowing. Her attending asks: "What would you start him on?" The student talks through the case carefully — mentions aspirin, statins, ACE inhibitor. The attending waits. The student does not mention beta blockade. The word "beta" does not appear anywhere in the patient's presentation, the room, the chart. The trigger is missing.
 
 She had the surface features. She did not have the schema.
 
-This is the failure that frustrates every clinical educator and every laboratory instructor and every English teacher who has watched a student write beautifully about *Hamlet* and then miss the same theme inside a story they have not been told to apply it to. The student knows the thing. The student cannot recognize the thing when it shows up wearing different clothes. And in the AI era, this gap is going to widen — because borrowed certainty is, almost by construction, surface-feature certainty.
-
-Y3 is the chapter where we make the gap visible.
+This failure frustrates every clinical educator, every laboratory instructor, every English teacher who has watched a student write beautifully about *Hamlet* and then miss the same theme inside a story they haven't been told to apply it to. The student knows the thing. The student cannot recognize the thing when it shows up wearing different clothes. In the AI era, this gap is going to widen — because borrowed certainty is, almost by construction, surface-feature certainty. Y3 is the chapter where we make the gap visible.
 
 ---
 
-## What Cross-Context Transfer measures
+## The diagnostic
 
-**Y3 — Cross-Context Transfer (CCT)** [Humanitarians AI internal framework] is the third of the seven friction-trace components. It measures one specific thing: the gap between a student's performance on a *near-transfer* item — same concept dressed in familiar surface features — and a *far-transfer* item — same concept dressed in unfamiliar surface features.
+Y3 measures one specific thing: the gap between a student's performance on a near-transfer item and a far-transfer item. The vocabulary is older than this book.
 
-The vocabulary is older than this book. **Near transfer** = the test problem looks like the textbook problem. Same surface features, same cover story, same wording conventions. The student who has pattern-matched will do fine here, because the pattern still applies. **Far transfer** = the same underlying principle has been re-clothed. The cover story is different. The vocabulary is different. The student who has built an actual schema will recognize the principle through the disguise. The student who has only pattern-matched will not.
+Near transfer means the test problem looks like the textbook problem. Same surface features, same cover story, same wording conventions. The student who has pattern-matched will do fine here, because the pattern still applies. Far transfer means the same underlying principle has been re-clothed. The cover story is different, the vocabulary is different, the domain may be different. The student who has built an actual schema will recognize the principle through the disguise. The student who has only pattern-matched will not.
 
-Barnett and Ceci (2002) gave the field a taxonomy that names nine dimensions on which a transfer task can be near or far: knowledge domain, physical context, temporal context, functional context, social context, modality, and three more on the content side. Most practitioners don't need all nine. Two dimensions — change the cover story, change the domain — get you most of the way.
+The diagnostic is not "did the student get the far-transfer item right?" The diagnostic is the *gap*. A student who scores 85% on the near item and 80% on the far item has a 5-point transfer gap. That's noise. A student who scores 85% on the near item and 30% on the far item has a 55-point gap. That is the signature. The pair carries the signal in a way no single item can.
 
-The diagnostic is not "did the student get the far-transfer item right?" The diagnostic is the *gap*. A student who scores 85% on the near item and 80% on the far item has a 5-point transfer gap. That's noise. A student who scores 85% on the near item and 30% on the far item has a 55-point gap. That's the signature. The pair carries the signal in a way no single item can.
-
-**Practitioner implication:** stop asking "did transfer happen?" and start asking "what's the gap?" The pair is diagnostic; the singleton is not.
+Barnett and Ceci gave the field a useful taxonomy in 2002 — nine dimensions on which a transfer task can be near or far, including knowledge domain, physical context, functional context, modality. Most practitioners don't need all nine. Two dimensions get you most of the way: change the cover story, change the domain.
 
 ---
 
-## Where schema comes from
+## Where schemas come from, and why AI explanations don't build them
 
-Why does the gap exist at all? Why doesn't every student who understands the underlying principle just recognize it in the new clothes?
+Why does the gap exist at all? Why doesn't every student who receives a clear explanation of the underlying principle just recognize it in new clothes?
 
-Because schema formation is not the same event as memorizing-the-example. Sweller's cognitive load theory distinguishes intrinsic load (the difficulty of the material itself), extraneous load (the difficulty added by bad instruction), and **germane load** — the cognitive work that *constructs the schema*. Germane load is the productive part of the struggle. It is what happens when the student has to grind on an unfamiliar instance and abstract away from it. When a student offloads the grinding to an AI, the answer arrives, but the germane load does not. The schema is the residue of that load. No load, no residue.
+Because schema formation is not the same event as receiving an explanation. Sweller's cognitive load theory draws a distinction that matters precisely here. There is intrinsic load — the difficulty of the material itself. There is extraneous load — difficulty added by confusing presentation. And there is *germane* load — the cognitive work that constructs the schema. Germane load is the productive part of the struggle. It is what happens when the student has to grind on an unfamiliar instance and abstract away from the surface features toward the underlying structure. When a student offloads that grinding to an AI, the answer arrives, but the germane load does not. The schema is the residue of that load. No load, no residue.
 
-Two pieces of older empirical work make this concrete. **Chase and Simon (1973)** asked chess masters and novices to look at a chessboard for five seconds, then reproduce it from memory. Masters reproduced meaningful positions — positions that could plausibly arise from real games — far more accurately than novices. On *random* positions, masters performed no better than novices. The masters did not have superior memory in general. They had a schema for what chess positions can look like. The schema is what transferred. Pattern-matching to surface features was not the same skill.
+Chase and Simon's 1973 chess experiments made this concrete before anyone had the vocabulary. They showed chess masters and novices a chessboard for five seconds, then asked them to reproduce it from memory. Masters reproduced meaningful positions — positions that could arise from real games — far more accurately than novices. On *random* positions, the advantage evaporated entirely. Masters performed no better than novices on random boards. The masters did not have superior memory in general. They had a schema for what chess positions look like. The schema is what transferred. Recognizing surface features was not the same skill.
 
-**Chi, Feltovich, and Glaser (1981)** ran the same logic on physics problems. They gave novices and experts a set of problems and asked them to sort the problems into groups. Novices sorted by surface features — inclined planes go together, springs go together, problems with the word "pulley" go together. Experts sorted by underlying principle — conservation-of-energy problems go together regardless of whether they mention pulleys or springs or skiers. What the experts noticed was the principle. What the novices noticed was the cover story. Same problems. Different schemas.
+Chi, Feltovich, and Glaser ran the same logic on physics problems in 1981. They gave novices and experts a set of problems and asked them to sort into groups. Novices sorted by surface features — inclined planes together, springs together, problems with the word "pulley" together. Experts sorted by underlying principle — conservation-of-energy problems together, regardless of whether they mentioned pulleys or springs or skiers. Same problems, different schemas. What the experts noticed was the structure underneath the surface. Novices noticed the cover story.
 
-The third piece. **Gick and Holyoak (1980)** — the radiation problem and the general-and-fortress story. Students were asked to solve a medical problem: how to use radiation to destroy a tumor without destroying surrounding healthy tissue. Earlier in the session, they had read an unrelated story about a general who needed to capture a fortress and chose to split his army into small groups converging from different roads. Spontaneous transfer — students who recognized that the story's solution applied to the tumor — was near zero. When students were given a hint ("the story might be relevant"), transfer jumped to about 75%. The structural mapping was *there* once it was prompted. It was not generated spontaneously. Far transfer is hard *and* hint-sensitive.
+The Gick and Holyoak radiation problem is the most famous single experiment in the transfer literature, and it deserves to be. Students were asked to solve a medical problem: how to use radiation to destroy a tumor without destroying surrounding healthy tissue? Earlier in the session, they had read an unrelated story about a general who needed to capture a fortress and chose to split his army into small groups converging from different roads simultaneously. Spontaneous transfer — students who independently recognized that the story's solution applied to the tumor — was near zero. When students were given a single hint ("the story might be relevant"), transfer jumped to about 75%. The structural mapping was *there* once prompted. It was not generated spontaneously.
 
-There's a counter-tradition the chapter has to sit with honestly. **Detterman (1993)**, in the edited volume *Transfer on Trial*, argued that demonstrated spontaneous transfer in lab studies is the exception, not the rule. "Transfer is rare." This is uncomfortable but useful. It tells the practitioner that far transfer is the diagnostic precisely *because* it is hard. The asymmetry — easy on near, hard on far — is what makes Y3 a signature in the first place. If transfer were free, the gap would not be diagnostic.
+This is an uncomfortable result and the chapter has to sit with it honestly. Detterman argued in 1993, reviewing the literature, that demonstrated spontaneous transfer is the exception rather than the rule. "Transfer is rare." This is useful rather than discouraging, because it tells us why far transfer is diagnostic: it is hard precisely because schema formation is hard. The asymmetry — easy on near, hard on far — is what makes Y3 a signal. If transfer were free, the gap would not be informative.
 
-**Bransford and Schwartz (1999)** softened this with "preparation for future learning" — the claim that students who have genuinely learned are *better positioned* to pick up new material, even if they can't immediately apply yesterday's lesson. PFL widens the definition of transfer to include speed-of-relearning. It rescues the practitioner from the "but my students seemed to learn" complaint. The schema is there; it is just not always retrievable cold.
-
-**Practitioner implication:** schemas form through cognitive work the student does *on* the material, not through clean explanations *of* the material. The AI's clean explanation is the enemy of germane load. The instructor's job is to engineer situations where germane load happens.
+Bransford and Schwartz softened this in 1999 with what they called "preparation for future learning" — the finding that students who have genuinely learned are better positioned to pick up new material quickly, even when they can't immediately apply yesterday's lesson cold. The schema is there; it just isn't always retrievable without a cue. This rescues the practitioner from the too-harsh conclusion that genuine learning produces no transfer. It does. It just often needs a prompt. A student who sees the connection with one nudge is showing more schema than a student who needs the whole answer.
 
 ---
 
-## The genuine Y3 signature
+## Why borrowed certainty fails on far transfer specifically
 
-What does it look like when a student has built the schema?
+There is a deeper reason the borrowed-certainty signature appears so cleanly on far-transfer items. Large language models are pattern-matchers by construction. They predict tokens conditional on context. The fluent answer an AI generates to a textbook problem is surface-feature transfer — the model has encountered many similar problems and produces something that maps onto the surface. When a student offloads the problem and absorbs the answer, the student inherits that surface-level competence. They have not built the schema. They have inherited a pattern-match.
 
-**Both near and far transfer scores are elevated.** Not equal — far transfer is harder, even for genuine learners, because the surface mapping costs something. But both are above the floor.
+This is also why Y3 is structurally hard to fake. To perform well on a far-transfer item, the student would need to know which features are surface and which are deep — and that knowledge *is* the schema. The fake requires the real. A student who has borrowed certainty on a concept cannot reliably fake far-transfer performance, because faking it requires exactly the abstract understanding the borrowing bypassed.
 
-**The transfer gap is small.** As a working rule, gaps under 15 percentage points sustained across multiple concepts are consistent with genuine schema formation. The chapter cannot give you a calibrated threshold — the field does not have one. Pick a working number for your context and refine it.
-
-**The student recognizes the concept across surface variations.** Given three scenarios that look unrelated on the surface but instantiate the same principle, the student notices the kinship. This is what Chi's experts did in the sorting task. It is what your top students do in the discussion section without being prompted.
-
-**The student can generate a far-transfer instance themselves.** Ask: "Can you give me another example of this principle from somewhere else in the world?" Genuine schema-holders produce a new instance with a different cover story. Pattern-matchers produce a paraphrase of the textbook example.
-
-**Hatano and Inagaki (1986)** named this pattern *adaptive expertise* — the ability to extend, modify, and invent for new situations. The contrast was *routine expertise* — getting faster and more accurate on familiar problems without the capacity to extend. Adaptive expertise is what Y3 measures. Routine expertise is what borrowed certainty produces.
-
-**Practitioner implication:** the genuine signature is recognition across disguise, not perfection on the harder item.
+The chess masters could reproduce meaningful positions because they had spent thousands of hours building schemas for what positions mean. They could not reproduce random boards because the schema applies only where there is structure to match. Borrowed certainty is a random board dressed in meaningful clothes. It looks like structure from the outside. Under a far-transfer probe, the randomness shows.
 
 ---
 
-## The borrowed-certainty Y3 signature
+## The two signatures
 
-The pattern is the inverse and it is very clean.
+The genuine Y3 signature is recognizable. Both near and far transfer scores are elevated — not equal, because far transfer costs something even for genuine learners, but both above the floor. The gap is small. The student recognizes the concept across surface variations. Given three scenarios that look unrelated on the surface but instantiate the same principle, she notices the kinship. She can generate a far-transfer instance herself — ask for another example of the principle from somewhere else in the world, and she produces a new cover story, not a paraphrase of the textbook example.
 
-**Near transfer is high. Far transfer is low.** The student does well on items that look like training data. They cannot bridge to items that don't.
+Hatano and Inagaki named this adaptive expertise in 1986 — the ability to extend, modify, and invent for new situations, contrasted with routine expertise, which means getting faster and more accurate on familiar problems without the capacity to extend. Routine expertise is what borrowed certainty produces. Adaptive expertise is what Y3 measures.
 
-**The transfer gap is large and persistent.** Twenty, thirty, fifty points. It doesn't narrow over the term. The student keeps doing well on familiar surface features and keeps failing on unfamiliar ones.
+The borrowed-certainty signature is the inverse. Near transfer is high, far transfer is low. The gap is large and persistent — twenty, thirty, fifty points — and it doesn't narrow over the term. The student keeps doing well on items that look like training data and keeps failing on items that don't. Given the principle in an unfamiliar cover story, the student treats it as a new and unrelated problem. The mapping is invisible because the schema is not there to do the mapping.
 
-**The student does not recognize the concept in disguise.** Given the same principle with a different cover story, the student treats it as a new and unrelated problem. The mapping is invisible to them because the schema is not there to do the mapping.
+Asked for another example of the principle, the borrowed-certainty student reproduces the textbook one. The AI's training distribution shaped what she can produce. Outside that distribution, she has nothing.
 
-**The student cannot generate a far-transfer instance.** Asked for another example, they reproduce the textbook one. The AI's training distribution shaped what they can produce; outside that distribution, they have nothing.
-
-There is a deeper reason this signature appears so cleanly under AI assistance. Large language models are pattern-matchers by construction. They predict tokens conditional on context. The fluent answer the AI generates to a textbook problem *is* surface-feature transfer — the model has seen many similar problems and produces something that maps onto the surface. When a student offloads the problem and absorbs the answer, the student inherits that surface-level competence. They have not built the schema. They have inherited a pattern-match.
-
-This is also why Y3 is structurally hard to fake. To fake far-transfer performance, the student would need to know which features are surface and which are deep — and that knowledge *is* the schema. The fake requires the real. This is the cleanest case in the seven-signal framework of that property.
-
-**Practitioner implication:** in the AI era, the cleanest test of whether the student learned is whether they recognize the concept in clothes the AI's training distribution didn't dress it in. Far transfer is no longer a nice-to-have. It's the diagnostic.
+<!-- → [CHART: scatter plot — x-axis: near-transfer score (0–100%), y-axis: far-transfer score (0–100%) — each dot is one student. Two clusters visible: a "genuine" cluster near the diagonal (high near, high far, small gap) and a "borrowed certainty" cluster in the lower-right (high near, low far, large gap). A reference diagonal drawn. Students should see the gap as a horizontal distance from the diagonal, not just the far-transfer score in isolation.] -->
 
 ---
 
-## How to observe Y3 without a platform
+## How to observe this without any new infrastructure
 
-You do not need software to begin. Y3 is one of the cheapest signals to implement and one of the most informative.
+The design recipe is short. State the underlying principle in one sentence to yourself. Write a near-transfer item in the textbook's standard format. Then re-write the same principle into a scenario from a completely different domain. Hold the principle constant. Vary the cover story. Score them separately. Compute the gap per student. That is Y3.
 
-**Method 1 — the paired-item quiz.** For each major concept in the unit, write one near-transfer item and one far-transfer item. Score them separately. Compute the gap (near% − far%) at the student level. This is the simplest possible Y3 instrument. It works with paper, pencil, and an existing quiz format.
+The paired-item quiz is the cheapest implementation — paper, pencil, an existing quiz format, two items per concept instead of one. The incremental cost is the time to write the far-transfer item, which is ten minutes per concept once you have the near item in hand.
 
-The two-step design recipe is: (a) state the underlying principle in one sentence to yourself, (b) write a textbook-style item that uses the principle in its standard cover story, (c) re-write the same principle into a scenario from a completely different domain. The principle is held constant. The cover story is varied. This is variation theory in two paragraphs.
+The Chi sort task borrows directly from the 1981 study. Print twelve problems on index cards. Ask students to sort them into groups and label each group. Walk the room. Students who group by cover story ("these are all about pulleys") are showing the novice signature. Students who group by principle ("these all involve conservation of energy") are showing schema. Fifteen minutes of class time, no grading, qualitative Y3 read on every student simultaneously.
 
-**Method 2 — the cold-call recognition probe.** After teaching a concept, present a scenario that uses the concept *without naming it*. Students must recognize that the concept applies. This is the beta-blockade-at-the-bedside pattern. It works in any domain where principles can be embedded in scenarios. The recognition itself is the test.
+The cold-call recognition probe embeds the concept in a scenario without naming it. After teaching beta blockade, present a patient with the relevant features and ask what to start. Don't say "beta blockade." Don't say "Newton's third law." Don't say "natural selection." Make the student recognize that the principle applies. The recognition is the test.
 
-**Method 3 — the Chi sort task.** Borrow directly from Chi, Feltovich, and Glaser. Print twelve problems on index cards. Ask students to sort them into groups and label each group. Walk the room. Students who group by cover story ("these are all about pulleys") are showing the novice signature. Students who group by principle ("these all involve conservation of energy regardless of the apparatus") are showing schema. This takes fifteen minutes of class time, requires nothing but paper, and gives you a qualitative Y3 read on every student simultaneously.
+The cross-discipline retrieval prompt works as a warm-up at the start of a new unit: "Where else have you seen something like this?" Genuine schema-holders surface connections the textbook didn't make. Borrowed-certainty students name the previous chapter's example and stop.
 
-**Method 4 — the cross-discipline retrieval prompt.** At the start of a new unit, ask: "Where else have you seen something like this?" Genuine schema-holders surface connections the textbook didn't make — the population genetics student names antibiotic resistance, the physics student names balloons in elevators, the literature student names a film. Borrowed-certainty students name the previous chapter's example and stop.
+A practitioner caution: far transfer is genuinely hard, and scoring it pass-fail is too blunt. A student who sees the connection with one nudge is showing more schema than a student who needs the whole solution. Score Y3 as a continuum. Let partial credit and hint-supported transfer count as partial evidence of schema.
 
-A practitioner cost note. Method 1 is the cheapest to grade and the easiest to compare across students. Method 3 is the cheapest to design and gives you the most diagnostic information per minute. Method 4 is free and works as a five-minute warm-up. Pick what fits your day.
-
-A practitioner caution. Far transfer is genuinely hard. Don't punish students for needing a hint to see the connection — that's exactly what Gick and Holyoak found in the lab, and what Bransford and Schwartz formalized as preparation for future learning. Score Y3 as a continuum, not pass-fail. A student who sees the connection with one nudge is showing more schema than a student who needs the whole answer.
-
-**Practitioner implication:** start with Method 1. Add Method 3 when you have a class period to spare. Use Method 4 as a warm-up. None of these require a platform.
+<!-- → [TABLE: four implementation methods — rows: paired-item quiz, Chi sort task, cold-call recognition probe, cross-discipline retrieval prompt. Columns: setup cost, time per class period, what it directly measures, whether it also functions as instruction (interleaved practice), best class size. Practitioner should see at a glance which to start with.] -->
 
 ---
 
-## What a platform adds
+## A worked example: Newton's third law in two clothes
 
-For the practitioner who eventually has access to a platform — Medhavy or otherwise — Y3 automation looks like this: a transfer item bank that has been tagged for principle and surface features, automated generation of paired near/far items across many concepts, large-N transfer-gap distributions that calibrate what counts as a large gap empirically rather than by intuition, and longitudinal tracking of each student's gap per concept across the term. The platform also computes a Y3 score that combines the gaps across concepts into a single number for the ensemble (Chapter 10).
+A high school physics teacher is teaching Newton's third law. The textbook example: a hockey puck struck by a stick on a frictionless surface. Equal and opposite forces, the stick pushes the puck, the puck pushes the stick. Standard format, standard cover story, the same diagram every textbook uses.
 
-None of that is required to start. The platform improves precision and scale. The signal exists in pencil-and-paper data.
+She writes a near-transfer item: a hockey puck struck by a stick. Mass of the puck, mass of the stick, force exerted by the stick on the puck. What is the force exerted by the puck on the stick? Standard textbook language. Students who have done the homework recognize the structure immediately.
 
----
-
-## Worked example: Newton's third law in two clothes
-
-A high school physics teacher is teaching Newton's third law. The textbook example, from chapter 4, is a hockey puck struck by a stick — equal and opposite forces, the stick pushes the puck and the puck pushes the stick. Standard format, standard cover story, the same diagram every textbook uses.
-
-She designs a near-transfer item: a hockey puck struck by a stick on a frictionless ice surface. Mass of the puck, mass of the stick, force exerted by the stick on the puck. What is the force exerted by the puck on the stick? Standard textbook format. Standard textbook language. The students who have done the homework recognize the structure immediately.
-
-She designs a far-transfer item: an astronaut on a space walk needs to return to the ISS. She is currently floating ten meters from the airlock with no thrusters and no tether. She is carrying a 5 kg tool kit. Briefly describe what she should do and why it works. No mention of force. No mention of action and reaction. No mention of Newton. The diagram is a stick figure and a satellite.
+She writes a far-transfer item: an astronaut on a spacewalk needs to return to the ISS. She is floating ten meters from the airlock with no thrusters and no tether, holding a 5 kg toolkit. Briefly describe what she should do and why it works. No mention of force. No mention of Newton. No mention of action and reaction. The diagram is a stick figure and a satellite.
 
 She runs both items on a weekly quiz.
 
-The class average on the near item is 82%. The class average on the far item is 51%. The class-wide transfer gap is 31 points. This is large. This is a sign that the unit produced surface familiarity but not schema, on average.
+Class average on the near item: 82%. Class average on the far item: 51%. Class-wide transfer gap: 31 points. This is large. The unit produced surface familiarity without schema, on average.
 
-She looks at individual students.
+Student A scored 90% near and 85% far — a 5-point gap. Genuine signature. Her explanation of the astronaut problem: "She should throw the toolkit in the direction away from the airlock. The toolkit pushes back on her in the opposite direction, so she moves toward the airlock. This is Newton's third law — the forces are equal and opposite." Student A saw the principle through the cover story.
 
-Student A scored 90% on near and 85% on far. A 5-point gap. Genuine signature. When she reads Student A's explanation of the astronaut problem, A wrote: "She should throw the tool kit in the direction away from the airlock. The toolkit pushes back on her in the opposite direction, so she moves toward the airlock. This is Newton's third law — the forces are equal and opposite." Student A saw the principle through the cover story. Schema.
+Student B scored 88% near and 32% far — a 56-point gap. Borrowed-certainty signature. Student B's explanation: "The astronaut should grab onto something nearby and pull herself back. She could also try to swim through space using her arms." The hockey-puck-and-stick training distribution did not include people stranded in space. The schema is not there to do the mapping. Pattern-match failed cleanly.
 
-Student B scored 88% on near and 32% on far. A 56-point gap. Borrowed-certainty signature. Student B's explanation of the astronaut problem began: "The astronaut should grab onto something nearby and pull herself back. She could also try to swim through space using her arms." The hockey-puck-and-stick training distribution did not include people stranded in space. The schema is not there to do the mapping. Pattern-match failed cleanly.
+Student C scored 85% near and 75% far — a 10-point gap, probably genuine. Student C wrote: "She could throw the toolkit, I think — by Newton's third law? — and that would push her the other way." The hedging is part of the genuine signature. Student C is not certain, but the structural mapping is there. The hedge is calibrated uncertainty. Y3 and Y4 tend to co-vary.
 
-Student C scored 85% on near and 75% on far. A 10-point gap. Probably genuine, with a moderate hit from the surface change. Student C wrote: "She could throw the tool kit, I think — by Newton's third law? — and that would push her the other way." The hedging is part of the genuine signature. Student C is not certain, but the structural mapping is there. The hedge is what Y4 calls calibration. Y3 and Y4 will often co-vary.
-
-The instructor now has three different conversations to have, with three different students, based on data the unannounced single quiz already produced. No platform. No detector. No accusation. Just the gap.
-
-**Practitioner implication:** the worked example is the chapter. One pair of items per concept. Score separately. Look at the gap.
+Three conversations to have, with three different students, from data two items already produced. No platform, no detector, no accusation. Just the gap.
 
 ---
 
-## Exercises
+## What would change the analysis
 
-**Exercise 1 (Apply).** For one concept in your domain — pick the most central concept of an upcoming unit — draft one near-transfer item and one far-transfer item. State the underlying principle in one sentence to yourself first. Then write the near item in your textbook's standard format. Then re-write the same principle into a scenario from a completely different domain. Explicitly name, in two or three bullets, the surface features that differ between the two items. (Hint: change the cover story, change the domain, change the modality if you can. Keep the principle and the cognitive demand identical.)
+A clean empirical demonstration that AI-assisted students produce a narrow transfer gap under controlled conditions — evidence that fluent AI explanation builds schemas at rates comparable to effortful engagement — would substantially weaken Y3's diagnostic value. The mechanism would have to be specified: what is the AI exposure doing that produces schema formation without germane load? The chapter cannot rule this out, but it is structurally improbable given what we know about how schemas form.
 
-**Exercise 2 (Analyze).** Pull a prior assessment from a recent unit. Pick one student whose work you remember well. Describe, in three or four sentences, what their transfer gap looks like — or, if the assessment didn't give you near and far variants, describe what their gap would look like based on the work they did produce. If you cannot tell from existing data what the gap was, that absence is itself the finding: most existing assessments do not generate the data needed to see Y3. Note that.
+A demonstration that transfer-friendly pedagogy — variation theory, contrast cases, interleaved practice — reliably eliminates the borrowed-certainty Y3 signature would change how to deploy the signal across contexts. In a classroom structured specifically to produce schema formation, the gap would narrow for everyone. Y3 would be less informative as a discriminator in that classroom. That is a feature, not a bug; it would mean the pedagogy is working. But it would shift what the signal means when the gap is small.
 
-**Exercise 3 (Create).** Build a one-page concept-by-concept transfer-gap matrix for one unit. Columns: concept, near-item description, far-item description, expected gap if the unit produced schema, expected gap if students are pattern-matching. Five to seven concepts per unit. This sheet becomes a template for future units — once it exists, the next unit takes ten minutes to populate.
-
----
-
-## What would change my mind
-
-A clean empirical demonstration that AI-assisted students produce a *narrow* transfer gap under controlled conditions — that is, evidence that fluent AI exposure builds genuine schemas at rates comparable to effortful engagement — would substantially weaken Y3's diagnostic value. The mechanism would have to be specified (what is the AI exposure doing that produces the schema?), but the gap as a signature would soften.
-
-A demonstration that transfer-friendly pedagogy (variation theory, contrast cases, interleaved practice) reliably eliminates the borrowed-certainty Y3 signature would also matter — not because it would invalidate the signal but because it would tell us the signal weakens in the classrooms that need it least. That would change how to deploy Y3 across contexts.
-
-A finding that the far-transfer item's difficulty is so unstable across student populations that gap-comparison becomes meaningless without massive calibration data would change the practitioner-side methodology. The chapter would still recommend Y3, but the threshold rules would need to be more conservative.
+The gap-size threshold is empirically open. The chapter uses a working number — gaps under 15 points are probably genuine, 30+ points sustained are probably borrowed — but this is practitioner calibration, not a research finding. Refine it with your own data.
 
 ---
 
 ## Still puzzling
 
-The gap-size threshold is empirically open. Cepeda's work on spacing has produced precise functions. The transfer literature has not. We do not know whether a 20-point gap or a 30-point gap is the right line. The chapter has chosen a working number (15 points sustained = probably genuine, 30+ points sustained = probably borrowed). The honest answer is: pick a threshold for your context and refine it with experience.
+Whether teaching explicitly for transfer eliminates the diagnostic is unresolved. Interleaved practice works. Variation theory works. If the unit is structured to produce schemas in every student, the gap narrows for everyone — at which point Y3 is less informative as a discriminator. This is worth knowing but doesn't undermine the signal in conventionally-taught classrooms, which are where the problem lives.
 
-Whether teaching for transfer eliminates the diagnostic is unresolved. Variation theory works. Interleaved practice works. If the unit is structured to produce schemas in every student, the gap narrows across the class — at which point Y3 is less informative as a discriminator. This is a feature, not a bug, but it shifts what the signal means.
+The "preparation for future learning" version of Y3 — can a student relearn the material faster because of prior genuine engagement? — has no clean practitioner operationalization. Bransford and Schwartz's framing is theoretically useful but practically hard to score in a classroom without a controlled relearning condition. The chapter doesn't solve this; it notes it.
 
-The "preparation for future learning" version of Y3 has no clean classroom operationalization. Bransford and Schwartz's framing is theoretically attractive but practically harder to score than direct-application transfer. The chapter has not solved this. The single recommendation is to score Y3 as a continuum and let partial-credit hint-supported transfer count as evidence of partial schema.
-
----
-
-## The wayback callout: Mary Gick
-
-Mary Gick was, with Keith Holyoak, the author of the analogical transfer studies published in *Cognitive Psychology* in 1980 and 1983 — the radiation problem, the general-and-fortress story, the discovery that spontaneous transfer rates were near zero without a hint and jumped to about 75% with one. Gick was the first author. She did the empirical work. Her name is on the studies that founded the modern transfer literature. Carleton University, Canada. She remains less famous than Holyoak, but the experiments that every cognitive psychology textbook still reproduces are hers as much as his. The wayback figure for Y3 is the woman whose data showed that far transfer is rare *and* that the schema is there once it is prompted — which is, in two findings, most of what this chapter has been trying to say.
+The stability of far-transfer item difficulty across student populations is genuinely uncertain. A far-transfer item that is well-calibrated for one class may be trivially easy or impossibly hard for another. The practical solution is Method 3 — the Chi sort task, which generates the discrimination endogenously rather than requiring the instructor to pre-calibrate item difficulty. But the gap-scoring methods depend on the near and far items being comparably difficult except for the surface-feature variation, and achieving that by design requires more care than the chapter can specify in full.
 
 ---
 
-## Bridge to Chapter 6
+## LLM Exercises
 
-Three signals so far. Time-on-task that tracks difficulty (Y1). Errors that cohere around a misconception and update at the right moment (Y2). Transfer that survives a change of clothes (Y3). All three are about what the student *did* with the material.
+**1. Generate and examine.** Take one concept from your domain and ask an LLM to generate a near-transfer item and a far-transfer item for that concept. Evaluate both items: does the far-transfer item actually change the surface features while preserving the underlying principle? Or has the LLM produced two near-transfer items with slightly different wording? Use this as calibration for writing your own paired items — the most common mistake is treating a surface variation as a deep one.
 
-The fourth is different. It is about what the student *knows about what they know*. Two students can score the same percentage on a quiz and have radically different relationships to their own knowledge — one of them flags the items she is unsure about, the other one is confident across the board, including the ones she got wrong. The gap between confidence and accuracy is the next signature. It is the cheapest of the seven to implement. It is also the one most likely to weaken first as AI tutors get better at communicating uncertainty.
+**2. Apply to known context.** Identify a recent assessment in your course. For each major concept assessed, reconstruct what the near-transfer and far-transfer items were — or note that all items were near-transfer, which is itself the finding. Estimate, based on student performance and any qualitative observations you have, what the transfer gap was per student. Which students do you think would show a small gap? Which would show a large one? Write a two-sentence description of each that a colleague who doesn't know the students could use to recognize the pattern.
 
-Chapter 6 is Y4: Uncertainty Calibration. One question added to every quiz. Track the gap. Start Monday.
+**3. Stress-test the claim.** The chapter argues that far-transfer performance cannot be reliably faked without actually having the schema, because faking it requires knowing which features are surface and which are deep. Construct the strongest counterargument: design a scenario where a student could produce a convincing far-transfer response without genuine schema formation. What would the student need to know, or do, in advance? How expensive is that preparation compared to just building the schema?
+
+**4. Draft a professional deliverable.** For one concept in an upcoming unit, write one near-transfer item and one far-transfer item following the design recipe in the chapter: state the underlying principle in one sentence to yourself first, then write the near item in textbook format, then re-clothe the same principle in a completely different domain. Then write the one-paragraph explanation you would give students for why you are including both types of items — framed as "here is what these two kinds of questions test" rather than as a detection rationale.
