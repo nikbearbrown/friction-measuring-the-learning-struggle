@@ -4,154 +4,98 @@
 
 ---
 
-## Opening case: three of the same mistake, then a different one, then five right
-
 A student makes the same kind of mistake three times in a row on a fraction problem set. The fourth time, she makes a different kind of mistake. The next five problems, she gets right.
 
-To the instructor, the pattern is recognizable. The first three errors were consistent with a specific misconception — say, treating fraction addition as if it operated on numerators and denominators separately (1/2 + 1/3 → 2/5). The change in error type at problem four signals that something in her mental model updated. The subsequent five correct answers confirm the update held. The student did not get lucky. She moved.
+To a teacher who knows what to look for, the pattern is not mysterious. The first three errors were consistent with a specific misconception — treating fraction addition as if it operated on numerators and denominators separately, so that 1/2 + 1/3 becomes 2/5. The shift at problem four signals that something in her mental model updated. The subsequent five correct answers confirm the update held. She did not get lucky. She moved.
 
-This is not a literary description. It is the reward-prediction-error mechanism doing its job. The first three errors generated a signal — an expectation, an outcome, a gap. The gap drove a small update in the underlying procedure. The fourth attempt was the updated procedure being tried out. The next five were the new procedure stabilizing.
+This is not a literary description of the student's experience. It is the prediction-error mechanism doing its job at the level of behavior. The first three errors generated a signal — an expectation, an outcome, a gap between them. The gap drove a small update in the underlying procedure. The fourth attempt was the updated procedure being tried out. The next five were the new procedure stabilizing. The errors were not noise. They were structured. And the structure was evidence of something genuinely happening inside her head.
 
-Y2 — Error Trajectory Coherence [Humanitarians AI internal framework] — is the friction trace that lives in this kind of pattern. It is not the error rate. It is the *shape* of the errors across time. A student whose errors cluster around an identifiable misconception and then shift coherently as her model updates is showing genuine learning at the level the prediction-error mechanism produces. A student whose errors scatter across unrelated error types from one item to the next is showing something else.
-
-**Implication for practice.** You probably already read error trajectories informally. You see the student who keeps making the same mistake and recognize the misconception underneath. You see the student whose mistakes are everywhere and worry that something different is going on. Y2 names what you are doing and makes it systematic enough that you can do it on purpose.
+Y2 — Error Trajectory Coherence — is the friction trace that lives in this kind of pattern. It is not the error rate. It is the *shape* of the errors across time: whether they cluster around an identifiable misconception, and whether that cluster shifts coherently as the underlying model updates. Genuine learning looks like one thing. Borrowed certainty looks like something else. The difference is visible if you know where to look.
 
 ---
 
-## What Y2 measures
+## The generator underneath the error
 
-Y2 is the *coherence of a student's errors across time and items* — specifically, whether the errors map to identifiable misconceptions and whether the misconception map updates in conceptually adjacent steps as the student's mental model develops.
+To see what Y2 is measuring, you need a concept that doesn't get taught enough in teacher preparation: the misconception as *generator*.
 
-Two pieces of vocabulary make the rest of the chapter readable.
+A misconception is not just a wrong answer. It is a specific incorrect way of thinking about a concept that reliably *produces* wrong answers — a procedure, a heuristic, a mental model that generates output. The output is predictable from the model. If you know the misconception, you can anticipate which problems a student will miss and how she will miss them.
 
-A *misconception* is a specific incorrect way of thinking about a concept that produces predictable wrong answers. In fraction operations, "treat the operation as acting on numerators and denominators separately" is a misconception. It generates specific wrong answers across many problems. The wrong answers are not random; they are *generated*. The misconception is the generator.
+Brown and Burton demonstrated this in 1978 with elementary subtraction. They built a system called BUGGY that modeled children's subtraction errors as a small library of identifiable procedural bugs — always subtract the smaller digit from the larger regardless of position, borrow incorrectly across a zero, carry but forget to add the carry digit. The bugs *generated* the errors. Knowing which bug a child had let the system predict, with real accuracy, which problems she would miss and what wrong answer she would produce. The errors were not random. They were structured. The structure was diagnostic.
 
-*Conceptual adjacency* is the question of which misconceptions are one update away from each other. A student who holds the "operate-on-numerators-only" misconception is one update away from "operate on numerators, but also notice the denominators matter somehow" (an intermediate, still-wrong but closer model). She is several updates away from a correct schema. Her error trajectory, if her learning is genuine, traces edges in this conceptual adjacency space. She moves to an adjacent misconception, then to another, then to the target. She does not leap from one unrelated misconception to a wildly different one and back.
+This is the foundational empirical observation behind Y2: if a student's errors are being generated by a mental model — any mental model, right or wrong — the errors will cluster. They will share a generator. They will be, in the technical sense, *coherent*.
 
-Y2 reads the *path*. Errors clustered around one misconception, shifting coherently to an adjacent misconception, then to the target, is the genuine signature. Errors distributed without pattern across conceptually unrelated error types — a sophisticated correct answer on one item, a wildly off-target error on the next, with no shared underlying misconception — is the borrowed-certainty signature.
+Now ask the harder question: what does a coherent error trajectory look like across time, not just across items? A student whose mental model is actually updating moves through misconception space. She does not jump from a wrong model to a correct model in one step. She moves to a slightly-less-wrong model — one productive update closer to target. In fraction arithmetic, the student who is treating numerators and denominators as independent quantities might update to a model where she notices denominators matter but isn't sure how, then to a model where she handles like denominators correctly but still goes wrong on unlike ones, then to the correct procedure. Each stage produces its own cluster of errors. Across enough problems, the trajectory through these stages is visible. The errors cluster, then shift, then cluster differently, then shift again.
 
-**Implication for practice.** Y2 requires you to know your domain's misconceptions well enough to code errors against a small list of categories. Some domains have well-documented catalogs (Driver et al. 1994 for K-12 science; Brown and Burton 1978 BUGGY for elementary subtraction; the AAAS *Atlas of Science Literacy* across many domains). Some don't. Where catalogs exist, use them. Where they don't, you build one informally from your own teaching experience — and you'll find you already have one in your head; the work is writing it down.
+*Conceptual adjacency* is the name for the structure of this space: which misconceptions are one update apart from each other. The path a genuine learner traces through misconception space follows edges in the adjacency graph. She moves to neighboring misconceptions, not to distant ones. Her error trajectory has a shape. That shape is the signal.
 
----
-
-## Why Y2 exists: the prediction-error mechanism in plain language
-
-Chapter 2 introduced Schultz, Dayan, and Montague's (1997) finding: dopamine neurons signal the gap between expected and actual outcomes. The signal drives associative updates. The framework's claim is that the same kind of signal — at the cognitive level, not necessarily at the same cellular level — drives schema update in genuine learning. The student who expects one answer and produces another generates an internal mismatch. The mismatch is what makes the next try different from the last.
-
-This has two consequences for what error trajectories look like.
-
-**Errors are non-random.** They are generated by the student's current mental model. Brown and Burton (1978) demonstrated this with extraordinary clarity in elementary subtraction. They built a system called BUGGY that modeled children's subtraction errors as a small library of identifiable "bugs" — specific procedural mistakes (always subtract smaller from larger; borrow incorrectly across zeros; carry but forget to add the carry). The bugs *generated* errors. Knowing the bug let the system predict which problems a child would miss and how. The errors were structured. The structure was diagnostic. This is the foundational empirical demonstration that error patterns reveal mental models.
-
-**Schema updates are cumulative and incremental.** A student does not jump from a wrong model to a correct model in one step. She moves to a slightly-less-wrong model — one update closer to target. Each prediction-error signal drives a small adjustment. Across many items, the adjustments accumulate, and the *trajectory* through misconception space is what learning looks like at the level of behavior. A student whose error type changes at certain transitions is showing the update events. A student whose error type is the same on twenty consecutive items has not yet had a productive update. A student whose error types are scattered without any pattern is, most likely, not generating the errors from a coherent model at all — which raises the question of where the answers are coming from.
-
-Smith, diSessa, and Roschelle (1993) reframed the misconception conversation usefully here. Misconceptions are not always monolithic wrong beliefs; often they are fragmented "phenomenological primitives" — small, context-dependent intuitions that get loosely organized. The implication for Y2 is that error trajectories are sometimes about *reorganization* rather than *replacement*. The student does not delete a wrong belief; she connects pieces of intuition differently. The trajectory through reorganization is still coherent — it traces conceptually adjacent moves — but the moves are subtler than "wrong belief → less wrong belief." This matters for how you code errors. Code at the level of generator (what move is producing the wrong answer?), not at the level of belief (what does the student think?).
-
-**Implication for practice.** When you read errors, ask: what move produced this answer? Could the same move produce a wrong answer on the next item too, or is this a one-off? Coherent errors are answers to the first question. Scattered errors are usually a sign that the answers are not being produced by a single move at all.
+<!-- → [INFOGRAPHIC: misconception adjacency graph for fraction addition — nodes labeled with misconception types (N/D confusion, numerator-only operation, sign error, target understanding), directed edges showing conceptually adjacent updates — the visual should show the path a genuine learner traces versus the scattered distribution of borrowed-certainty errors] -->
 
 ---
 
-## The genuine signature
+## Why the trajectory differs when the work is not the student's
 
-Genuine error trajectories show three features, in roughly this order across a unit:
+Chapter 3 introduced the prediction-error mechanism as the cellular-level basis for learning. When expectation and outcome diverge, the mismatch signal drives an update. When there is no genuine expectation — when the student is not doing the cognitive work — there is no mismatch signal, and there is no update.
 
-**Clustering around a current misconception.** Within a short window — a few problems or a single assessment — the student's errors look like *the same kind of mistake*. They share a generator. The instructor reading them can name the misconception underneath without effort.
+This has a direct consequence for error patterns. If the student is not generating answers from a mental model, the errors are not generated from a mental model either. They come from whatever the external source produces — which has its own failure modes, its own distribution of mistakes, its own occasionally-right-occasionally-wrong-in-unpredictable-ways behavior. That distribution does not look like a generator plus updates over time. It looks like noise.
 
-**Coherent transitions at update events.** When the misconception updates, the error type changes. The new errors are different — but they are conceptually adjacent. The student does not leap to an unrelated misconception; she moves to one that is one productive step away. Sometimes the new misconception is "almost right" — the student has fixed one piece but is still missing another. Sometimes the new misconception is "right enough to be correct on most cases but breaks on the edge cases." The pattern is recognizable as movement.
+Three features of borrowed-certainty error patterns stand out.
 
-**Subsequent performance reflecting the updated model.** After the update, the student does better on items where the new model is sufficient and may still err on items that expose the *new* misconception. This is the heartbeat: error pattern → update → new error pattern. The trajectory is visible across enough items.
+The errors are scattered across conceptually unrelated types. A sophisticated correct answer on item one, an off-target error on item two, a different off-target error on item three, no misconception underneath that links them. The AI is correct in some places and confidently wrong in others, but the wrong places don't share a generator. They share a *source* — the particular failure modes of the model that was consulted — not a mental model that is updating.
 
-A useful diagnostic: a student whose error trajectory has visible *transitions* — points where the error type changes — is showing the signal cleanly. A student whose errors are all the same kind for the entire unit may be stuck (the prediction error signal isn't producing an update), but her errors are still *coherent*. Genuine learning is producing the coherence; what's missing is the update event, which is a different problem from the one the framework is built to detect. The intervention for "coherent but stuck" is targeted teaching. The intervention for "incoherent" is to figure out what is producing the answers, because it is not a developing mental model in the room.
+The error type doesn't transition coherently across items. In the genuine case, the cluster shifts at update events — the errors move to an adjacent misconception as the student's schema develops. In the borrowed-certainty case, the error type is determined by the particular item and the AI's particular behavior on that item. Across the unit, the pattern is noise.
 
-**Implication for practice.** A student who is consistently wrong in the *same* way is closer to learning than a student who is sometimes right and sometimes wrong without pattern. Counterintuitive in the moment; foundational to how the framework reads error data.
+Knowing the current error tells you nothing about the next one. In genuine learning, error type has some predictive power — the student who is in the N/D misconception will likely produce N/D errors on the next related item too. In borrowed certainty, there is no such predictive structure. The errors are independent draws from whatever the AI does, not the signature of a model that is persisting and updating.
 
----
+There is the harder case: the student who is using AI on some items and working the others herself. Her trajectory may look mixed — coherent clusters where she did the work, scattered errors where she didn't. This is real, and it is a useful pattern. A student who is coherent in closed-book conditions and scattered in take-home conditions is showing the Y2 signature where she is the one doing the work and not showing it where she isn't. The contrast between the two contexts is itself a diagnostic.
 
-## The borrowed-certainty signature
-
-When a student is routing the work through an AI, her errors lose the generator-and-trajectory structure. Three features stand out.
-
-**Random distribution across conceptually unrelated error types.** A sophisticated correct answer on item one, an off-target hallucinated error on item two, a different off-target error on item three, no shared misconception underneath. The AI is correct in some places and confidently wrong in others, but the wrong places don't share a generator. They share a *source* — the AI's particular failure modes — not a *mental model* that is updating.
-
-**No coherent transitions.** The error type doesn't shift in conceptually adjacent ways across the unit. It is whatever the AI's particular failure was on the particular item. Across the unit, the pattern is noise.
-
-**Error type doesn't predict subsequent performance.** In the genuine case, knowing the current misconception tells you which items the student will likely miss next. In the borrowed-certainty case, it doesn't. The student who got the limiting-reagent problem wrong in a strange way isn't reliably wrong on related items in related ways. The next item, she may be right; the one after, wrong in an unrelated way.
-
-There is also the case of the *partially* AI-assisted student — the one who uses AI on some items and works the others herself. Her trajectory may look mixed: coherent error clusters where she worked, scattered errors where she didn't. This is a real pattern and a useful one. The Y2 reading of a mixed pattern is "something genuine is happening here, but not everywhere." That is an information the framework gives you that the artifact alone does not.
-
-The hardest case is the student whose AI assistance produces answers that are, in fact, *aligned* with a common misconception by accident — the AI hallucinates an error that resembles what a struggling student would have produced. This happens. It is rare in any consistent way. Across enough items, the AI's distribution of errors is different from a coherent learner's distribution, even when occasional items align. Read across the body of work, not the single item.
-
-**Implication for practice.** The student whose errors are coherent is doing the cognitive work, even when she is wrong. The student whose errors are scattered is the one you want to investigate further — not because she is necessarily cheating, but because the source of her answers is unclear and the conversation needs to be more specific.
+<!-- → [TABLE: three-column comparison — error pattern feature, genuine learning signature, borrowed-certainty signature — rows for: clustering, transitions, predictive structure, cross-context consistency] -->
 
 ---
 
-## How to observe Y2 without a platform
+## What the research base looks like
 
-Five methods, in roughly increasing order of effort.
+The empirical foundation for Y2 is older and more solid than most of the framework's components, because the study of misconceptions and error patterns has been a central concern of cognitive science and science education since the 1970s.
 
-**The misconception-coding spreadsheet.** Five columns: student, item, error category, date, notes. Build a small list of five to eight misconception categories for the unit you are teaching. For each wrong answer, code which category produced it. After five assessments, plot — informally; you can do this in your grade book — each student's category trajectory across the assessments. Genuine learners' categories shift toward target. Scattered patterns stand out. Cost: an hour to build the category list (mostly thinking, not writing); a few minutes per student per assessment to code.
+Brown and Burton's BUGGY work established that procedural errors have structure. Driver and colleagues' surveys of children's science misconceptions across a wide range of domains (1994) established that the same misconceptions appear reliably across students, cultures, and educational systems — which is exactly what you would expect if misconceptions were genuine cognitive structures, not random confusions. Clement (1982) documented systematic misconceptions in Newtonian mechanics among university physics students. Chi, Feltovich, and Glaser (1981) showed that the difference between novices and experts was not primarily knowledge quantity but knowledge organization — misconceptions reflected wrong organization, not missing facts.
 
-**Two-tier diagnostic items (Treagust 1988).** Each item asks for the answer *and* the reasoning. The reasoning lets you read the misconception directly, rather than inferring it from the answer alone. Item banks exist for many K-12 science topics — *Force Concept Inventory* in physics, several published two-tier diagnostics in biology and chemistry, the AAAS *Atlas* in many domains. Adopt or adapt; you do not need to build from scratch. Cost: the diagnostic items themselves are a one-time investment; the coding is built into the item format.
+Smith, diSessa, and Roschelle (1993) added a complication worth holding onto. Misconceptions are not always monolithic wrong beliefs; often they are fragmented "phenomenological primitives" — small, context-dependent intuitions that get loosely organized. A student does not hold one unified wrong belief about force and motion; she holds a cluster of intuitions that are separately activated by different contexts, and they don't always agree with each other. The implication for reading error trajectories is that the movement from wrong to right is often *reorganization* rather than replacement. The student doesn't delete a wrong belief; she connects fragments differently. The trajectory through reorganization is still coherent — the moves are still conceptually adjacent — but the moves are subtler, and the error categories need to be defined at the level of the generator (what *move* is producing this answer?) rather than the belief (what does the student *think*?).
 
-**Error journals.** Students keep a running log: which problems they got wrong, what they think the wrong move was, what they would try differently. Two benefits — the log gives you self-coded misconception data, and the act of keeping the log is itself an intervention (it links to Y4 calibration, which Chapter 6 will develop). Cost: low for you, real for students; works best with explicit instruction in how to write a useful entry.
+Schultz, Dayan, and Montague's (1997) work on prediction-error signaling at the dopaminergic level provides the mechanism that explains *why* errors drive updates when learning is genuine and why they don't when it isn't. The cellular machinery requires that the prediction be the student's prediction — the expectation formed by her own model — for the mismatch signal to be informative. An expectation formed by looking at an AI's output and accepting it is not a prediction in the relevant sense. The signal, if it fires at all, is weaker and less precisely calibrated to the student's actual model.
 
-**Exit-ticket misconception probes.** One question at the end of class, written specifically to elicit one identified misconception if it is present. Track the proportion of the class that shows the misconception across weeks. The class-level trajectory of a single misconception across a unit is itself a coherence reading. Cost: thirty seconds at the end of class; a few minutes of pattern-reading per week.
-
-**Cross-context error comparison.** Compare the error patterns a student shows in closed-book conditions (in-class quizzes) against open-book or take-home conditions (homework, take-home essays). A student whose closed-book errors are coherent and whose take-home errors are scattered is showing the Y2 signature *only* in the conditions where she is the one doing the work. The *contrast* between the two contexts is the diagnostic. Cost: you already have both kinds of data; the cost is in the comparison.
-
-What a platform adds. Automated coding against a misconception adjacency matrix; per-student Y2 scores per concept; early-warning identification of students whose trajectories are stuck (coherent but not moving) or scattered (not coherent at all); cohort-level views of which misconceptions are stuck across many students at once.
-
-**Implication for practice.** Start with the spreadsheet. It is the cheapest of the five methods and produces a record you can read across assessments. The act of coding errors — even imperfectly — converts the implicit pattern-recognition you already do into evidence you can examine, compare, and share with a colleague. Imperfect coding done consistently across the term is far more useful than perfect coding done once.
+The empirical case specifically for *AI-assisted errors looking scattered* is thinner. Bastani 2025 has the item-level data to examine error coherence in the AI-assisted condition, but the published analysis does not focus there. The structural argument is strong. The direct empirical confirmation is still owed.
 
 ---
 
-## Worked example: an algebra teacher reads the fraction unit
+## Reading trajectories without a platform
 
-An algebra teacher running a fractions unit for ninth graders defines four misconception categories based on her years of teaching the unit:
+Y2 is observable with nothing more than a class set of papers and a small amount of structured attention. The key is to build, once, the misconception category list for each unit you teach — and then code errors against it consistently.
 
-- **N/D** — numerator-denominator confusion (treats the parts as independent quantities).
-- **NUM** — operation-on-numerator-only (adds numerators, leaves denominators alone or copies one).
-- **SIGN** — sign error (correct procedure, wrong sign).
-- **OTHER** — anything she can't fit into the first three categories.
+The category list should be short. Four to six categories per unit is enough; eight is too many. The categories should be defined at the generator level: what *move* produces errors in this category? Not "doesn't understand fractions" but "treats operation as acting on numerators and denominators independently." Not "confused about force" but "conflates force with velocity in contexts involving continuous motion." The definition should be sharp enough that you can look at a wrong answer and decide, in ten seconds, which category it belongs in.
 
-She gives five short assessments across the unit. After each, she codes the wrong answers into the four categories and notes them next to each student's name in a simple spreadsheet. She does not change her grading. The coding is for her.
+Once you have the list, coding a set of student papers takes a few minutes per student. You are not changing grades. You are adding a column to your mental gradebook. The column is: what category are this student's errors in today?
 
-By assessment five, three patterns are visible.
+After five or six assessments, you look at each student's column across time. Three patterns will be visible. First, the students whose error categories are moving — clustered around one misconception early, shifting to an adjacent misconception, then to another, then resolving toward correct performance. These are the students for whom the mechanism is working. Second, the students whose error categories are coherent but not moving — the same misconception, assessment after assessment. They are engaging, but the prediction-error signal is not producing an update. Something specific is stuck. These students need targeted teaching on the specific concept that is not updating, not a general intervention. Third, the students whose error categories are scattered — no clustering, no coherent transitions, sometimes sophisticated and correct, sometimes wildly off in unrelated ways. These are the students the Y2 reading flags for a closer conversation.
 
-**Pattern one — the genuine trajectory.** Student M's wrong answers are mostly N/D in assessment one (six of seven errors), shift to NUM in assessment two (five of six errors — she's reorganized her thinking but still isn't tracking denominators correctly), shift to SIGN in assessment three (three of three errors — she has the operation right but is making computational sign mistakes), and resolve to one OTHER error in assessment five. Her error count drops over time, and the categories move in a recognizable conceptual order. She is updating. The trajectory is the signal.
+The conversation is not "did you use AI?" It is "I've been noticing your errors look pretty different from problem to problem. Let me work one with you out loud and see where you are." The conversation gives you information the artifact cannot. Some scattered students turn out to be having a genuinely hard time finding any consistent model — also useful to know, and a different problem to solve. Some turn out to be importing answers. The trajectory reading is what directs you toward having the conversation in the first place.
 
-**Pattern two — the stuck-but-coherent trajectory.** Student J's wrong answers are N/D in every single assessment, seven of seven, six of six, five of five, four of four, four of four. His error count is dropping a little, but the category is not moving. He is engaging — the errors are coherent — but he is stuck on the N/D misconception. The intervention for Student J is targeted teaching of the specific concept that is not updating. This is a genuine Y2 signature; it just happens to be the signature of a student who needs a different kind of help.
+<!-- → [TABLE: three-pattern guide for reading Y2 — columns: trajectory pattern, what it looks like, what it signals, suggested response — rows for: moving coherently, coherent but stuck, scattered] -->
 
-**Pattern three — the scattered trajectory.** Student R's wrong answers across the five assessments are: one N/D, one SIGN, two OTHER (one assessment). Then on the next: one NUM, two OTHER, no others. Then: zero errors. Then: three OTHER, one SIGN. Then: one NUM, one OTHER. The errors do not cluster around any one category, and they do not move coherently between categories. The pattern is noise. His artifact quality is variable — sometimes very strong, sometimes weak in odd ways. The OTHER category contains errors that don't look like things a developing fraction-arithmetic schema would produce — wildly inconsistent magnitudes, a moment where he wrote the answer to a different problem, an answer that is correct for a different operation than the one the problem asked for.
+A worked example. An algebra teacher runs a fractions unit for ninth graders. She defines four misconception categories: N/D (numerator-denominator confusion), NUM (operation-on-numerator-only), SIGN (correct procedure, wrong sign), OTHER (anything else). She codes wrong answers after each of five assessments.
 
-The teacher does not change a grade. She does have a different conversation with Student R the next class — not "did you use AI" but "I've been noticing your errors are pretty different from one problem to the next. Let me work one with you out loud and see where you are." The conversation, like the Y1 conversation in the previous chapter, gives her information the artifact could not. Some scattered students turn out to be having a genuinely hard time finding any consistent model, which is also useful to know. Some turn out to be importing answers from outside their own cognition. The next conversation is informed by which kind of pattern is in the room.
+Student M: N/D dominant in assessment one, shifts to NUM in assessment two, SIGN errors in assessment three, one OTHER error in assessment five. The move from N/D to NUM to SIGN to near-correct is a recognizable conceptual path. Student M is learning.
 
-**Implication for practice.** The misconception spreadsheet is not a verdict generator. It is a structured reading of patterns you are already capable of seeing. The structure makes the reading reproducible, shareable, and trustworthy enough to act on.
+Student J: N/D in every assessment, error count dropping slightly but category unmoved. Student J is engaging. He is stuck. The intervention is specific.
+
+Student R: scattered across all four categories across all five assessments, no dominant pattern, several OTHER errors that don't resemble anything a developing fraction schema would produce. Student R's answers are not coming from a coherent mental model. The teacher wants to know more.
+
+The spreadsheet is not a verdict. It is a structured reading of patterns that gives the teacher something to act on.
 
 ---
 
-## Exercises
+## LLM Exercises
 
 **1. (Apply) The misconception list for your unit.** For one concept in your current teaching, list the three or four most common misconceptions students bring. Then sketch which misconceptions are *adjacent* — one productive update apart. Which misconception is closest to a target understanding? Which one is two updates away? You will be tempted to write more than four. Don't. The list is a working tool, not a research artifact. Four categories with clear distinctions are more useful than nine categories that overlap.
 
 **2. (Analyze) Five submissions, coded.** Pull five recent student submissions on the same assignment. Code the errors by misconception type using the list you built in Exercise 1. Describe the trajectory pattern (or absence of pattern) for each student in one sentence. Then ask yourself: which of the five students would you most want to have a conversation with next week, and what would you ask? The act of pre-committing to a conversation is the act that turns Y2 from a coding exercise into a teaching tool.
 
 **3. (Create) The one-page misconception map.** For one unit in your course, draft a one-page misconception map. List the four to six categories. For each, write one sentence describing what move generates the wrong answers in that category. Draw arrows where one misconception is conceptually adjacent to another. The map is for you, not for students. It is the artifact that lets you code consistently across the term. Building it is the most expensive part of starting Y2; once it exists, the per-assessment cost drops to a few minutes per student.
-
----
-
-## What would change my mind
-
-The chapter's central claim is that AI-assisted student work produces *scattered* errors with no coherent generator, distinct from the coherent error trajectories of genuine learning. The claim would need substantial revision if a body of evidence emerged showing that AI-assisted students *do* produce coherent error patterns — perhaps because the AI's particular failure modes consistently align with common misconceptions, or because students who use AI selectively (on items they find hard) end up with error distributions that look like a genuine struggling learner's. The current evidence on AI-assisted error patterns is genuinely thin — Bastani 2025 has the relevant item-level data but the published analysis does not focus on error coherence — and the structural argument is strong but unconfirmed. If the empirical case turns out to be that the AI's errors happen to look like coherent learner errors in many domains, Y2's diagnostic utility drops sharply and the framework leans more heavily on Y1, Y3, Y4, Y5, Y6, and Y7.
-
-## Still puzzling
-
-- Conceptual adjacency maps exist for some domains (mathematics, Newtonian mechanics, basic biology) and are sparse for others (history interpretation, second-language writing, ethical reasoning, clinical judgment). How does Y2 generalize to domains without formal misconception catalogs? The practitioner-build option works but the validity of an instructor-built map is harder to defend without external comparison.
-- The Y2-Y4 boundary. A student whose error trajectory is moving correctly and whose confidence calibration is also improving is showing both signals. They are partially correlated. The framework's claim is that they carry partially independent information — there are students with good trajectories and poor calibration, and vice versa — but the degree of independence in practice is not fully measured.
-- LLM-based misconception coding is getting better quickly. Recent (2024–2025) tools can classify open-response errors against published misconception taxonomies with reasonable accuracy in some domains. Whether the accuracy is sufficient for high-stakes use is open. The current framework's recommendation is to use LLM coding as a draft that the instructor reviews, not as a verdict.
-- The "stuck-but-coherent" case is genuinely common and Y2 reads it correctly — the student is engaging, the model just isn't updating. But the intervention is different from the intervention for the scattered case, and the framework has not yet given the practitioner a clean decision rule for when to act on coherent-but-stuck versus when to let the student work through it.
-
----
-
-## Bridge to Chapter 5
-
-Time and errors are the first two signals. Both live inside a single context — the assignment, the problem set, the unit. The third signal asks a different question: whether the understanding the student has built can survive being asked in a different way. Whether the schema is portable, or whether what looked like understanding was a pattern matched to the particular surface features of the original problems. Transfer is the next trace. Chapter 5.
