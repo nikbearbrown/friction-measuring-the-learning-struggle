@@ -10,4 +10,13 @@ cover-image: cover.jpg
 stylesheet: styles/kindle.css
 toc: true
 toc-depth: 2
+subject_domain: ""
+tone: ""
+audience: ""
+chapter_titles: []
+keywords: []
+avoid: []
+palette_preference: ""
+series_name: ""
+thumbnail_priority: "title and central icon"
 ---

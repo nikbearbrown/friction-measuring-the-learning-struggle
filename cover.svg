@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2560" width="1600" height="2560" preserveAspectRatio="xMidYMid meet" shape-rendering="geometricPrecision">
+  <g id="background"><rect x="0" y="0" width="1600" height="2560" fill="#F6D24A"/></g>
+  <g id="symbol-fragments" transform="rotate(3, 800, 850)">
+    <polygon points="313,1400 399,1400 1149,891 1063,891" fill="#191919"/>
+    <polygon points="186,233 277,233 312,218 221,218" fill="#191919"/>
+    <polygon points="194,252 286,252 1015,373 922,373" fill="#E85B3A"/>
+    <polygon points="225,286 317,286 349,257 257,257" fill="#191919"/>
+    <polygon points="216,227 287,227 787,386 715,386" fill="#191919"/>
+    <polygon points="179,244 272,244 347,978 253,978" fill="#191919"/>
+    <polygon points="805,261 879,261 763,492 689,492" fill="#191919"/>
+    <polygon points="286,229 386,229 334,1449 234,1449" fill="#191919"/>
+  </g>
+  <g id="title-letterforms">
+    <text x="120" y="1370" font-family="Arial Black, Arial, sans-serif" font-size="170" font-weight="900" letter-spacing="0" fill="#191919">FRICTION</text>
+    <text x="120" y="1545" font-family="Arial Black, Arial, sans-serif" font-size="170" font-weight="900" letter-spacing="0" fill="#E85B3A" textLength="1300" lengthAdjust="spacingAndGlyphs">MEASURING</text>
+    <text x="120" y="1720" font-family="Arial Black, Arial, sans-serif" font-size="170" font-weight="900" letter-spacing="0" fill="#191919">THE</text>
+    <text x="120" y="1895" font-family="Arial Black, Arial, sans-serif" font-size="170" font-weight="900" letter-spacing="0" fill="#191919">LEARNING</text>
+    <text x="120" y="2070" font-family="Arial Black, Arial, sans-serif" font-size="170" font-weight="900" letter-spacing="0" fill="#191919">STRUGGLE</text>
+  </g>
+</svg>
