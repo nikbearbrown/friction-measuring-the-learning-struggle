@@ -1,17 +1,26 @@
-# Friction Measuring the Learning Struggle
+# Introduction
 
-**Author:** Nik Bear Brown  
-**Publisher:** Bear Brown, LLC  
-**Copyright:** Copyright © 2026 Nik Bear Brown. All rights reserved.  
-**Edition:** 2026-05-27
+A learner opens the first chapter of *Friction Measuring the Learning Struggle* with a familiar problem: there is too much information and not enough structure. The terms are available. The examples are available. The missing thing is a route through the material that turns exposure into understanding.
 
-## Summary
+This book is about the gap between knowing the name of Friction Measuring the Learning Struggle's subject and being able to use its ideas with judgment.
 
-*Friction Measuring the Learning Struggle* is a structured textbook for readers who need a clear path through the subject rather than a loose collection of explanations. It begins with Chapter 1 — The Artifact Is No Longer Enough, moves through 11 core chapters, and ends with Chapter 11 — Building Your Second Evidence Stream.
+The central argument is that Friction Measuring the Learning Struggle is best learned as a sequence of distinctions, practices, and recurring problems rather than as a list of topics. A reader who can name those distinctions can move through the field with more confidence than a reader who has only memorized definitions.
 
-AI matters to *Friction Measuring the Learning Struggle* because the modern textbook is no longer only a static container. It is also part of a learning system: searchable, remixable, explainable, and increasingly connected to tools such as Medhavy. For Bear Brown books, the relevant question is not whether AI can replace the learner or the teacher. It cannot. The useful question is what AI can make easier to inspect: definitions, worked examples, misconceptions, practice sequences, alternate explanations, and the structure of an argument. This book treats AI as infrastructure for practical AI-assisted authorship, analysis, and production. The chapters should still stand on their own as readable prose, but they are also designed to be legible to an intelligent textbook system.
+This is written for learners, teachers, practitioners, and builders who want a clear path through the material.
 
-## Table of Contents
+## What This Book Is
+
+This book is a structured introduction to Friction Measuring the Learning Struggle. It teaches the vocabulary of the field, shows how the main ideas connect, and gives readers enough conceptual grip to continue with more specialized work. It is designed to be read as a book, used as a reference, and integrated into an intelligent textbook system.
+
+## What This Book Is Not
+
+This book is not a substitute for practice, mentorship, experimentation, or domain-specific judgment. It does not try to say everything. It tries to say enough, in the right order, so that the reader can recognize what matters next.
+
+## The Concept Running Through the Book
+
+The recurring idea is transfer: the movement from explanation to usable understanding. Each chapter should help the reader carry an idea from the page into a problem, a classroom, a project, or a decision.
+
+## How This Book Is Organized
 
 - **Chapter 1: Chapter 1 — The Artifact Is No Longer Enough.** *Why the essay, the exam, and the project no longer prove what they used to prove — and why detection cannot patch the gap.* Before you can understand why the gap matters, you need to see the mechanism that used to make...
 - **Chapter 2: Chapter 2 — What Genuine Learning Leaves Behind.** *Why genuine cognitive engagement produces behavioral traces that borrowed certainty cannot — and why those traces are the basis of the seven-component framework.* The first mechanism is the prediction-error signal I described above. The second is a molecule. Brain-derived neurotrophic factor —...
@@ -25,13 +34,20 @@ AI matters to *Friction Measuring the Learning Struggle* because the modern text
 - **Chapter 10: Chapter 10 — The Ensemble: Why Seven and Not One.** *Why no single trace is enough on its own — and why the combination is harder to fake than the cost of just learning the material.* Set aside the gaming argument for a moment and consider the more straightforward statistical claim. Each...
 - **Chapter 11: Chapter 11 — Building Your Second Evidence Stream.** *You do not need a platform to begin. You need to pick two components, add them to what you already do, and observe what you find.* Not all seven cost the same to implement. Some require nothing beyond a question added to...
 
-## Files
+## How to Read This Book
 
-- `chapters/00-frontmatter.md` — title page, copyright, dedication, and preface
-- `chapters/00-introduction.md` — roadmap and book-level AI note
-- `chapters/99-back-matter.md` — acknowledgments, author note, references placeholder, and Medhavy note
-- `LICENSE.md` — rights and reuse terms
+Read the chapters in order if you are new to the subject. If you already know the area, use the chapter titles as a map and move directly to the parts where your understanding is weakest. The chapters are designed to be self-contained enough for reference, but they work best as a progression from Chapter 1 — The Artifact Is No Longer Enough to Chapter 11 — Building Your Second Evidence Stream.
 
-## Medhavy
+## A Note About AI
 
-This book is prepared for Kindle, online publication, and integration with Medhavy: https://www.medhavy.com/
+AI matters to *Friction Measuring the Learning Struggle* because the modern textbook is no longer only a static container. It is also part of a learning system: searchable, remixable, explainable, and increasingly connected to tools such as Medhavy. For Bear Brown books, the relevant question is not whether AI can replace the learner or the teacher. It cannot. The useful question is what AI can make easier to inspect: definitions, worked examples, misconceptions, practice sequences, alternate explanations, and the structure of an argument. This book treats AI as infrastructure for practical AI-assisted authorship, analysis, and production. The chapters should still stand on their own as readable prose, but they are also designed to be legible to an intelligent textbook system.
+
+## Closing Return
+
+The learner at the opening does not need more noise. They need a path. This book is that path: not the whole territory, but a reliable way to begin moving through it.
+
+Let's go.
+
+## Tags
+
+Friction Measuring the Learning Struggle, textbook, Medhavy, AI-assisted learning, Bear Brown

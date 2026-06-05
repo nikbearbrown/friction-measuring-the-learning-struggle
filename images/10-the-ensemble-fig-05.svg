@@ -1,0 +1,82 @@
+<!--
+  What the framework is not claiming
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 10-the-ensemble
+  Figure: 05
+  Type: Hierarchy / taxonomy
+  Generated: 2026-05-29
+  Source: pantry/10-the-ensemble-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-05">
+  <title id="fig-title-05">What the framework is not claiming</title>
+  <desc>A top-down taxonomy of three common misreadings of the framework, each paired with the correct claim: artifacts still matter, process is not always more informative, and it adds independent not more information.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="10-the-ensemble" figure-number="05" figure-title="What the framework is not claiming" figure-slug="what-the-framework-is-not-claiming" figure-type="Hierarchy / taxonomy" priority="Important" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/10-the-ensemble-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Three misreadings the framework does not make</text>
+
+  <!-- Root node -->
+  <rect x="250" y="60" width="200" height="48" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="350" y="82" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#C8102E">Common misreading:</text>
+  <text x="350" y="100" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">"throw out the essays, just use traces"</text>
+
+  <!-- Connectors to three branches -->
+  <line x1="350" y1="108" x2="350" y2="128" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="134" y1="128" x2="566" y2="128" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="134" y1="128" x2="134" y2="150" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="350" y1="128" x2="350" y2="150" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="566" y1="128" x2="566" y2="150" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Branch 1 -->
+  <rect x="42" y="154" width="184" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="134" y="174" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" font-style="italic">NOT claiming</text>
+  <text x="134" y="190" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">artifacts are worthless</text>
+
+  <!-- Branch 2 -->
+  <rect x="258" y="154" width="184" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="174" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" font-style="italic">NOT claiming</text>
+  <text x="350" y="190" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">process always wins</text>
+
+  <!-- Branch 3 -->
+  <rect x="474" y="154" width="184" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="566" y="174" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" font-style="italic">NOT claiming</text>
+  <text x="566" y="190" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">it adds MORE info</text>
+
+  <!-- Down to corrections -->
+  <line x1="134" y1="198" x2="134" y2="224" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="350" y1="198" x2="350" y2="224" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="566" y1="198" x2="566" y2="224" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Corrections -->
+  <rect x="42" y="228" width="184" height="80" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="134" y="248" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">Actual claim</text>
+  <text x="52" y="266" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">The artifact has lost</text>
+  <text x="52" y="280" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">exclusive validity, not</text>
+  <text x="52" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">all validity. It is no</text>
+  <text x="52" y="308" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">longer sufficient.</text>
+
+  <rect x="258" y="228" width="184" height="80" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="248" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">Actual claim</text>
+  <text x="268" y="266" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Relative weight is local.</text>
+  <text x="268" y="280" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Proctored exam: artifact</text>
+  <text x="268" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">leads. Open take-home:</text>
+  <text x="268" y="308" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">profile leads.</text>
+
+  <rect x="474" y="228" width="184" height="80" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="566" y="248" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">Actual claim</text>
+  <text x="484" y="266" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">It adds independent</text>
+  <text x="484" y="280" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">information — what traces</text>
+  <text x="484" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">show that artifacts</text>
+  <text x="484" y="308" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">cannot. A structural claim.</text>
+
+  <!-- Bottom note -->
+  <line x1="32" y1="340" x2="668" y2="340" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">The recommendation: add process observation as an independent stream, keep the artifact, and weight</text>
+  <text x="32" y="382" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">them tier-appropriately with professional judgment.</text>
+  <text x="32" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" font-style="italic">The most common implementation failure is over-rotation: grading purely on process signals.</text>
+</svg>

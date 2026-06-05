@@ -1,0 +1,73 @@
+<!--
+  What comes next
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 01-the-artifact-is-no-longer-enough
+  Figure: 05
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/01-the-artifact-is-no-longer-enough-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-05">
+  <title id="fig-title-05">What comes next</title>
+  <desc>Genuine learning leaves observable behavioral traces. Seven such traces (Y1 through Y7) form the Genuine Learning Probability framework, a second evidence stream a teacher reads alongside artifact quality.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="01-the-artifact-is-no-longer-enough" figure-number="05" figure-title="What comes next" figure-slug="what-comes-next" figure-type="Conceptual map" priority="Important" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/01-the-artifact-is-no-longer-enough-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="42" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="16" fill="#2a1a0e">What comes next: a second evidence stream</text>
+  <text x="32" y="62" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Genuine learning leaves traces — read alongside artifact quality, in whatever proportion judgment warrants.</text>
+
+  <!-- premise -->
+  <rect x="32" y="98" width="200" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="132" y="122" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Genuine learning</text>
+  <text x="132" y="140" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">leaves physical traces</text>
+
+  <line x1="232" y1="127" x2="296" y2="127" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="302" y="98" width="200" height="58" fill="#C8102E" stroke="#C8102E" stroke-width="2"/>
+  <text x="402" y="122" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" fill="#FFFFFF" font-weight="600">GLP framework</text>
+  <text x="402" y="140" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#FFFFFF">seven friction traces</text>
+
+  <line x1="502" y1="127" x2="566" y2="127" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="572" y="98" width="96" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="620" y="122" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">No new tech</text>
+  <text x="620" y="139" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">required</text>
+
+  <!-- seven components Y1-Y7 -->
+  <line x1="402" y1="156" x2="402" y2="190" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="402" y="180" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" letter-spacing="0.04em">SEVEN COMPONENTS</text>
+
+  <g font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="13" fill="#2a1a0e">
+    <rect x="56" y="200" width="80" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+    <text x="96" y="227" text-anchor="middle">Y1</text>
+    <rect x="148" y="200" width="80" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+    <text x="188" y="227" text-anchor="middle">Y2</text>
+    <rect x="240" y="200" width="80" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+    <text x="280" y="227" text-anchor="middle">Y3</text>
+    <rect x="332" y="200" width="80" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+    <text x="372" y="227" text-anchor="middle">Y4</text>
+    <rect x="424" y="200" width="80" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+    <text x="464" y="227" text-anchor="middle">Y5</text>
+    <rect x="516" y="200" width="80" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+    <text x="556" y="227" text-anchor="middle">Y6</text>
+    <rect x="608" y="200" width="60" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+    <text x="638" y="227" text-anchor="middle">Y7</text>
+  </g>
+
+  <text x="96" y="262" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">temporal</text>
+  <text x="188" y="262" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">error path</text>
+  <text x="280" y="262" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">transfer</text>
+  <text x="372" y="262" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">calibration</text>
+  <text x="464" y="262" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">social</text>
+  <text x="556" y="262" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">retrieval</text>
+  <text x="638" y="262" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">scaffold</text>
+
+  <line x1="32" y1="300" x2="668" y2="300" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="324" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Not anti-AI. The wrapper can put the cognitive process back in front of the artifact rather than beside it —</text>
+  <text x="32" y="342" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">a design problem, not a prohibition problem.</text>
+</svg>

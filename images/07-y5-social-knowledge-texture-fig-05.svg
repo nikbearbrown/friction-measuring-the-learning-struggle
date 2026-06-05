@@ -1,0 +1,70 @@
+<!--
+  How to observe this without any new infrastructure
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 07-y5-social-knowledge-texture
+  Figure: 05
+  Type: Comparison panels
+  Generated: 2026-05-29
+  Source: pantry/07-y5-social-knowledge-texture-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-05">
+  <title id="fig-title-05">How to observe this without any new infrastructure</title>
+  <desc>Three matched panels of increasing effort: one-minute confusion paper, position-change probe, and the clipboard or sampled rubric method for written posts.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="07-y5-social-knowledge-texture" figure-number="05" figure-title="How to observe this without any new infrastructure" figure-slug="how-to-observe-this-without-any-new-infrastructure" figure-type="Comparison panels" priority="Important" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/07-y5-social-knowledge-texture-cajal.md"/>
+  </metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <!-- effort axis -->
+  <text x="56" y="62" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Increasing effort</text>
+  <line x1="160" y1="58" x2="620" y2="58" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- panel 1 -->
+  <rect x="32" y="84" width="200" height="270" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="132" y="112" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">One-minute</text>
+  <text x="132" y="130" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">confusion paper</text>
+  <line x1="52" y1="146" x2="212" y2="146" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="52" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">End class: "Name the</text>
+  <text x="52" y="188" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">most confusing thing,</text>
+  <text x="52" y="204" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">be specific to you."</text>
+  <text x="52" y="236" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Reads Marker 1.</text>
+  <text x="52" y="256" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Any class size.</text>
+  <rect x="52" y="296" width="160" height="42" fill="#FFFFFF" stroke="#C8102E" stroke-width="1"/>
+  <text x="132" y="316" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#C8102E">~90 s / student</text>
+  <text x="132" y="331" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">per class</text>
+
+  <!-- panel 2 -->
+  <rect x="250" y="84" width="200" height="270" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="112" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">Position-change</text>
+  <text x="350" y="130" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">probe</text>
+  <line x1="270" y1="146" x2="430" y2="146" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="270" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Mid-discussion: "Has</text>
+  <text x="270" y="188" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">anyone changed their</text>
+  <text x="270" y="204" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">mind? What changed?"</text>
+  <text x="270" y="236" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Elicits Marker 4</text>
+  <text x="270" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">directly. Genuine</text>
+  <text x="270" y="268" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">engagers name the shift.</text>
+  <rect x="270" y="296" width="160" height="42" fill="#FFFFFF" stroke="#C8102E" stroke-width="1"/>
+  <text x="350" y="316" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#C8102E">one question</text>
+  <text x="350" y="331" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">synchronous only</text>
+
+  <!-- panel 3 -->
+  <rect x="468" y="84" width="200" height="270" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="568" y="112" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">Clipboard /</text>
+  <text x="568" y="130" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">sampled rubric</text>
+  <line x1="488" y1="146" x2="648" y2="146" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="488" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Four tick-boxes per</text>
+  <text x="488" y="188" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">student, one per marker;</text>
+  <text x="488" y="204" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">total at end of class.</text>
+  <text x="488" y="236" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Forums: sample 5 posts</text>
+  <text x="488" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">across the range, not</text>
+  <text x="488" y="268" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">all of them.</text>
+  <rect x="488" y="296" width="160" height="42" fill="#FFFFFF" stroke="#C8102E" stroke-width="1"/>
+  <text x="568" y="316" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#C8102E">~90 s / post</text>
+  <text x="568" y="331" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">once internalized</text>
+
+  <text x="350" y="388" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The rubric is the teacher's, not the student's — sharing it creates a performance target.</text>
+</svg>

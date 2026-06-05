@@ -1,0 +1,61 @@
+<!--
+  A worked example: the history instructor and the unannounced probe
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 08-y6-retrieval-strength-decay
+  Figure: 05
+  Type: Timeline / progression
+  Generated: 2026-05-29
+  Source: pantry/08-y6-retrieval-strength-decay-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-05">
+  <title id="fig-title-05">A worked example: the history instructor and the unannounced probe</title>
+  <desc>Legacy-item scores for three students across weeks 4 to 8: F flat (genuine), G in free fall while current-unit holds (borrowed certainty hidden by the gradebook), H rising (genuine despite weak surface artifact).</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="08-y6-retrieval-strength-decay" figure-number="05" figure-title="A worked example: the history instructor and the unannounced probe" figure-slug="a-worked-example-the-history-instructor-and-the-unannounced-probe" figure-type="Timeline / progression" priority="Important" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/08-y6-retrieval-strength-decay-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="350" y="44" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Legacy-item scores, weeks 4 to 8 (current-unit ~80% throughout)</text>
+
+  <!-- plot -->
+  <rect x="100" y="64" width="500" height="252" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <!-- y ticks: 0..80 -->
+  <text x="92" y="70" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">80</text>
+  <text x="92" y="130" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">65</text>
+  <text x="92" y="190" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">50</text>
+  <text x="92" y="250" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">35</text>
+  <text x="92" y="312" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">20</text>
+  <line x1="100" y1="66" x2="600" y2="66" stroke="#D4D4D4" stroke-width="0.5" stroke-dasharray="4 3"/>
+  <line x1="100" y1="190" x2="600" y2="190" stroke="#D4D4D4" stroke-width="0.5" stroke-dasharray="4 3"/>
+
+  <!-- x: weeks 4..8 mapped to x=140,255,370,485,560 -->
+  <text x="140" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">wk4</text>
+  <text x="255" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">wk5</text>
+  <text x="370" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">wk6</text>
+  <text x="485" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">wk7</text>
+  <text x="560" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">wk8</text>
+
+  <!-- mapping helper: value v -> y = 66 + ((80-v)/60)*246 ; clamp -->
+  <!-- Student F: 75,73,70,72,71 (genuine, flat) gray -->
+  <!-- y75=66+(5/60*246)=86.5 ;73=94.7;70=107;72=98.8;71=102.9 -->
+  <polyline points="140,86 255,95 370,107 485,99 560,103" fill="none" stroke="#545454" stroke-width="2"/>
+  <circle cx="140" cy="86" r="3.5" fill="#545454"/><circle cx="560" cy="103" r="3.5" fill="#545454"/>
+  <text x="606" y="106" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">F flat</text>
+
+  <!-- Student G: 65,52,38,32,25 (free fall) RED -->
+  <!-- y65=66+(15/60*246)=127.5;52=180.8;38=238.2;32=262.8;25=291.5 -->
+  <polyline points="140,127 255,181 370,238 485,263 560,291" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="140" cy="127" r="3.5" fill="#C8102E"/><circle cx="560" cy="291" r="3.5" fill="#C8102E"/>
+  <text x="606" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">G falling</text>
+
+  <!-- Student H: 50,55,62,65,68 (rising) ink -->
+  <!-- y50=66+(30/60*246)=189;55=168.5;62=139.8;65=127.5;68=115.2 -->
+  <polyline points="140,189 255,168 370,140 485,127 560,115" fill="none" stroke="#2a1a0e" stroke-width="2" stroke-dasharray="6 3"/>
+  <circle cx="140" cy="189" r="3.5" fill="#2a1a0e"/><circle cx="560" cy="115" r="3.5" fill="#2a1a0e"/>
+  <text x="606" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">H rising</text>
+
+  <!-- captions -->
+  <text x="100" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">F: genuine, almost flat — no concern.  G: artifacts look fine, legacy collapses — the gradebook concealed it.</text>
+  <text x="100" y="382" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">H: weak current-week scores but legacy rising — genuine self-review; the conversation is encouragement.</text>
+  <text x="100" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">No grades change. The legacy column anchors a different conversation: "earlier material isn't sticking — let's talk."</text>
+</svg>

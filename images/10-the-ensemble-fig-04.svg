@@ -1,0 +1,77 @@
+<!--
+  The instructor as the integrating layer
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 10-the-ensemble
+  Figure: 04
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/10-the-ensemble-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04">
+  <title id="fig-title-04">The instructor as the integrating layer</title>
+  <desc>A conceptual map: seven signal inputs and contextual knowledge feed the instructor as a human meta-learner, who weighs them against artifact quality and produces an assessment judgment, not a derived score.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="10-the-ensemble" figure-number="04" figure-title="The instructor as the integrating layer" figure-slug="the-instructor-as-the-integrating-layer" figure-type="Conceptual map" priority="Important" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/10-the-ensemble-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">The instructor integrates the inputs; she is not replaced by an algorithm</text>
+
+  <!-- Left: seven signals as a stacked input bundle -->
+  <text x="40" y="78" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Base inputs (seven signals)</text>
+  <rect x="40" y="88" width="150" height="22" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="103" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">Y1  temporal</text>
+  <rect x="40" y="112" width="150" height="22" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="127" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">Y2  error path</text>
+  <rect x="40" y="136" width="150" height="22" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="151" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">Y3  transfer</text>
+  <rect x="40" y="160" width="150" height="22" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="175" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">Y4  calibration</text>
+  <rect x="40" y="184" width="150" height="22" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="199" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">Y5  texture</text>
+  <rect x="40" y="208" width="150" height="22" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="223" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">Y6  decay</text>
+  <rect x="40" y="232" width="150" height="22" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="247" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">Y7  scaffolding</text>
+
+  <!-- Context input below -->
+  <rect x="40" y="266" width="150" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="284" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Context no signal</text>
+  <text x="48" y="299" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">captures: history,</text>
+  <text x="48" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">stakes, policy</text>
+
+  <!-- Arrows to meta-learner -->
+  <line x1="190" y1="170" x2="278" y2="190" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="190" y1="289" x2="278" y2="216" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Center: instructor / meta-learner (highlighted) -->
+  <rect x="284" y="148" width="170" height="100" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="369" y="186" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#C8102E">Instructor</text>
+  <text x="369" y="204" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">the human meta-learner</text>
+  <text x="369" y="222" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">weighs profile against</text>
+  <text x="369" y="237" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">artifact quality</text>
+
+  <!-- Artifact input from top -->
+  <rect x="294" y="84" width="150" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="369" y="101" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Artifact quality</text>
+  <text x="369" y="116" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">still load-bearing</text>
+  <line x1="369" y1="124" x2="369" y2="146" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Arrow to output -->
+  <line x1="454" y1="198" x2="528" y2="198" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Right: output -->
+  <rect x="534" y="166" width="134" height="64" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="601" y="192" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Assessment</text>
+  <text x="601" y="208" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">judgment</text>
+  <text x="601" y="223" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">not a derived score</text>
+
+  <!-- Bottom note -->
+  <line x1="32" y1="340" x2="668" y2="340" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">The base learners are the seven components; the meta-learner is the human in the room. Replacing her</text>
+  <text x="32" y="382" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">with an algorithm at this layer collapses the robustness claim — the integrator is load-bearing.</text>
+  <text x="32" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" font-style="italic">Weighting is local: formative work leans on the profile; high-stakes summative work leans on the artifact.</text>
+</svg>

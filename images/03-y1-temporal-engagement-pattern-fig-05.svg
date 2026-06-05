@@ -1,0 +1,72 @@
+<!--
+  How to observe this without any new infrastructure
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 03-y1-temporal-engagement-pattern
+  Figure: 05
+  Type: Comparison panels
+  Generated: 2026-05-29
+  Source: pantry/03-y1-temporal-engagement-pattern-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-05">
+  <title id="fig-title-05">How to observe this without any new infrastructure</title>
+  <desc>Three side-by-side methods of gathering Y1 evidence on a shared data-demand axis: a one-line difficulty mark, a start-stop time log, and free revision history. Each reveals whether the student's time pooled where the difficulty pooled.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="03-y1-temporal-engagement-pattern" figure-number="05" figure-title="How to observe this without any new infrastructure" figure-slug="how-to-observe-this-without-any-new-infrastructure" figure-type="Comparison panels" priority="Important" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/03-y1-temporal-engagement-pattern-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="42" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="16" fill="#2a1a0e">Observing Y1 without any new infrastructure</text>
+  <text x="32" y="62" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Three methods on a shared question: did the student's time pool where the difficulty pooled?</text>
+
+  <!-- shared data-demand axis -->
+  <line x1="64" y1="338" x2="636" y2="338" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="64" y="360" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">less data collected</text>
+  <text x="636" y="360" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">more data collected</text>
+
+  <!-- panel 1: difficulty mark -->
+  <rect x="48" y="92" width="184" height="220" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <text x="140" y="116" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#C8102E" font-weight="600">Difficulty mark</text>
+  <text x="140" y="134" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">one sentence added</text>
+  <!-- annotated mini example -->
+  <g font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="12" fill="#2a1a0e">
+    <text x="72" y="168">Q1  ✓</text>
+    <text x="72" y="192">Q2  ✓</text>
+    <text x="72" y="216">Q3  ?</text>
+    <text x="72" y="240">Q4  ?</text>
+    <text x="72" y="264">Q5  ✓</text>
+  </g>
+  <text x="140" y="292" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">check = easy, ? = hard</text>
+
+  <!-- panel 2: start-stop log -->
+  <rect x="258" y="92" width="184" height="220" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="116" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e" font-weight="600">Start-stop log</text>
+  <text x="350" y="134" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">write start/finish times</text>
+  <g font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">
+    <text x="282" y="168">Q1  2 min</text>
+    <text x="282" y="192">Q2  3 min</text>
+    <text x="282" y="216">Q3  11 min</text>
+    <text x="282" y="240">Q4  9 min</text>
+    <text x="282" y="264">Q5  2 min</text>
+  </g>
+  <text x="350" y="292" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">time pooled on Q3–Q4</text>
+
+  <!-- panel 3: revision history -->
+  <rect x="468" y="92" width="184" height="220" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="560" y="116" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e" font-weight="600">Revision history</text>
+  <text x="560" y="134" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">free in Google Docs</text>
+  <!-- mini timeline of edits -->
+  <line x1="492" y1="232" x2="636" y2="232" stroke="#2a1a0e" stroke-width="1"/>
+  <circle cx="500" cy="232" r="3" fill="#2a1a0e"/>
+  <circle cx="520" cy="232" r="3" fill="#2a1a0e"/>
+  <circle cx="560" cy="232" r="6" fill="#C8102E"/>
+  <circle cx="592" cy="232" r="3" fill="#2a1a0e"/>
+  <circle cx="628" cy="232" r="3" fill="#2a1a0e"/>
+  <text x="560" y="206" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">edits cluster where the</text>
+  <text x="560" y="256" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">paragraph was hard</text>
+  <text x="560" y="292" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">15 min and an eye</text>
+
+  <text x="32" y="392" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Frame it as a learning tool, not surveillance — "this shows where the work is happening" gets you honest data.</text>
+</svg>

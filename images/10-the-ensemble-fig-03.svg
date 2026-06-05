@@ -1,0 +1,73 @@
+<!--
+  Tier calibration: which signals carry the load
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 10-the-ensemble
+  Figure: 03
+  Type: Statistical / quantitative
+  Generated: 2026-05-29
+  Source: pantry/10-the-ensemble-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+  <title id="fig-title-03">Tier calibration: which signals carry the load</title>
+  <desc>A bar chart by tier of cognitive work: discussion weights Y5, causal reasoning weights Y3, procedural weights Y6 and Y7, pattern recognition weights Y2 and Y4. The primary signal per tier is highlighted.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="10-the-ensemble" figure-number="03" figure-title="Tier calibration: which signals carry the load" figure-slug="tier-calibration-which-signals-carry-the-load" figure-type="Statistical / quantitative" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/10-the-ensemble-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Diagnostic weight shifts with the kind of cognitive work being assessed</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Relative diagnostic weight per signal (taller = carries more of the load). Red = primary at that tier.</text>
+
+  <!-- Four tier panels, side by side -->
+  <!-- Panel geometry: each panel 150 wide, baseline y=320, max bar height 200 (value 100). -->
+
+  <!-- Panel 1: Discussion seminar -->
+  <rect x="40" y="80" width="146" height="244" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="113" y="74" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Discussion seminar</text>
+  <!-- Y5 primary 90, Y1 40, Y6 35 -->
+  <rect x="58" y="140" width="30" height="180" fill="#C8102E"/>
+  <text x="73" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">Y5</text>
+  <rect x="100" y="240" width="30" height="80" fill="#545454"/>
+  <text x="115" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">Y1</text>
+  <rect x="142" y="250" width="30" height="70" fill="#545454"/>
+  <text x="157" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">Y6</text>
+
+  <!-- Panel 2: Causal reasoning -->
+  <rect x="202" y="80" width="146" height="244" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="275" y="74" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Causal reasoning</text>
+  <!-- Y3 primary 88, Y2 60, Y4 58 -->
+  <rect x="220" y="144" width="30" height="176" fill="#C8102E"/>
+  <text x="235" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">Y3</text>
+  <rect x="262" y="200" width="30" height="120" fill="#545454"/>
+  <text x="277" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">Y2</text>
+  <rect x="304" y="204" width="30" height="116" fill="#545454"/>
+  <text x="319" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">Y4</text>
+
+  <!-- Panel 3: Procedural work -->
+  <rect x="364" y="80" width="146" height="244" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="437" y="74" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Procedural work</text>
+  <!-- Y6 primary 85, Y7 82, Y1 45 -->
+  <rect x="382" y="150" width="30" height="170" fill="#C8102E"/>
+  <text x="397" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">Y6</text>
+  <rect x="424" y="156" width="30" height="164" fill="#C8102E"/>
+  <text x="439" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">Y7</text>
+  <rect x="466" y="230" width="30" height="90" fill="#545454"/>
+  <text x="481" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">Y1</text>
+
+  <!-- Panel 4: Pattern recognition -->
+  <rect x="526" y="80" width="142" height="244" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="597" y="74" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Pattern recognition</text>
+  <!-- Y2 primary 86, Y4 80, Y3 50 -->
+  <rect x="544" y="148" width="30" height="172" fill="#C8102E"/>
+  <text x="559" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">Y2</text>
+  <rect x="586" y="160" width="30" height="160" fill="#C8102E"/>
+  <text x="601" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">Y4</text>
+  <rect x="628" y="220" width="30" height="100" fill="#545454"/>
+  <text x="643" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">Y3</text>
+
+  <!-- Bottom note -->
+  <line x1="32" y1="356" x2="668" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="380" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Not a formula — a map for where to look first. The instructor knows the tier of work better than any</text>
+  <text x="32" y="398" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">specification can predict, so tier calibration belongs to her judgment, not to an automated weighting.</text>
+  <text x="32" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" font-style="italic">Weights are illustrative of relative emphasis, not validated empirical loadings.</text>
+</svg>

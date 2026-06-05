@@ -1,0 +1,56 @@
+<!--
+  What the two signatures look like
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 08-y6-retrieval-strength-decay
+  Figure: 03
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/08-y6-retrieval-strength-decay-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+  <title id="fig-title-03">What the two signatures look like</title>
+  <desc>Two panels over ten weeks. Genuine engagement: current-unit and legacy-item lines track within 10-15 points. Borrowed certainty: current-unit holds while the legacy line falls and the gap widens to roughly 50 points.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="08-y6-retrieval-strength-decay" figure-number="03" figure-title="What the two signatures look like" figure-slug="what-the-two-signatures-look-like" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/08-y6-retrieval-strength-decay-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <!-- LEFT panel: genuine -->
+  <text x="178" y="48" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">Genuine engagement</text>
+  <rect x="56" y="60" width="244" height="230" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="48" y="68" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">100</text>
+  <text x="48" y="178" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">50</text>
+  <text x="48" y="290" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">0</text>
+  <!-- current (solid) ~82 flat: y 60+(18/100*230)=101 -->
+  <polyline points="56,103 117,101 178,105 239,100 300,102" fill="none" stroke="#2a1a0e" stroke-width="2"/>
+  <!-- legacy (dashed) ~70-72 close: y 60+(29/100*230)=127 -->
+  <polyline points="56,118 117,124 178,130 239,123 300,126" fill="none" stroke="#C8102E" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="178" y="308" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">week 1 ............ week 10</text>
+
+  <!-- RIGHT panel: borrowed -->
+  <text x="522" y="48" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">Borrowed certainty</text>
+  <rect x="400" y="60" width="244" height="230" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="392" y="68" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">100</text>
+  <text x="392" y="178" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">50</text>
+  <text x="392" y="290" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">0</text>
+  <!-- current (solid) ~83 flat -->
+  <polyline points="400,102 461,100 522,103 583,99 644,101" fill="none" stroke="#2a1a0e" stroke-width="2"/>
+  <!-- legacy (dashed) falling: 65->25: y65=60+(35/100*230)=140; y25=60+(75/100*230)=232 -->
+  <polyline points="400,140 461,168 522,196 583,218 644,232" fill="none" stroke="#C8102E" stroke-width="2" stroke-dasharray="4 3"/>
+  <!-- gap bracket at week 10 -->
+  <line x1="652" y1="101" x2="652" y2="232" stroke="#545454" stroke-width="0.75"/>
+  <line x1="648" y1="101" x2="652" y2="101" stroke="#545454" stroke-width="0.75"/>
+  <line x1="648" y1="232" x2="652" y2="232" stroke="#545454" stroke-width="0.75"/>
+  <text x="178" y="308" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454"></text>
+  <text x="522" y="308" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">week 1 ............ week 10</text>
+  <text x="600" y="180" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">gap ~50</text>
+
+  <!-- legend -->
+  <line x1="56" y1="340" x2="86" y2="340" stroke="#2a1a0e" stroke-width="2"/>
+  <text x="92" y="344" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">current-unit performance</text>
+  <line x1="300" y1="340" x2="330" y2="340" stroke="#C8102E" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="336" y="344" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">legacy-item (3+ weeks old) performance</text>
+
+  <text x="56" y="376" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Genuine learning bends gently because storage was built; borrowed certainty is a cliff.</text>
+  <text x="56" y="394" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The growing gap between the two lines — not any single quiz — is the Y6 signal.</text>
+</svg>

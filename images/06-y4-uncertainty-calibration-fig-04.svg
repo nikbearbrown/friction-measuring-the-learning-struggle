@@ -1,0 +1,59 @@
+<!--
+  How to observe this without any new infrastructure
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 06-y4-uncertainty-calibration
+  Figure: 04
+  Type: Comparison panels
+  Generated: 2026-05-29
+  Source: pantry/06-y4-uncertainty-calibration-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04">
+  <title id="fig-title-04">How to observe this without any new infrastructure</title>
+  <desc>Side-by-side comparison panels of two failure modes diagnosed from the same column arithmetic. Bias: confidence uniformly high on both correct and wrong items, respond with targeted feedback on misses. Discrimination failure: confidence cannot separate right from wrong items, respond with difficulty-aware practice.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="06-y4-uncertainty-calibration" figure-number="04" figure-title="How to observe this without any new infrastructure" figure-slug="how-to-observe-this-without-any-new-infrastructure" figure-type="Comparison panels" priority="Important" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/06-y4-uncertainty-calibration-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="16" fill="#2a1a0e">How to observe this without any new infrastructure</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Add one line to the quiz, sum two columns. The same arithmetic separates two failure modes with different responses.</text>
+
+  <text x="350" y="84" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" letter-spacing="0.06em">SHARED AXIS — MEAN CONFIDENCE ON CORRECT  vs.  WRONG ITEMS</text>
+
+  <!-- LEFT PANEL: Bias -->
+  <rect x="32" y="100" width="300" height="240" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="182" y="124" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e" font-weight="600">Bias</text>
+  <text x="182" y="140" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">uniformly overconfident</text>
+
+  <!-- mini bars: correct vs wrong, both high, modest gap -->
+  <line x1="72" y1="270" x2="292" y2="270" stroke="#2a1a0e" stroke-width="1"/>
+  <rect x="92" y="172" width="60" height="98" fill="#C8102E"/>
+  <text x="122" y="166" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">2.9</text>
+  <text x="122" y="286" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">correct</text>
+  <rect x="202" y="184" width="60" height="86" fill="#545454"/>
+  <text x="232" y="178" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">2.6</text>
+  <text x="232" y="286" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">wrong</text>
+
+  <text x="182" y="312" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">both high, mean elevated →</text>
+  <text x="182" y="328" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">respond: feedback on missed items</text>
+
+  <!-- RIGHT PANEL: Discrimination failure -->
+  <rect x="368" y="100" width="300" height="240" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="518" y="124" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e" font-weight="600">Discrimination failure</text>
+  <text x="518" y="140" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">can't tell hard from easy</text>
+
+  <line x1="408" y1="270" x2="628" y2="270" stroke="#2a1a0e" stroke-width="1"/>
+  <rect x="428" y="176" width="60" height="94" fill="#C8102E"/>
+  <text x="458" y="170" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">2.8</text>
+  <text x="458" y="286" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">correct</text>
+  <rect x="538" y="178" width="60" height="92" fill="#545454"/>
+  <text x="568" y="172" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">2.8</text>
+  <text x="568" y="286" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">wrong</text>
+
+  <text x="518" y="312" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">no gap between them →</text>
+  <text x="518" y="328" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">respond: difficulty-aware practice</text>
+
+  <line x1="32" y1="356" x2="668" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Confidence scale: 1 = guessing, 2 = somewhat sure, 3 = very sure. Three points is enough; more adds noise without precision.</text>
+  <text x="32" y="402" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Reader takeaway: ask the confidence question after the answer is committed — the delayed-JOL timing turns measurement into intervention.</text>
+</svg>

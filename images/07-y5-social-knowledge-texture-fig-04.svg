@@ -1,0 +1,86 @@
+<!--
+  The rubric
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 07-y5-social-knowledge-texture
+  Figure: 04
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/07-y5-social-knowledge-texture-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04">
+  <title id="fig-title-04">The rubric</title>
+  <desc>SKT rubric grid: four markers scored 0 to 2 with behavioral descriptors, totalling 8 (or 6 async where real-time development is unobservable).</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="07-y5-social-knowledge-texture" figure-number="04" figure-title="The rubric" figure-slug="the-rubric" figure-type="Conceptual map" priority="Important" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/07-y5-social-knowledge-texture-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+
+  <!-- column headers -->
+  <rect x="32" y="48" width="200" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42" y="73" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">Marker</text>
+  <rect x="232" y="48" width="142" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="303" y="73" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">0  absent</text>
+  <rect x="374" y="48" width="142" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="445" y="73" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">1  weak</text>
+  <rect x="516" y="48" width="152" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="592" y="73" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#C8102E">2  clearly present</text>
+
+  <!-- rows -->
+  <!-- M1 -->
+  <rect x="32" y="88" width="200" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">1 Personal encounter</text>
+  <rect x="232" y="88" width="142" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="240" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#545454">Generic only;</text>
+  <text x="240" y="135" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#545454">no specific confusion</text>
+  <rect x="374" y="88" width="142" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="382" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#545454">Confusion named</text>
+  <text x="382" y="135" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#545454">but unanchored</text>
+  <rect x="516" y="88" width="152" height="76" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="524" y="116" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#2a1a0e">"When I tried X on Y,</text>
+  <text x="524" y="131" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#2a1a0e">I got Z and couldn't</text>
+  <text x="524" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#2a1a0e">tell why."</text>
+
+  <!-- M2 -->
+  <rect x="32" y="164" width="200" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42" y="194" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">2 Below-surface</text>
+  <text x="42" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">engagement</text>
+  <rect x="232" y="164" width="142" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="240" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#545454">No connection made</text>
+  <rect x="374" y="164" width="142" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="382" y="194" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#545454">Recitation:</text>
+  <text x="382" y="209" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#545454">"reminds me of..."</text>
+  <rect x="516" y="164" width="152" height="76" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="524" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#2a1a0e">Connection that broke</text>
+  <text x="524" y="211" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#2a1a0e">when applied</text>
+
+  <!-- M3 -->
+  <rect x="32" y="240" width="200" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42" y="282" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">3 Productive uncertainty</text>
+  <rect x="232" y="240" width="142" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="240" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#545454">"What is this?"</text>
+  <rect x="374" y="240" width="142" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="382" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#545454">Vague open question</text>
+  <rect x="516" y="240" width="152" height="76" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="524" y="272" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#2a1a0e">Anchored, contestable,</text>
+  <text x="524" y="287" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#2a1a0e">answerable bid for help</text>
+
+  <!-- M4 highlighted -->
+  <rect x="32" y="316" width="200" height="76" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="42" y="350" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">4 Real-time development</text>
+  <text x="42" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#545454">(async: not observable)</text>
+  <rect x="232" y="316" width="142" height="76" fill="#FFFFFF" stroke="#C8102E" stroke-width="1"/>
+  <text x="240" y="352" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#545454">Static; no shift</text>
+  <rect x="374" y="316" width="142" height="76" fill="#FFFFFF" stroke="#C8102E" stroke-width="1"/>
+  <text x="382" y="346" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#545454">Shift implied but</text>
+  <text x="382" y="361" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#545454">not named</text>
+  <rect x="516" y="316" width="152" height="76" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="524" y="346" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#2a1a0e">Position changes; student</text>
+  <text x="524" y="361" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#2a1a0e">names what changed</text>
+  <text x="524" y="376" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5" fill="#2a1a0e">and why</text>
+
+  <!-- total -->
+  <rect x="32" y="408" width="636" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42" y="433" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="12" fill="#2a1a0e">Total = 8 max  (6 in asynchronous contexts, Marker 4 unmeasurable)</text>
+
+  <text x="350" y="466" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A teacher tool, not a student target. Calibrates by ~post fifty.</text>
+</svg>

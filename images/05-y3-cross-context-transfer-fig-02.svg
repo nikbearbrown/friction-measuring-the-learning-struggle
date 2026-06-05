@@ -1,0 +1,64 @@
+<!--
+  Where schemas come from, and why AI explanations don't build them
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 05-y3-cross-context-transfer
+  Figure: 02
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/05-y3-cross-context-transfer-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+  <title id="fig-title-02">Where schemas come from, and why AI explanations don't build them</title>
+  <desc>A conceptual map showing germane load — the effortful work of abstracting from surface to structure — as the path that builds a transferable schema. Offloading the grinding to an AI delivers the answer but skips germane load, so no schema residue forms and far transfer fails.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="05-y3-cross-context-transfer" figure-number="02" figure-title="Where schemas come from, and why AI explanations don't build them" figure-slug="where-schemas-come-from-and-why-ai-explanations-dont-build-them" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/05-y3-cross-context-transfer-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+    <marker id="block" markerWidth="10" markerHeight="14" refX="2" refY="7" orient="auto"><rect x="0" y="0" width="3" height="14" fill="#C8102E"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="16" fill="#2a1a0e">Where schemas come from</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Germane load builds the schema. Offloading the grinding to an AI delivers the answer but leaves no schema behind.</text>
+
+  <!-- Top path: genuine -->
+  <text x="32" y="98" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" letter-spacing="0.06em">GENUINE ENGAGEMENT</text>
+  <rect x="32" y="108" width="150" height="54" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="107" y="132" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Unfamiliar instance</text>
+  <text x="107" y="149" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">surface features</text>
+
+  <rect x="246" y="108" width="150" height="54" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="321" y="132" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#C8102E" font-weight="600">Germane load</text>
+  <text x="321" y="149" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">grinding, abstracting</text>
+
+  <rect x="460" y="108" width="150" height="54" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="535" y="132" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e" font-weight="600">Schema</text>
+  <text x="535" y="149" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">transfers to far items</text>
+
+  <line x1="182" y1="135" x2="240" y2="135" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="396" y1="135" x2="454" y2="135" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Bottom path: AI offload -->
+  <text x="32" y="238" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" letter-spacing="0.06em">AI OFFLOAD</text>
+  <rect x="32" y="248" width="150" height="54" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="107" y="272" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Unfamiliar instance</text>
+  <text x="107" y="289" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">surface features</text>
+
+  <rect x="246" y="248" width="150" height="54" fill="#FFFFFF" stroke="#545454" stroke-width="1"/>
+  <text x="321" y="272" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Fluent answer</text>
+  <text x="321" y="289" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">arrives effortlessly</text>
+
+  <rect x="460" y="248" width="150" height="54" fill="#FFFFFF" stroke="#545454" stroke-width="1"/>
+  <text x="535" y="272" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">No schema</text>
+  <text x="535" y="289" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">far transfer fails</text>
+
+  <line x1="182" y1="275" x2="240" y2="275" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <!-- blocked transition: germane load skipped -->
+  <line x1="396" y1="275" x2="454" y2="275" stroke="#545454" stroke-width="1.5" fill="none" marker-end="url(#block)"/>
+  <text x="425" y="328" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">germane load skipped — no residue</text>
+
+  <line x1="32" y1="356" x2="668" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The schema is the residue of germane load. No load, no residue. Experts sort by principle; novices sort by cover story.</text>
+  <text x="32" y="402" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Reader takeaway: spontaneous far transfer is rare even for genuine learners — which is exactly why the gap is diagnostic.</text>
+</svg>

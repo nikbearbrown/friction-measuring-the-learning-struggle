@@ -1,0 +1,83 @@
+<!--
+  Starting points for three contexts
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 11-building-your-second-evidence-stream
+  Figure: 02
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/11-building-your-second-evidence-stream-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+  <title id="fig-title-02">Starting points for three contexts</title>
+  <desc>A conceptual map: three teaching contexts each map to two recommended starting components — high school science to Y4 and Y5-lite, lecture-and-section to Y6 and Y3, clinical education to Y7 and full Y5.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="11-building-your-second-evidence-stream" figure-number="02" figure-title="Starting points for three contexts" figure-slug="starting-points-for-three-contexts" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/11-building-your-second-evidence-stream-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Same triage logic, three contexts: pick the two your infrastructure already supports</text>
+
+  <!-- Three columns -->
+  <!-- Column 1: High school science -->
+  <rect x="40" y="72" width="190" height="52" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="135" y="94" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#C8102E">High school science</text>
+  <text x="135" y="112" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">fits inside existing assessment</text>
+
+  <line x1="100" y1="124" x2="100" y2="156" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="170" y1="124" x2="170" y2="156" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="40" y="160" width="88" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="84" y="182" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">Y4</text>
+  <text x="84" y="200" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">quiz add-on</text>
+  <text x="84" y="214" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">confidence</text>
+
+  <rect x="142" y="160" width="88" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="186" y="182" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">Y5-lite</text>
+  <text x="186" y="200" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">one-paragraph</text>
+  <text x="186" y="214" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">confusion note</text>
+
+  <!-- Column 2: Lecture and section -->
+  <rect x="255" y="72" width="190" height="52" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="350" y="94" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#C8102E">Lecture and section</text>
+  <text x="350" y="112" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">robust to self-selection bias</text>
+
+  <line x1="315" y1="124" x2="315" y2="156" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="385" y1="124" x2="385" y2="156" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="255" y="160" width="88" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="299" y="182" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">Y6</text>
+  <text x="299" y="200" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">decay probes</text>
+  <text x="299" y="214" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">in graded quiz</text>
+
+  <rect x="357" y="160" width="88" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="401" y="182" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">Y3</text>
+  <text x="401" y="200" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">transfer items</text>
+  <text x="401" y="214" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">in unit tests</text>
+
+  <!-- Column 3: Clinical education -->
+  <rect x="470" y="72" width="190" height="52" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="565" y="94" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#C8102E">Clinical education</text>
+  <text x="565" y="112" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">continuous individual contact</text>
+
+  <line x1="530" y1="124" x2="530" y2="156" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="600" y1="124" x2="600" y2="156" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="470" y="160" width="88" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="514" y="182" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">Y7</text>
+  <text x="514" y="200" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">hint level in</text>
+  <text x="514" y="214" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">bedside teaching</text>
+
+  <rect x="572" y="160" width="88" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="616" y="182" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">Y5 full</text>
+  <text x="616" y="200" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">SKT rubric on</text>
+  <text x="616" y="214" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">case presentations</text>
+
+  <!-- Bottom note -->
+  <line x1="32" y1="320" x2="668" y2="320" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="346" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">The two picks differ by context because the bias and infrastructure differ. In a lecture, Y4 and Y5-lite</text>
+  <text x="32" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">suffer low response rates and self-selection; Y6 and Y3 arrive inside quizzes students take because they count.</text>
+  <text x="32" y="392" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" font-style="italic">The triage logic is identical across all three: read the ladder, pick the two your infrastructure supports, start there.</text>
+</svg>

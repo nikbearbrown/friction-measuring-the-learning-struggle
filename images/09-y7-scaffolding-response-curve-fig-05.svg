@@ -1,0 +1,71 @@
+<!--
+  How to observe this without any new infrastructure
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 09-y7-scaffolding-response-curve
+  Figure: 05
+  Type: Comparison panels
+  Generated: 2026-05-29
+  Source: pantry/09-y7-scaffolding-response-curve-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-05">
+  <title id="fig-title-05">How to observe this without any new infrastructure</title>
+  <desc>A matched hint pair contrasts a partial hint (one piece of structure) with a full hint (the worked next step), and a four-step protocol: design the pair, run it with stuck students, retest at the next encounter, and keep a two-column log.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="09-y7-scaffolding-response-curve" figure-number="05" figure-title="How to observe this without any new infrastructure" figure-slug="how-to-observe-this-without-any-new-infrastructure" figure-type="Comparison panels" priority="Important" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/09-y7-scaffolding-response-curve-cajal.md"/>
+  </metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="350" y="44" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Build a two-level hint pair, then run a four-step protocol</text>
+
+  <!-- partial hint panel -->
+  <rect x="32" y="64" width="300" height="120" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="182" y="88" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">Partial hint</text>
+  <text x="182" y="105" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">one piece of structure, no worked step</text>
+  <text x="52" y="132" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Related rates: "Which quantities</text>
+  <text x="52" y="148" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">are changing, and how are they</text>
+  <text x="52" y="164" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">related?"</text>
+
+  <!-- full hint panel -->
+  <rect x="368" y="64" width="300" height="120" fill="#FFFFFF" stroke="#545454" stroke-width="1"/>
+  <text x="518" y="88" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#545454">Full hint</text>
+  <text x="518" y="105" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the worked next step</text>
+  <text x="388" y="132" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">"V = (4/3) pi r-cubed —</text>
+  <text x="388" y="148" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">differentiate both sides with</text>
+  <text x="388" y="164" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">respect to time."</text>
+
+  <!-- protocol steps L->R -->
+  <rect x="32" y="216" width="140" height="92" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="46" y="240" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="13" fill="#C8102E">1</text>
+  <text x="46" y="264" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Design the</text>
+  <text x="46" y="280" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">hint pair for</text>
+  <text x="46" y="296" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">one concept</text>
+
+  <rect x="196" y="216" width="140" height="92" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="210" y="240" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="13" fill="#C8102E">2</text>
+  <text x="210" y="264" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Partial first,</text>
+  <text x="210" y="280" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">wait 30s+,</text>
+  <text x="210" y="296" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">note progress</text>
+
+  <rect x="360" y="216" width="140" height="92" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="374" y="240" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="13" fill="#C8102E">3</text>
+  <text x="374" y="264" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Next encounter:</text>
+  <text x="374" y="280" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">similar problem,</text>
+  <text x="374" y="296" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">hint needed?</text>
+
+  <rect x="524" y="216" width="144" height="92" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="538" y="240" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="13" fill="#C8102E">4</text>
+  <text x="538" y="264" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Log: hint level,</text>
+  <text x="538" y="280" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">integration</text>
+  <text x="538" y="296" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">(only ongoing cost)</text>
+
+  <line x1="172" y1="262" x2="194" y2="262" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="336" y1="262" x2="358" y2="262" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="500" y1="262" x2="522" y2="262" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="350" y="346" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Writing the pair forces you to articulate what the developing region looks like — valuable even if you never run it.</text>
+  <text x="350" y="368" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Five students, thirty minutes, no platform. The ancestor is Feuerstein's Dynamic Assessment (1968).</text>
+  <text x="350" y="390" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A graded quiz on the same material would not surface any of this.</text>
+</svg>

@@ -1,0 +1,65 @@
+<!--
+  Why the trajectory differs when the work is not the student's
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 04-y2-error-trajectory-coherence
+  Figure: 02
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/04-y2-error-trajectory-coherence-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+  <title id="fig-title-02">Why the trajectory differs when the work is not the student's</title>
+  <desc>A conceptual map contrasting two sources of errors. A student's own mental model produces clustered, coherently transitioning, predictive errors. An external AI source produces scattered errors with no shared generator, no coherent transitions, and no predictive structure.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="04-y2-error-trajectory-coherence" figure-number="02" figure-title="Why the trajectory differs when the work is not the student's" figure-slug="why-the-trajectory-differs-when-the-work-is-not-the-students" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/04-y2-error-trajectory-coherence-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="16" fill="#2a1a0e">Why the trajectory differs when the work is not the student's</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A mental model that is updating generates structured errors. An external source generates errors with no shared generator.</text>
+
+  <!-- Left source: student's model -->
+  <rect x="32" y="92" width="160" height="56" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="112" y="116" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#C8102E" font-weight="600">Student's own model</text>
+  <text x="112" y="133" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">generates from one source</text>
+
+  <!-- Right source: external AI -->
+  <rect x="508" y="92" width="160" height="56" fill="#FFFFFF" stroke="#545454" stroke-width="1.5"/>
+  <text x="588" y="116" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e" font-weight="600">External AI source</text>
+  <text x="588" y="133" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">no mental model behind it</text>
+
+  <!-- Three relationship nodes in middle -->
+  <text x="350" y="116" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" letter-spacing="0.06em">THREE FEATURES THAT DIVERGE</text>
+
+  <!-- Feature 1 -->
+  <rect x="245" y="160" width="210" height="50" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="182" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e" font-weight="600">Clustering</text>
+  <text x="350" y="199" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">coherent  vs.  scattered</text>
+
+  <!-- Feature 2 -->
+  <rect x="245" y="224" width="210" height="50" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="246" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e" font-weight="600">Transitions</text>
+  <text x="350" y="263" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">adjacent shift  vs.  noise</text>
+
+  <!-- Feature 3 -->
+  <rect x="245" y="288" width="210" height="50" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="310" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e" font-weight="600">Predictive structure</text>
+  <text x="350" y="327" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">next error knowable  vs.  not</text>
+
+  <!-- edges from student model to left side of features (red, coherent) -->
+  <line x1="112" y1="148" x2="240" y2="185" stroke="#C8102E" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="112" y1="148" x2="240" y2="249" stroke="#C8102E" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="112" y1="148" x2="240" y2="313" stroke="#C8102E" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- edges from external source to right side of features (gray, scattered) -->
+  <line x1="588" y1="148" x2="460" y2="185" stroke="#545454" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="588" y1="148" x2="460" y2="249" stroke="#545454" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="588" y1="148" x2="460" y2="313" stroke="#545454" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <line x1="32" y1="368" x2="668" y2="368" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="390" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">No genuine expectation means no mismatch signal — and no update. The errors share a source, not a generator.</text>
+  <text x="32" y="408" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Reader takeaway: coherence across time is what distinguishes a model that is updating from one that was never there.</text>
+</svg>

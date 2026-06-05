@@ -1,0 +1,70 @@
+<!--
+  How to observe this without any new infrastructure
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 08-y6-retrieval-strength-decay
+  Figure: 04
+  Type: Comparison panels
+  Generated: 2026-05-29
+  Source: pantry/08-y6-retrieval-strength-decay-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04">
+  <title id="fig-title-04">How to observe this without any new infrastructure</title>
+  <desc>Two matched observation methods: embedded silent legacy items scored in a separate column each week, and an existing cumulative final re-scored by unit of origin instead of as one percentage.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="08-y6-retrieval-strength-decay" figure-number="04" figure-title="How to observe this without any new infrastructure" figure-slug="how-to-observe-this-without-any-new-infrastructure" figure-type="Comparison panels" priority="Important" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/08-y6-retrieval-strength-decay-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="350" y="48" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Two ways to read decay from data you already collect</text>
+
+  <!-- LEFT: embedded legacy items -->
+  <rect x="40" y="68" width="300" height="300" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="190" y="94" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">Embedded legacy items</text>
+  <text x="190" y="112" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">recommended starting point</text>
+  <line x1="60" y1="124" x2="320" y2="124" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <text x="60" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11.5" fill="#2a1a0e">Add 2-4 questions from material</text>
+  <text x="60" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11.5" fill="#2a1a0e">covered 3+ weeks earlier to each</text>
+  <text x="60" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11.5" fill="#2a1a0e">weekly quiz. Score in a separate</text>
+  <text x="60" y="198" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11.5" fill="#2a1a0e">column.</text>
+
+  <text x="60" y="230" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11.5" fill="#2a1a0e">Two constraints:</text>
+  <text x="72" y="250" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">- match item difficulty</text>
+  <text x="72" y="268" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">- keep them silent / unannounced</text>
+
+  <rect x="60" y="286" width="260" height="62" fill="#FFFFFF" stroke="#C8102E" stroke-width="1"/>
+  <text x="190" y="308" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">The instrument is the intervention:</text>
+  <text x="190" y="324" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">a struggled legacy item is a retrieval</text>
+  <text x="190" y="340" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">failure that drives encoding.</text>
+
+  <!-- RIGHT: cumulative final by unit -->
+  <rect x="360" y="68" width="300" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="510" y="94" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">Cumulative final, by unit</text>
+  <text x="510" y="112" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">no new assessment needed</text>
+  <line x1="380" y1="124" x2="640" y2="124" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <text x="380" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11.5" fill="#2a1a0e">Score the existing final by unit of</text>
+  <text x="380" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11.5" fill="#2a1a0e">origin, not as one percentage.</text>
+  <text x="380" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11.5" fill="#2a1a0e">Some units hold; some collapse.</text>
+
+  <!-- mini per-unit bars -->
+  <text x="380" y="216" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">per-unit retention:</text>
+  <rect x="392" y="226" width="30" height="100" fill="#FFFFFF" stroke="#545454" stroke-width="0.75"/>
+  <rect x="392" y="246" width="30" height="80" fill="#2a1a0e"/>
+  <rect x="432" y="226" width="30" height="100" fill="#FFFFFF" stroke="#545454" stroke-width="0.75"/>
+  <rect x="432" y="290" width="30" height="36" fill="#C8102E"/>
+  <rect x="472" y="226" width="30" height="100" fill="#FFFFFF" stroke="#545454" stroke-width="0.75"/>
+  <rect x="472" y="256" width="30" height="70" fill="#2a1a0e"/>
+  <rect x="512" y="226" width="30" height="100" fill="#FFFFFF" stroke="#545454" stroke-width="0.75"/>
+  <rect x="512" y="300" width="30" height="26" fill="#C8102E"/>
+  <rect x="552" y="226" width="30" height="100" fill="#FFFFFF" stroke="#545454" stroke-width="0.75"/>
+  <rect x="552" y="250" width="30" height="76" fill="#2a1a0e"/>
+  <text x="407" y="340" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="9" fill="#545454">U1</text>
+  <text x="447" y="340" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="9" fill="#545454">U2</text>
+  <text x="487" y="340" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="9" fill="#545454">U3</text>
+  <text x="527" y="340" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="9" fill="#545454">U4</text>
+  <text x="567" y="340" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="9" fill="#545454">U5</text>
+  <text x="608" y="318" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#C8102E">collapsed</text>
+
+  <text x="350" y="392" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The unit-level data is usually already in the exam. It has just been aggregated away. Stop aggregating.</text>
+</svg>

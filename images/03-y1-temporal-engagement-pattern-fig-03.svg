@@ -1,0 +1,54 @@
+<!--
+  Why the gross number fooled us for so long
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 03-y1-temporal-engagement-pattern
+  Figure: 03
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/03-y1-temporal-engagement-pattern-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+  <title id="fig-title-03">Why the gross number fooled us for so long</title>
+  <desc>Allocated time contains engaged time, which contains academic learning time. The innermost band is the real predictor of learning but the hardest to log; the outermost is easiest to log, so dashboards measured it and AI now lives in the gap.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="03-y1-temporal-engagement-pattern" figure-number="03" figure-title="Why the gross number fooled us for so long" figure-slug="why-the-gross-number-fooled-us-for-so-long" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/03-y1-temporal-engagement-pattern-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="42" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="16" fill="#2a1a0e">Why the gross number fooled us for so long</text>
+  <text x="32" y="62" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Karweit's nested distinction: the predictor sits innermost; the easiest-to-log sits outermost.</text>
+
+  <!-- nested bands (concentric rectangles) -->
+  <rect x="60" y="92" width="420" height="270" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="74" y="112" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Allocated time — time the teacher sets aside</text>
+
+  <rect x="100" y="132" width="340" height="190" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <text x="114" y="152" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Engaged time — actually on task</text>
+
+  <rect x="146" y="172" width="248" height="110" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <text x="270" y="210" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#C8102E" font-weight="600">Academic learning time</text>
+  <text x="270" y="230" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">on-task, at appropriate difficulty</text>
+  <text x="270" y="252" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e" font-weight="600">the predictor of learning</text>
+
+  <!-- right-side annotations -->
+  <text x="510" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" letter-spacing="0.04em">EASIEST TO LOG</text>
+  <line x1="510" y1="128" x2="510" y2="320" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="5 4"/>
+  <text x="510" y="336" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" letter-spacing="0.04em">HARDEST TO LOG</text>
+
+  <line x1="500" y1="120" x2="484" y2="120" stroke="#2a1a0e" stroke-width="1" fill="none"/>
+  <line x1="500" y1="328" x2="396" y2="226" stroke="#2a1a0e" stroke-width="1" fill="none"/>
+
+  <text x="510" y="170" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Plant 2005: gross hours</text>
+  <text x="510" y="187" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">don't predict GPA —</text>
+  <text x="510" y="204" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">deliberate practice does</text>
+
+  <text x="510" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E" font-weight="600">AI lives in the gap</text>
+  <text x="510" y="265" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">between the proxy and</text>
+  <text x="510" y="282" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the thing it approximates</text>
+
+  <line x1="32" y1="384" x2="668" y2="384" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Dashboards logged the outer band because it was cheap. The forty-seven minutes now means something different.</text>
+</svg>

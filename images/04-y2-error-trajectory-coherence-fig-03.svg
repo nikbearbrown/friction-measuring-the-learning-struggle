@@ -1,0 +1,62 @@
+<!--
+  What the research base looks like
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 04-y2-error-trajectory-coherence
+  Figure: 03
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/04-y2-error-trajectory-coherence-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+  <title id="fig-title-03">What the research base looks like</title>
+  <desc>A conceptual map of the empirical foundation for error trajectory coherence: Brown and Burton's BUGGY, Driver's misconception surveys, Chi-Feltovich-Glaser expertise, and Smith-diSessa-Roschelle fragments all support the central claim, while prediction-error signaling supplies the mechanism. The AI-scatter claim remains the open gap.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="04-y2-error-trajectory-coherence" figure-number="03" figure-title="What the research base looks like" figure-slug="what-the-research-base-looks-like" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/04-y2-error-trajectory-coherence-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="16" fill="#2a1a0e">What the research base looks like</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Decades of misconception research support the claim that errors have structure; one piece of direct evidence is still owed.</text>
+
+  <!-- Central claim node -->
+  <rect x="250" y="178" width="200" height="64" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="350" y="204" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#C8102E" font-weight="600">Errors have structure</text>
+  <text x="350" y="221" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">a generator produces</text>
+  <text x="350" y="236" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">coherent, codeable errors</text>
+
+  <!-- Supporting evidence nodes around -->
+  <rect x="32" y="92" width="180" height="50" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="122" y="113" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">BUGGY (1978)</text>
+  <text x="122" y="130" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">errors as procedural bugs</text>
+
+  <rect x="488" y="92" width="180" height="50" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="578" y="113" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Driver (1994)</text>
+  <text x="578" y="130" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">misconceptions recur</text>
+
+  <rect x="32" y="278" width="180" height="50" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="122" y="299" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Chi et al. (1981)</text>
+  <text x="122" y="316" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">organization, not facts</text>
+
+  <rect x="488" y="278" width="180" height="50" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="578" y="299" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Smith et al. (1993)</text>
+  <text x="578" y="316" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">fragments, reorganized</text>
+
+  <!-- mechanism node (bottom center) -->
+  <rect x="250" y="300" width="200" height="46" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="320" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Prediction-error signaling</text>
+  <text x="350" y="336" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">supplies the mechanism (1997)</text>
+
+  <!-- edges supporting the claim -->
+  <line x1="212" y1="120" x2="262" y2="176" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="488" y1="120" x2="438" y2="176" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="212" y1="300" x2="265" y2="244" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="488" y1="300" x2="435" y2="244" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="350" y1="298" x2="350" y2="246" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- limiting condition / open gap -->
+  <text x="350" y="392" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" letter-spacing="0.04em">LIMITING CONDITION</text>
+  <text x="350" y="408" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Direct evidence that AI-assisted errors look scattered is still thin — the structural argument is strong, the confirmation owed.</text>
+</svg>

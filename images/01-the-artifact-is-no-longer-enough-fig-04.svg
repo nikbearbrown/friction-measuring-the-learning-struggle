@@ -1,0 +1,53 @@
+<!--
+  What Bastani and Kestin are actually saying
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 01-the-artifact-is-no-longer-enough
+  Figure: 04
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/01-the-artifact-is-no-longer-enough-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04">
+  <title id="fig-title-04">What Bastani and Kestin are actually saying</title>
+  <desc>The same generative model produces opposite learning outcomes. The variable is not the model but the wrapper: an unguarded tool transfers cognition away from the student, while a Socratic wrapper routes the work back through her.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="01-the-artifact-is-no-longer-enough" figure-number="04" figure-title="What Bastani and Kestin are actually saying" figure-slug="what-bastani-and-kestin-are-actually-saying" figure-type="Conceptual map" priority="Important" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/01-the-artifact-is-no-longer-enough-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="42" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="16" fill="#2a1a0e">The model isn't the variable — the wrapper is</text>
+  <text x="32" y="62" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Same generation, opposite outcome. What differs is whether the cognitive work stays with the student.</text>
+
+  <!-- shared source -->
+  <rect x="270" y="92" width="160" height="52" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <text x="350" y="116" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Same model</text>
+  <text x="350" y="133" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">GPT-4</text>
+
+  <!-- left branch: unguarded -->
+  <line x1="300" y1="144" x2="180" y2="186" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <rect x="40" y="192" width="270" height="52" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="175" y="214" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Unguarded tool (Bastani)</text>
+  <text x="175" y="231" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">cognition transferred to model</text>
+
+  <line x1="175" y1="244" x2="175" y2="284" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <rect x="40" y="290" width="270" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="175" y="314" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">+48% on practice</text>
+  <text x="175" y="334" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">−17 pts on closed-book exam</text>
+
+  <!-- right branch: guardrailed -->
+  <line x1="400" y1="144" x2="520" y2="186" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <rect x="390" y="192" width="270" height="52" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <text x="525" y="214" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#C8102E" font-weight="600">Socratic wrapper (Kestin)</text>
+  <text x="525" y="231" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">cognition routed through student</text>
+
+  <line x1="525" y1="244" x2="525" y2="284" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <rect x="390" y="290" width="270" height="58" fill="#FFFFFF" stroke="#C8102E" stroke-width="1"/>
+  <text x="525" y="314" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">~2× learning vs. active class</text>
+  <text x="525" y="334" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">higher engagement to match</text>
+
+  <line x1="32" y1="372" x2="668" y2="372" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="394" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Not "AI hurts learning." The decoupling is the diagnosis; the wrapper is the design lever.</text>
+</svg>

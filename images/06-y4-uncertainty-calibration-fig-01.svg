@@ -1,0 +1,58 @@
+<!--
+  What calibration actually is
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 06-y4-uncertainty-calibration
+  Figure: 01
+  Type: Statistical / quantitative
+  Generated: 2026-05-29
+  Source: pantry/06-y4-uncertainty-calibration-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+  <title id="fig-title-01">What calibration actually is</title>
+  <desc>A calibration plot with stated confidence on the x-axis and actual accuracy on the y-axis. A perfectly calibrated student tracks the diagonal. An overconfident student's curve bows below it, especially at high confidence, illustrating the hard-easy effect where the curve crosses the diagonal near the easy end.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="06-y4-uncertainty-calibration" figure-number="01" figure-title="What calibration actually is" figure-slug="what-calibration-actually-is" figure-type="Statistical / quantitative" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/06-y4-uncertainty-calibration-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="16" fill="#2a1a0e">What calibration actually is</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Calibration asks whether stated confidence tracks actual accuracy — not whether the answer is right.</text>
+
+  <!-- Plot region: x from 90..560 (conf 0..100), y from 330..90 (acc 0..100) -->
+  <rect x="90" y="90" width="470" height="240" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- axes -->
+  <line x1="90" y1="330" x2="560" y2="330" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="90" y1="330" x2="90" y2="90" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- x ticks -->
+  <text x="90" y="348" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">0</text>
+  <text x="325" y="348" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">50</text>
+  <text x="560" y="348" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">100</text>
+  <text x="325" y="372" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">stated confidence (%)</text>
+
+  <!-- y ticks -->
+  <text x="82" y="334" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">0</text>
+  <text x="82" y="214" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">50</text>
+  <text x="82" y="94" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">100</text>
+  <text x="48" y="210" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" transform="rotate(-90 48 210)">actual accuracy (%)</text>
+
+  <!-- diagonal: perfect calibration (reference dashed) -->
+  <line x1="90" y1="330" x2="560" y2="90" stroke="#2a1a0e" stroke-width="0.75" stroke-dasharray="5 4"/>
+  <text x="498" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">perfect calibration</text>
+
+  <!-- overconfident curve (red): starts above diagonal at low conf, crosses near easy end, bows below at high conf -->
+  <path d="M 90 318 Q 230 230 325 250 T 560 215" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <text x="430" y="246" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">overconfident student</text>
+
+  <!-- crossing marker (hard-easy) -->
+  <circle cx="205" cy="262" r="3.5" fill="#2a1a0e"/>
+  <text x="200" y="284" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">crosses near</text>
+  <text x="200" y="298" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the easy end</text>
+
+  <line x1="32" y1="384" x2="668" y2="384" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The hard-easy effect: overconfident on hard items, roughly calibrated on easy ones. The gap from the diagonal is the Y4 signal.</text>
+</svg>

@@ -1,0 +1,68 @@
+<!--
+  What the four markers are and why they work
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 07-y5-social-knowledge-texture
+  Figure: 01
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/07-y5-social-knowledge-texture-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+  <title id="fig-title-01">What the four markers are and why they work</title>
+  <desc>Conceptual map: the four Social Knowledge Texture markers all draw on the residue of a genuine attempt, which AI description cannot manufacture.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="07-y5-social-knowledge-texture" figure-number="01" figure-title="What the four markers are and why they work" figure-slug="what-the-four-markers-are-and-why-they-work" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/07-y5-social-knowledge-texture-cajal.md"/>
+  </metadata>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <!-- central source: genuine attempt -->
+  <rect x="270" y="40" width="160" height="54" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="350" y="62" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Genuine attempt at</text>
+  <text x="350" y="80" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">a real task</text>
+
+  <!-- residue band -->
+  <rect x="240" y="118" width="220" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="139" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">leaves a residue hard to fake</text>
+
+  <!-- arrow source -> residue -->
+  <line x1="350" y1="94" x2="350" y2="116" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- four marker nodes -->
+  <!-- M1 -->
+  <rect x="40" y="208" width="140" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="110" y="230" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">1 Personal</text>
+  <text x="110" y="246" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">encounter</text>
+  <text x="110" y="266" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">named specific confusion</text>
+
+  <!-- M2 -->
+  <rect x="195" y="208" width="140" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="265" y="230" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">2 Below-surface</text>
+  <text x="265" y="246" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">engagement</text>
+  <text x="265" y="266" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">connection from struggle</text>
+
+  <!-- M3 -->
+  <rect x="350" y="208" width="140" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="420" y="230" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">3 Productive</text>
+  <text x="420" y="246" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">uncertainty</text>
+  <text x="420" y="266" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">anchored, answerable question</text>
+
+  <!-- M4 highlighted -->
+  <rect x="505" y="208" width="155" height="72" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="582" y="230" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">4 Real-time</text>
+  <text x="582" y="246" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#2a1a0e">development</text>
+  <text x="582" y="266" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">position shifts mid-talk</text>
+
+  <!-- arrows residue -> markers -->
+  <line x1="320" y1="152" x2="130" y2="206" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="338" y1="152" x2="278" y2="206" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="362" y1="152" x2="412" y2="206" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="380" y1="152" x2="560" y2="206" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- takeaway -->
+  <rect x="40" y="330" width="620" height="50" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="352" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Each marker scores 0-2; total 8 (or 6 async). Marker 4 is the hardest to fake</text>
+  <text x="350" y="370" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">because it demands real-time response to an unscripted utterance.</text>
+</svg>

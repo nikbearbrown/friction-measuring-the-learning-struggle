@@ -1,0 +1,58 @@
+<!--
+  The chain that ran one way
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 01-the-artifact-is-no-longer-enough
+  Figure: 01
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/01-the-artifact-is-no-longer-enough-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+  <title id="fig-title-01">The chain that ran one way</title>
+  <desc>The original single causal chain (learning to process to artifact) versus the new parallel pathway (AI generation to artifact). Both upstreams converge at the same artifact node, so the artifact can no longer prove which source produced it.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="01-the-artifact-is-no-longer-enough" figure-number="01" figure-title="The chain that ran one way" figure-slug="the-chain-that-ran-one-way" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/01-the-artifact-is-no-longer-enough-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="42" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="16" fill="#2a1a0e">The chain that ran one way — now runs two</text>
+  <text x="32" y="62" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The artifact once had one upstream. Generative AI opens a second path to the same artifact.</text>
+
+  <!-- Original chain: top row -->
+  <rect x="32" y="110" width="150" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="107" y="135" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Genuine</text>
+  <text x="107" y="151" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">learning</text>
+
+  <line x1="182" y1="139" x2="246" y2="139" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="252" y="110" width="150" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="327" y="135" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Cognitive</text>
+  <text x="327" y="151" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">process</text>
+
+  <line x1="402" y1="139" x2="466" y2="139" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Artifact node (shared sink) -->
+  <rect x="500" y="200" width="168" height="72" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <text x="584" y="232" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" fill="#C8102E" font-weight="600">Artifact</text>
+  <text x="584" y="250" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">essay · exam · report</text>
+
+  <!-- arrow from cognitive process down to artifact -->
+  <line x1="472" y1="150" x2="540" y2="198" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Second pathway: AI generation -->
+  <rect x="252" y="300" width="150" height="58" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <text x="327" y="325" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">AI</text>
+  <text x="327" y="341" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">generation</text>
+
+  <line x1="402" y1="329" x2="525" y2="276" stroke="#787878" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <text x="32" y="100" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" letter-spacing="0.04em">ORIGINAL PATHWAY — one direction</text>
+  <text x="32" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" letter-spacing="0.04em">SECOND PATHWAY — bypasses cognition</text>
+
+  <!-- takeaway -->
+  <line x1="32" y1="384" x2="668" y2="384" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">From the teacher's seat the two upstreams look identical — so the artifact stops proving the learning.</text>
+</svg>

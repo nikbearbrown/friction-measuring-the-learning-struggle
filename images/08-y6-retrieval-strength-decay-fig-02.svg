@@ -1,0 +1,59 @@
+<!--
+  What the experiments show
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 08-y6-retrieval-strength-decay
+  Figure: 02
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/08-y6-retrieval-strength-decay-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+  <title id="fig-title-02">What the experiments show</title>
+  <desc>Retrieval practice versus restudy: immediate test favors restudy slightly, but at one week retrieval practice holds far more (80 versus 33 percent), the crossover that defines the spacing and testing effect.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="08-y6-retrieval-strength-decay" figure-number="02" figure-title="What the experiments show" figure-slug="what-the-experiments-show" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/08-y6-retrieval-strength-decay-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="350" y="48" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Retrieval practice vs restudy: the one-week crossover</text>
+
+  <!-- plot region -->
+  <rect x="120" y="72" width="460" height="248" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- y axis ticks -->
+  <text x="112" y="80" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">100</text>
+  <text x="112" y="142" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">80</text>
+  <text x="112" y="204" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">60</text>
+  <text x="112" y="266" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">40</text>
+  <text x="112" y="320" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">20</text>
+  <line x1="120" y1="76" x2="580" y2="76" stroke="#D4D4D4" stroke-width="0.5" stroke-dasharray="4 3"/>
+  <line x1="120" y1="138" x2="580" y2="138" stroke="#D4D4D4" stroke-width="0.5" stroke-dasharray="4 3"/>
+  <line x1="120" y1="200" x2="580" y2="200" stroke="#D4D4D4" stroke-width="0.5" stroke-dasharray="4 3"/>
+  <line x1="120" y1="262" x2="580" y2="262" stroke="#D4D4D4" stroke-width="0.5" stroke-dasharray="4 3"/>
+
+  <!-- x labels -->
+  <text x="220" y="338" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">immediate</text>
+  <text x="480" y="338" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">one week</text>
+  <text x="350" y="362" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">delay before test</text>
+
+  <!-- restudy line (gray): immediate ~85 -> week ~33 -->
+  <!-- immediate 85 = y 76+(15/100*248)=113.2; week 33 = y 76+(67/100*248)=242.2 -->
+  <line x1="220" y1="113" x2="480" y2="242" stroke="#545454" stroke-width="2"/>
+  <circle cx="220" cy="113" r="4" fill="#545454"/>
+  <circle cx="480" cy="242" r="4" fill="#545454"/>
+  <text x="496" y="246" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">restudy 33%</text>
+
+  <!-- retrieval line (red): immediate ~80 -> week ~80 -->
+  <!-- immediate 80 = y 76+(20/100*248)=125.6; week 80 = y 125.6 -->
+  <line x1="220" y1="126" x2="480" y2="126" stroke="#C8102E" stroke-width="2"/>
+  <circle cx="220" cy="126" r="4" fill="#C8102E"/>
+  <circle cx="480" cy="126" r="4" fill="#C8102E"/>
+  <text x="496" y="122" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">retrieval 80%</text>
+
+  <!-- crossover marker -->
+  <circle cx="232" cy="124" r="2" fill="none"/>
+
+  <!-- caption -->
+  <text x="120" y="392" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Same study time, same material. Karpicke and Roediger 2008: a 2.5-fold storage difference one week out.</text>
+  <text x="120" y="408" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">AI explanation is maximally fluent, fires the "stored" cue, and skips the encoding cycle entirely.</text>
+</svg>

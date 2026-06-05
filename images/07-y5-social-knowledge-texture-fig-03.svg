@@ -1,0 +1,67 @@
+<!--
+  The two signatures
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 07-y5-social-knowledge-texture
+  Figure: 03
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/07-y5-social-knowledge-texture-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+  <title id="fig-title-03">The two signatures</title>
+  <desc>Side-by-side conceptual map: the genuine texture signature is messy and specific with position change; the borrowed-certainty signature is uniform, generic, and unmoving under challenge.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="07-y5-social-knowledge-texture" figure-number="03" figure-title="The two signatures" figure-slug="the-two-signatures" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/07-y5-social-knowledge-texture-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <!-- left panel: genuine -->
+  <rect x="32" y="48" width="300" height="320" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="182" y="76" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Genuine texture (SKT)</text>
+  <text x="182" y="94" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">messy — and that is the point</text>
+
+  <line x1="52" y1="124" x2="58" y2="124" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="68" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Specific confusion, anchored</text>
+  <text x="68" y="136" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">to a real attempt</text>
+
+  <line x1="52" y1="170" x2="58" y2="170" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="68" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Connection born of struggle</text>
+
+  <line x1="52" y1="204" x2="58" y2="204" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="68" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Structured question:</text>
+  <text x="68" y="216" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">"if A then B, but I see C"</text>
+
+  <line x1="52" y1="256" x2="58" y2="256" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="68" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Position CHANGES mid-talk</text>
+  <text x="68" y="268" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">hardest to fake: unscripted</text>
+
+  <rect x="52" y="300" width="260" height="48" fill="#FFFFFF" stroke="#C8102E" stroke-width="1"/>
+  <text x="182" y="320" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">"...when Marcus pointed out Z, I</text>
+  <text x="182" y="336" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">realized Y doesn't rule out the case."</text>
+
+  <!-- right panel: borrowed -->
+  <rect x="368" y="48" width="300" height="320" fill="#FFFFFF" stroke="#545454" stroke-width="1"/>
+  <text x="518" y="76" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Borrowed certainty</text>
+  <text x="518" y="94" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">uniform and clean</text>
+
+  <line x1="388" y1="120" x2="394" y2="120" stroke="#545454" stroke-width="1.5"/>
+  <text x="404" y="124" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Generic statements, no anchor</text>
+
+  <line x1="388" y1="158" x2="394" y2="158" stroke="#545454" stroke-width="1.5"/>
+  <text x="404" y="162" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">No real-time development</text>
+
+  <line x1="388" y1="196" x2="394" y2="196" stroke="#545454" stroke-width="1.5"/>
+  <text x="404" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Rehearsed position; does not</text>
+  <text x="404" y="216" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">move under challenge</text>
+
+  <line x1="388" y1="252" x2="394" y2="252" stroke="#545454" stroke-width="1.5"/>
+  <text x="404" y="256" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Pressed for a hard moment:</text>
+  <text x="404" y="272" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">"all of it" / "the complexity"</text>
+
+  <rect x="388" y="300" width="260" height="48" fill="#F5F5F5" stroke="#545454" stroke-width="1"/>
+  <text x="518" y="320" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">"There are many factors to consider.</text>
+  <text x="518" y="336" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Different perspectives offer insights."</text>
+
+  <!-- caption -->
+  <text x="350" y="398" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Roughly equal word count and grammar; opposite signatures.</text>
+</svg>

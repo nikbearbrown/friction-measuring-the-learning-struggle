@@ -1,0 +1,55 @@
+<!--
+  Why AI assistance breaks calibration by construction
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 06-y4-uncertainty-calibration
+  Figure: 02
+  Type: Statistical / quantitative
+  Generated: 2026-05-29
+  Source: pantry/06-y4-uncertainty-calibration-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+  <title id="fig-title-02">Why AI assistance breaks calibration by construction</title>
+  <desc>A grouped bar chart, y-axis from zero, comparing one-week retention and calibration accuracy for restudy versus retrieval practice. Restudy scores slightly higher on an immediate test but collapses to 33% at one week with poor calibration; retrieval practice holds 80% with good calibration because failed retrievals generate accurate low-confidence cues.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="06-y4-uncertainty-calibration" figure-number="02" figure-title="Why AI assistance breaks calibration by construction" figure-slug="why-ai-assistance-breaks-calibration-by-construction" figure-type="Statistical / quantitative" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/06-y4-uncertainty-calibration-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="16" fill="#2a1a0e">Why AI assistance breaks calibration by construction</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Fluent processing without failed retrieval feels like knowing — so confidence rises while storage does not.</text>
+
+  <!-- Plot region -->
+  <rect x="90" y="90" width="470" height="240" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <!-- y axis from zero -->
+  <line x1="90" y1="330" x2="90" y2="90" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="90" y1="330" x2="560" y2="330" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- y gridlines/ticks 0,25,50,75,100 -> y = 330 - val*2.4 -->
+  <text x="82" y="334" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">0</text>
+  <text x="82" y="274" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">25</text>
+  <text x="82" y="214" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">50</text>
+  <text x="82" y="154" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">75</text>
+  <text x="82" y="94" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">100</text>
+  <line x1="90" y1="270" x2="560" y2="270" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <line x1="90" y1="210" x2="560" y2="210" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <line x1="90" y1="150" x2="560" y2="150" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+
+  <text x="36" y="210" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" transform="rotate(-90 36 210)">one-week retention (%)</text>
+
+  <!-- Group 1: Restudy (offloaded / fluent) -->
+  <!-- bar height: 33% -> 330 - 79.2 = 250.8 -->
+  <rect x="170" y="251" width="80" height="79" fill="#545454"/>
+  <text x="210" y="246" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">33%</text>
+  <text x="210" y="352" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Restudy</text>
+  <text x="210" y="368" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">(fluent, like AI offload)</text>
+
+  <!-- Group 2: Retrieval practice -->
+  <!-- bar height: 80% -> 330 - 192 = 138 -->
+  <rect x="400" y="138" width="80" height="192" fill="#C8102E"/>
+  <text x="440" y="133" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#C8102E">80%</text>
+  <text x="440" y="352" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Retrieval practice</text>
+  <text x="440" y="368" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">(failed retrievals → cues)</text>
+
+  <line x1="32" y1="384" x2="668" y2="384" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Karpicke and Roediger (2008): retrieval also produces better calibration. AI offload skips the failure that generates a low-confidence cue.</text>
+</svg>

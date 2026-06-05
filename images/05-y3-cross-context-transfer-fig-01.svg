@@ -1,0 +1,60 @@
+<!--
+  The diagnostic
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 05-y3-cross-context-transfer
+  Figure: 01
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/05-y3-cross-context-transfer-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+  <title id="fig-title-01">The diagnostic</title>
+  <desc>A conceptual map of the Y3 diagnostic. One underlying principle is tested in a near-transfer item (same surface features) and a far-transfer item (principle re-clothed). The diagnostic is the gap between the two scores per student, not either score alone.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="05-y3-cross-context-transfer" figure-number="01" figure-title="The diagnostic" figure-slug="the-diagnostic" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/05-y3-cross-context-transfer-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="16" fill="#2a1a0e">The diagnostic</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">One principle, tested two ways. The diagnostic is the gap between the paired scores — not either item alone.</text>
+
+  <!-- Principle node (left anchor) -->
+  <rect x="32" y="170" width="170" height="70" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="117" y="198" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#C8102E" font-weight="600">One principle</text>
+  <text x="117" y="216" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">held constant across</text>
+  <text x="117" y="231" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">both items</text>
+
+  <!-- Near item -->
+  <rect x="290" y="100" width="200" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="390" y="124" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e" font-weight="600">Near transfer</text>
+  <text x="390" y="142" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">same surface features</text>
+
+  <!-- Far item -->
+  <rect x="290" y="250" width="200" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="390" y="274" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e" font-weight="600">Far transfer</text>
+  <text x="390" y="292" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">principle re-clothed</text>
+
+  <!-- principle to both items -->
+  <line x1="202" y1="195" x2="284" y2="135" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="202" y1="215" x2="284" y2="280" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- The gap node (right) -->
+  <rect x="540" y="170" width="128" height="70" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="604" y="198" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#C8102E" font-weight="600">The gap</text>
+  <text x="604" y="216" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">near minus far,</text>
+  <text x="604" y="231" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">per student</text>
+
+  <line x1="490" y1="130" x2="536" y2="180" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="490" y1="280" x2="536" y2="230" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <text x="390" y="200" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">85% vs. 30%</text>
+  <text x="390" y="216" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">= 55-point gap</text>
+
+  <line x1="32" y1="350" x2="668" y2="350" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" letter-spacing="0.04em">LIMITING CONDITION</text>
+  <text x="32" y="390" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Two dimensions get you most of the way: change the cover story, change the domain. The near and far items must be comparably hard.</text>
+  <text x="32" y="408" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Reader takeaway: the pair carries the signal in a way no single item can.</text>
+</svg>

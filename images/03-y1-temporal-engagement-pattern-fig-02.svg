@@ -1,0 +1,58 @@
+<!--
+  What AI does to the clock
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 03-y1-temporal-engagement-pattern
+  Figure: 02
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/03-y1-temporal-engagement-pattern-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+  <title id="fig-title-02">What AI does to the clock</title>
+  <desc>When a student routes a problem through AI, her time stops tracking problem difficulty and starts tracking the AI output's length. The time-difficulty correlation is replaced, not erased, flattening the genuine engagement profile.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="03-y1-temporal-engagement-pattern" figure-number="02" figure-title="What AI does to the clock" figure-slug="what-ai-does-to-the-clock" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/03-y1-temporal-engagement-pattern-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="42" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="16" fill="#2a1a0e">What AI does to the clock</text>
+  <text x="32" y="62" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The correlation doesn't vanish — it gets replaced. The clock keeps running; it counts something else.</text>
+
+  <!-- student routes problem through AI -->
+  <rect x="32" y="100" width="160" height="54" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <text x="112" y="124" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Route through AI</text>
+  <text x="112" y="142" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">paste · read · copy</text>
+
+  <line x1="192" y1="127" x2="248" y2="127" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="254" y="100" width="180" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="344" y="124" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Time now tracks</text>
+  <text x="344" y="142" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">AI output length</text>
+
+  <line x1="344" y1="154" x2="344" y2="170" stroke="#2a1a0e" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="450" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">not problem difficulty —</text>
+  <text x="450" y="135" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the cognition happened</text>
+  <text x="450" y="152" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">in the model</text>
+
+  <!-- two resulting signatures -->
+  <rect x="32" y="190" width="306" height="150" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <text x="48" y="214" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#C8102E" font-weight="600">Genuine engagement</text>
+  <text x="48" y="238" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">• time bunched on the hard items</text>
+  <text x="48" y="258" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">• re-reading and backtracking visible</text>
+  <text x="48" y="278" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">• pauses cluster at decision points</text>
+  <text x="48" y="298" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">• hardest item = slowest item</text>
+  <text x="48" y="324" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">difficulty rank and time rank agree</text>
+
+  <rect x="362" y="190" width="306" height="150" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="378" y="214" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e" font-weight="600">Borrowed certainty</text>
+  <text x="378" y="238" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">• flatter profile across items</text>
+  <text x="378" y="258" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">• few pauses; nothing felt hard</text>
+  <text x="378" y="278" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">• duration ∝ response length</text>
+  <text x="378" y="298" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">• slowest item may not be hardest</text>
+  <text x="378" y="324" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">difficulty rank and time rank diverge</text>
+
+  <text x="32" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">That divergence between difficulty rank and time rank is Y1 evidence.</text>
+</svg>

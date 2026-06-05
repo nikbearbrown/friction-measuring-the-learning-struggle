@@ -1,0 +1,50 @@
+<!--
+  The assistance dilemma
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 09-y7-scaffolding-response-curve
+  Figure: 03
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/09-y7-scaffolding-response-curve-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+  <title id="fig-title-03">The assistance dilemma</title>
+  <desc>An inverted-U: long-term learning is low when help is too little (student shuts down) or too much (student offloads), and peaks in the partial-hint zone where support engages the developing region without filling it.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="09-y7-scaffolding-response-curve" figure-number="03" figure-title="The assistance dilemma" figure-slug="the-assistance-dilemma" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/09-y7-scaffolding-response-curve-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="350" y="44" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">More help, better right now — worse long-term learning</text>
+
+  <!-- plot region -->
+  <rect x="96" y="68" width="508" height="252" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- y axis -->
+  <text x="88" y="200" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" transform="rotate(-90 88 200)">long-term learning</text>
+
+  <!-- inverted U: parabola peaking center -->
+  <path d="M 120 300 Q 350 80 580 300" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+
+  <!-- sweet spot marker -->
+  <line x1="350" y1="118" x2="350" y2="320" stroke="#2a1a0e" stroke-width="0.75" stroke-dasharray="5 4"/>
+  <circle cx="350" cy="118" r="5" fill="#C8102E"/>
+  <text x="350" y="106" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">partial-hint sweet spot</text>
+
+  <!-- left end label -->
+  <text x="135" y="290" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">too little:</text>
+  <text x="135" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">student shuts down</text>
+
+  <!-- right end label -->
+  <text x="470" y="290" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">too much:</text>
+  <text x="470" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">student offloads</text>
+
+  <!-- x axis -->
+  <text x="350" y="344" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">amount of help offered</text>
+  <text x="120" y="338" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">none</text>
+  <text x="580" y="338" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">full answer</text>
+
+  <!-- caption -->
+  <text x="96" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Koedinger and Aleven 2007. VanLehn 2011: step-level tutors approach human tutoring on transfer; answer-only tutors do not.</text>
+  <text x="96" y="392" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A student who jumps straight to the bottom-out hint is reporting honestly: there is no region for a partial hint to activate.</text>
+</svg>

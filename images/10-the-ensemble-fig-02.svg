@@ -1,0 +1,68 @@
+<!--
+  The gaming cost argument, stated without rhetorical wind
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 10-the-ensemble
+  Figure: 02
+  Type: Statistical / quantitative
+  Generated: 2026-05-29
+  Source: pantry/10-the-ensemble-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+  <title id="fig-title-02">The gaming cost argument, stated without rhetorical wind</title>
+  <desc>A bar chart: the cognitive cost of faking signals rises with each added constraint until faking all seven approaches the cost of genuinely learning the material.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="10-the-ensemble" figure-number="02" figure-title="The gaming cost argument, stated without rhetorical wind" figure-slug="the-gaming-cost-argument-stated-without-rhetorical-wind" figure-type="Statistical / quantitative" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/10-the-ensemble-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Cost of faking rises with each constraint, approaching the cost of learning</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Cognitive cost of producing a convincing genuine signature (relative units)</text>
+
+  <!-- Plot region -->
+  <rect x="92" y="76" width="476" height="248" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Y axis ticks (0 to 100) -->
+  <text x="84" y="328" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">0</text>
+  <text x="84" y="266" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">25</text>
+  <text x="84" y="204" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">50</text>
+  <text x="84" y="142" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">75</text>
+  <text x="84" y="80" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">100</text>
+
+  <!-- Reference line: cost of learning at 100 (y=76 top, but draw at value 92) -->
+  <line x1="92" y1="96" x2="568" y2="96" stroke="#545454" stroke-width="0.75" stroke-dasharray="5 4"/>
+  <text x="564" y="91" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">cost of genuinely learning the material</text>
+
+  <!-- Bars: cumulative cost. baseline y=324, scale 248px = 100 units. -->
+  <!-- Fake 1 signal: ~12 -->
+  <rect x="118" y="294" width="56" height="30" fill="#545454"/>
+  <text x="146" y="288" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">12</text>
+  <text x="146" y="342" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">1 signal</text>
+
+  <!-- Fake 3 signals: ~38 -->
+  <rect x="214" y="230" width="56" height="94" fill="#545454"/>
+  <text x="242" y="224" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">38</text>
+  <text x="242" y="342" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">3 signals</text>
+
+  <!-- Fake 5 signals: ~68 -->
+  <rect x="310" y="155" width="56" height="169" fill="#545454"/>
+  <text x="338" y="149" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">68</text>
+  <text x="338" y="342" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">5 signals</text>
+
+  <!-- Fake 7 signals: ~96 (highlighted red) -->
+  <rect x="406" y="86" width="56" height="238" fill="#C8102E"/>
+  <text x="434" y="80" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#C8102E">96</text>
+  <text x="434" y="342" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">all 7</text>
+
+  <!-- Legend / annotation -->
+  <line x1="490" y1="120" x2="466" y2="120" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="494" y="124" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">faking seven</text>
+  <text x="494" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">≈ learning</text>
+
+  <!-- Bottom claim -->
+  <text x="32" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">The framework is gaming-expensive, not gaming-proof. A single signal can be faked with effort;</text>
+  <text x="32" y="390" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">faking all seven on the same material costs about what learning it would have cost.</text>
+  <text x="32" y="410" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" font-style="italic">A structural claim, not a measured result: the bet rests on partially independent constraints, stated as a bet.</text>
+</svg>

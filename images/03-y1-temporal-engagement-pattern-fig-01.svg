@@ -1,0 +1,56 @@
+<!--
+  What the clock is actually measuring
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 03-y1-temporal-engagement-pattern
+  Figure: 01
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/03-y1-temporal-engagement-pattern-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+  <title id="fig-title-01">What the clock is actually measuring</title>
+  <desc>Cognitive load theory holds that element interactivity raises working-memory demand, which raises processing time. The clock tracks load only when the student is the one bearing it; otherwise it uncouples from learning.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="03-y1-temporal-engagement-pattern" figure-number="01" figure-title="What the clock is actually measuring" figure-slug="what-the-clock-is-actually-measuring" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/03-y1-temporal-engagement-pattern-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="42" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="16" fill="#2a1a0e">What the clock is actually measuring</text>
+  <text x="32" y="62" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Why time has always been a tempting proxy for learning — and where the logic holds.</text>
+
+  <!-- chain -->
+  <rect x="32" y="118" width="180" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="122" y="142" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Element interactivity</text>
+  <text x="122" y="160" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">pieces held at once</text>
+
+  <line x1="212" y1="148" x2="262" y2="148" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="268" y="118" width="180" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="358" y="142" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Working-memory load</text>
+  <text x="358" y="160" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">limited capacity (Sweller)</text>
+
+  <line x1="448" y1="148" x2="498" y2="148" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="504" y="118" width="164" height="60" fill="#C8102E" stroke="#C8102E" stroke-width="2"/>
+  <text x="586" y="142" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" fill="#FFFFFF" font-weight="600">Processing time</text>
+  <text x="586" y="160" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#FFFFFF">what the clock logs</text>
+
+  <!-- examples row -->
+  <rect x="32" y="216" width="300" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="48" y="240" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Low interactivity: unit conversion</text>
+  <text x="48" y="258" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">one step, steps independent — short time</text>
+
+  <rect x="368" y="216" width="300" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="384" y="240" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">High interactivity: limiting reagent</text>
+  <text x="384" y="258" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">five chained steps held live — long time</text>
+
+  <!-- the load-bearing condition -->
+  <rect x="32" y="306" width="636" height="50" fill="#FFFFFF" stroke="#C8102E" stroke-width="1"/>
+  <text x="350" y="330" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e" font-weight="600">The clock tracks the load only when the student is the thing doing the cognition.</text>
+  <text x="350" y="347" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Move the load elsewhere and the clock uncouples from the learning.</text>
+
+  <text x="32" y="388" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Y1 reads what the clock actually knows, not what we have pretended it tells us.</text>
+</svg>

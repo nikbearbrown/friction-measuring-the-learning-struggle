@@ -1,0 +1,71 @@
+<!--
+  Why the combination works where a single signal doesn't
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 10-the-ensemble
+  Figure: 01
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/10-the-ensemble-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+  <title id="fig-title-01">Why the combination works where a single signal doesn't</title>
+  <desc>A conceptual map: each of several signals carries different noise and failure modes; combining them yields convergence or divergence that no single signal can show.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="10-the-ensemble" figure-number="01" figure-title="Why the combination works where a single signal doesn't" figure-slug="why-the-combination-works-where-a-single-signal-doesnt" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/10-the-ensemble-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Single signals have independent noise; the combination is the unit of inference</text>
+
+  <!-- Left column: individual signals each with its own failure mode -->
+  <text x="32" y="74" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each signal fails differently</text>
+
+  <rect x="32" y="86" width="210" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="103" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Calibration (Y4)</text>
+  <text x="44" y="119" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">noise: poor calibration skill</text>
+
+  <rect x="32" y="134" width="210" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="151" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Discussion texture (Y5)</text>
+  <text x="44" y="167" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">noise: speaking anxiety</text>
+
+  <rect x="32" y="182" width="210" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="199" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Temporal pattern (Y1)</text>
+  <text x="44" y="215" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">noise: one off week</text>
+
+  <rect x="32" y="230" width="210" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="247" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Transfer, decay, ...</text>
+  <text x="44" y="263" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">noise: item-specific</text>
+
+  <!-- Arrows into combination node -->
+  <line x1="242" y1="106" x2="338" y2="168" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="242" y1="154" x2="338" y2="176" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="242" y1="202" x2="338" y2="186" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="242" y1="250" x2="338" y2="196" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Center: combination node (highlighted) -->
+  <rect x="344" y="146" width="150" height="72" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="419" y="176" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#C8102E">Combined</text>
+  <text x="419" y="192" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#C8102E">profile</text>
+  <text x="419" y="208" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">errors cancel</text>
+
+  <!-- Right: outputs -->
+  <line x1="494" y1="166" x2="566" y2="124" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="494" y1="198" x2="566" y2="248" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="572" y="96" width="96" height="56" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="620" y="120" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Convergence</text>
+  <text x="620" y="138" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">signals agree</text>
+
+  <rect x="572" y="220" width="96" height="56" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="620" y="244" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Divergence</text>
+  <text x="620" y="262" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">flags conflict</text>
+
+  <!-- Bottom takeaway -->
+  <line x1="32" y1="316" x2="668" y2="316" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="32" y="344" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Because the failure modes don't overlap, averaging reduces variance and the combination</text>
+  <text x="32" y="362" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">is more robust than any one component. The instructor reads the pattern, not a verdict.</text>
+  <text x="32" y="392" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" font-style="italic">Limiting condition: convergence raises inferential strength; divergence flags method failure or real heterogeneity.</text>
+</svg>

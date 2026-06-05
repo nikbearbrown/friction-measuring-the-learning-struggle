@@ -1,0 +1,82 @@
+<!--
+  What the first term looks like
+  Book: Friction Measuring the Learning Struggle
+  Chapter: 11-building-your-second-evidence-stream
+  Figure: 03
+  Type: Conceptual map
+  Generated: 2026-05-29
+  Source: pantry/11-building-your-second-evidence-stream-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+  <title id="fig-title-03">What the first term looks like</title>
+  <desc>A fourteen-week timeline of a first-term implementation: build instrumentation, collect quietly, read class-level patterns at week five, hold individual conversations by week six, refine, then reflect — collect this term, act next term.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Friction Measuring the Learning Struggle" book-slug="friction-measuring-the-learning-struggle" chapter="11-building-your-second-evidence-stream" figure-number="03" figure-title="What the first term looks like" figure-slug="what-the-first-term-looks-like" figure-type="Conceptual map" priority="Critical" author="Nik Bear Brown" date-generated="2026-05-29" source-file="pantry/11-building-your-second-evidence-stream-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
+  </defs>
+
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">The first term: build, collect quietly, then read — across fourteen weeks</text>
+
+  <!-- Timeline axis -->
+  <line x1="56" y1="118" x2="644" y2="118" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Week markers and phase boxes. Five phases. -->
+  <!-- Phase 1: wk 1-2 -->
+  <line x1="80" y1="112" x2="80" y2="124" stroke="#545454" stroke-width="0.75"/>
+  <text x="80" y="106" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">wk 1-2</text>
+  <rect x="56" y="140" width="116" height="76" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="114" y="160" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Build</text>
+  <text x="64" y="178" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">small instrumen-</text>
+  <text x="64" y="192" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">tation, a few</text>
+  <text x="64" y="206" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">hours not days</text>
+
+  <!-- Phase 2: wk 3-4 -->
+  <line x1="218" y1="112" x2="218" y2="124" stroke="#545454" stroke-width="0.75"/>
+  <text x="218" y="106" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">wk 3-4</text>
+  <rect x="180" y="140" width="116" height="76" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="238" y="160" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Collect</text>
+  <text x="188" y="178" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">first data, do</text>
+  <text x="188" y="192" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">not analyze;</text>
+  <text x="188" y="206" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">signals noisy</text>
+
+  <!-- Phase 3: wk 5 -->
+  <line x1="356" y1="112" x2="356" y2="124" stroke="#545454" stroke-width="0.75"/>
+  <text x="356" y="106" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">wk 5</text>
+  <rect x="304" y="140" width="116" height="76" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="362" y="160" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Class-level read</text>
+  <text x="312" y="178" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">note patterns</text>
+  <text x="312" y="192" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">at class level,</text>
+  <text x="312" y="206" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">do not act</text>
+
+  <!-- Phase 4: wk 6-8 (highlighted: the key move) -->
+  <line x1="494" y1="112" x2="494" y2="124" stroke="#545454" stroke-width="0.75"/>
+  <text x="494" y="106" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">wk 6-8</text>
+  <rect x="428" y="140" width="116" height="76" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="486" y="160" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#C8102E">Conversations</text>
+  <text x="436" y="178" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">read profiles;</text>
+  <text x="436" y="192" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">talk to 3-4 whose</text>
+  <text x="436" y="206" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">profile surprises</text>
+
+  <!-- Phase 5: wk 9-14 -->
+  <line x1="620" y1="112" x2="620" y2="124" stroke="#545454" stroke-width="0.75"/>
+  <text x="620" y="106" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">wk 9-14</text>
+  <rect x="552" y="140" width="116" height="76" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="610" y="160" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">Refine + reflect</text>
+  <text x="560" y="178" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">add a 3rd only</text>
+  <text x="560" y="192" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">if stable; check</text>
+  <text x="560" y="206" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">profile vs result</text>
+
+  <!-- Central rule -->
+  <line x1="32" y1="256" x2="668" y2="256" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <rect x="160" y="276" width="380" height="48" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="350" y="298" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#C8102E">Collect data this term. Act on it next term.</text>
+  <text x="350" y="316" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">collapsing these two phases is the single most reliable failure mode</text>
+
+  <!-- Bottom note -->
+  <text x="32" y="356" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">The data is for conversations and outreach, not grade calculations. Class-level patterns are more reliable</text>
+  <text x="32" y="374" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#2a1a0e">early than individual ones; the framework calibrates to your judgment across the first term.</text>
+  <text x="32" y="396" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" font-style="italic">Wait at least two terms before considering any credentialing use of the data.</text>
+</svg>
