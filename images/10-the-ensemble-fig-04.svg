@@ -38,7 +38,7 @@
   <text x="48" y="247" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#2a1a0e">Y7  scaffolding</text>
 
   <!-- Context input below -->
-  <rect x="40" y="266" width="150" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="40" y="266" width="150" height="56.420000000000016" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
   <text x="48" y="284" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Context no signal</text>
   <text x="48" y="299" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">captures: history,</text>
   <text x="48" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">stakes, policy</text>
