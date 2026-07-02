@@ -5,7 +5,7 @@
 **Subtitle candidate:** Why the Artifact Is No Longer Enough — and What to Measure Instead
 **Author:** Nik Bear Brown · ni.brown@neu.edu · Humanitarians AI / Bear Brown & Company
 **Series:** Irreducibly Human Research Series (companion to the GLP preprint)
-**Document:** Full TIKTOC.md — compiled from all phase outputs
+**Document:** Full BLUEPRINT.md — compiled from all phase outputs
 **Version:** 1.0
 **Status:** Pre-draft — Google Deep Research prompt is the primary deliverable
 **Primary output:** A structured Deep Research prompt that produces a domain
@@ -998,7 +998,7 @@ engagement." The distinction matters for academic credibility.
 The following is the exact prompt to paste into Google Deep Research
 (or equivalent) to generate the domain research brief that will
 populate the book's evidence layer. This is the primary deliverable
-of this TIKTOC.md for the immediate next step.
+of this BLUEPRINT.md for the immediate next step.
 
 ---
 
@@ -1154,7 +1154,7 @@ that has been significantly revised since the original publication.
 
 ---
 
-*Full TIKTOC.md v1.0 — compiled from all phase outputs*
+*Full BLUEPRINT.md v1.0 — compiled from all phase outputs*
 *All phases complete: Vision (i1–i4), Learning Architecture (l1–l4),*
 *Chapter Architecture (c1), Build (g1)*
 *Primary immediate deliverable: the Google Deep Research prompt*
